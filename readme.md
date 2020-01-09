@@ -4,4 +4,4 @@
 
 Created with [Hexo](https://hexo.io/).
 
-Template based in the [Chic Template](https://github.com/Siricee/hexo-theme-Chic) by [@Siricee](https://github.com/Siricee).
+Template based on the [Chic Template](https://github.com/Siricee/hexo-theme-Chic) by [@Siricee](https://github.com/Siricee).
