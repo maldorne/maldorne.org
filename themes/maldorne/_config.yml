@@ -3,7 +3,7 @@ navname: House of Maldorne
 
 # navigatior items
 nav:
-  Posts: /archives
+  Blog: /archives
   Categories: /category
   Tags: /tag
   About: /about
