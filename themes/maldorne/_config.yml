@@ -24,6 +24,9 @@ avatar: /image/maldorne_old_logo.png
 ## Unused key can be commented out.
 links:
   Blog: /archives
+  Twitter: https://twitter.com/houseofmaldorne
+  LinkedIn: https://www.linkedin.com/company/11107294
+  Github: https://github.com/houseofmaldorne/
 #  Category:
 #  Tags: 
 #  Link:
@@ -34,9 +37,7 @@ links:
 #  RSS:
 #  AliPay:
 #  ZhiHu: 
-  LinkedIn: https://www.linkedin.com/company/11107294
 #  FaceBook:
-  Twitter: https://twitter.com/houseofmaldorne
 #  Skype:
 #  CodeSandBox:
 #  CodePen:
@@ -49,7 +50,6 @@ links:
 #  QQ:
 #  Weibo:
 #  WeChat:
-  Github: https://github.com/houseofmaldorne/
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
