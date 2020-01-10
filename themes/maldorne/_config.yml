@@ -1,7 +1,7 @@
 # Header
 navname: House of Maldorne
 
-# navigatior items
+# navigator items
 nav:
   Blog: /archives
   Categories: /category
@@ -34,7 +34,7 @@ links:
 #  RSS:
 #  AliPay:
 #  ZhiHu: 
-#  LinkedIn:
+  LinkedIn: https://www.linkedin.com/company/11107294
 #  FaceBook:
   Twitter: https://twitter.com/houseofmaldorne
 #  Skype:
