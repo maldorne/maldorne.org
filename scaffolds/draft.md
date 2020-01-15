@@ -1,6 +1,6 @@
 ---
 title: {{ title }}
-author: {{ author }}
+author:
 tags:
 categories:
 ---
