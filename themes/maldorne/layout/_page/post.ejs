@@ -11,12 +11,12 @@
             <% if(theme.post_meta_enable){ %>
                 <div class="post-meta">
                     <% if(theme.post_author_enable && post.author){ %>
-                        Author: <a itemprop="author" rel="author" href="/"><%- post.author %></a>
+                        Author: <a itemprop="author" rel="author" href="https://www.twitter.com/<%- post.author %>">@<%- post.author %></a>
                     <% } %>
 
                     <% if(page.date && theme.post_date_enable){ %>
                         <span class="post-time">
-                        Date: <a href="#"><%- date(page.date, theme.date_format)  %>&nbsp;&nbsp;<%- time(page.date, theme.time_format)%></a>
+                        Date: <a href="#"><%- date(page.date, theme.date_format)  %></a>
                         </span>
                     <% } %>
                     <% if(page.categories.length!==0 && theme.post_category_enable){ %>
@@ -40,7 +40,7 @@
                 <% if(theme.post_copyright_author_enable && post.author){ %>
                     <p class="copyright-item">
                         <span>Author:</span>
-                        <span><%- post.author %></span>
+                        <span><a itemprop="author" rel="author" href="https://www.twitter.com/<%- post.author %>">@<%- post.author %></a></span>
                     </p>
                 <% } %>
                 <% if(theme.post_copyright_permalink_enable){ %>
