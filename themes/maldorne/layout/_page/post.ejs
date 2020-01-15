@@ -10,8 +10,8 @@
             <h1 class="post-title"><%= page.title %></h1>
             <% if(theme.post_meta_enable){ %>
                 <div class="post-meta">
-                    <% if(theme.post_author_enable && config.author){ %>
-                        Author: <a itemprop="author" rel="author" href="/"><%- config.author %></a>
+                    <% if(theme.post_author_enable && post.author){ %>
+                        Author: <a itemprop="author" rel="author" href="/"><%- post.author %></a>
                     <% } %>
 
                     <% if(page.date && theme.post_date_enable){ %>
@@ -37,10 +37,10 @@
 
         <% if(theme.post_copyright_enable){ %>
             <section class="post-copyright">
-                <% if(theme.post_copyright_author_enable){ %>
+                <% if(theme.post_copyright_author_enable && post.author){ %>
                     <p class="copyright-item">
                         <span>Author:</span>
-                        <span><%- config.author %></span>
+                        <span><%- post.author %></span>
                     </p>
                 <% } %>
                 <% if(theme.post_copyright_permalink_enable){ %>
