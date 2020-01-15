@@ -11,17 +11,17 @@
             <% if(theme.post_meta_enable){ %>
                 <div class="post-meta">
                     <% if(theme.post_author_enable && post.author){ %>
-                        Author: <a itemprop="author" rel="author" href="https://www.twitter.com/<%- post.author %>">@<%- post.author %></a>
+                        <%- __('author') %>: <a itemprop="author" rel="author" href="https://www.twitter.com/<%- post.author %>">@<%- post.author %></a>
                     <% } %>
 
                     <% if(page.date && theme.post_date_enable){ %>
                         <span class="post-time">
-                        Date: <a href="#"><%- date(page.date, theme.date_format)  %></a>
+                        <%- __('date') %>: <a href="#"><%- date(page.date, theme.date_format)  %></a>
                         </span>
                     <% } %>
                     <% if(page.categories.length!==0 && theme.post_category_enable){ %>
                         <span class="post-category">
-                        Category:
+                        <%- __('category') %>:
                         <% page.categories.forEach(item=>{ %>
                             <a href="<%- url_for(item.path) %>"><%- item.name %></a>
                         <% }) %>
@@ -39,7 +39,7 @@
             <section class="post-copyright">
                 <% if(theme.post_copyright_author_enable && post.author){ %>
                     <p class="copyright-item">
-                        <span>Author:</span>
+                        <span><%- __('author') %>:</span>
                         <span><a itemprop="author" rel="author" href="https://www.twitter.com/<%- post.author %>">@<%- post.author %></a></span>
                     </p>
                 <% } %>
@@ -67,7 +67,7 @@
         <section class="post-tags">
             <div>
                 <% if(page.tags.length!==0){%>
-                <span>Tags:</span>
+                <span><%- __('tag') %>s:</span>
                 <span class="tag">
                     <% page.tags.forEach(item=>{ %>
                         <a href="<%- url_for(item.path) %>">#<%- item.name %></a>
@@ -76,17 +76,17 @@
                 <% } %>
             </div>
             <div>
-                <a href="javascript:window.history.back();">back</a>
+                <a href="javascript:window.history.back();"><%- __('back').toLowerCase() %></a>
                 <span>· </span>
-                <a href="<%- config.root %>">home</a>
+                <a href="<%- config.root %>"><%- __('home').toLowerCase() %></a>
             </div>
         </section>
         <section class="post-nav">
             <% if(post.prev){ %>
-                <a class="prev" rel="prev" href="<%- url_for(post.prev.path)%>"><%- post.prev.title%></a>
+                <a class="prev" rel="prev" href="<%- url_for(post.prev.path)%>"><%- post.prev.title %></a>
             <% } %>
             <% if(post.next){ %>
-            <a class="next" rel="next" href="<%- url_for(post.next.path)%>"><%- post.next.title%></a>
+            <a class="next" rel="next" href="<%- url_for(post.next.path)%>"><%- post.next.title %></a>
             <% } %>
         </section>
     </article>
