@@ -8,12 +8,12 @@
         <div class="links">
             <% if (theme.links !== undefined) { %>
                 <% for (var key in theme.links){ %>
-                    <a class="link-item" title="<%- key %>" href="<%= theme.links[key] %>">
+                    <a class="link-item" title="<%- key %>" href="<%= theme.links[key].link %>">
                         <% if(theme.links_text_enable) { %>
                             <%= key %>
                         <%}%>
                         <%if(theme.links_icon_enable){ %>
-                            <i class="iconfont icon-<%- key.toLowerCase() %>"></i>
+                            <span class="icon"><%- fa_inline(theme.links[key].icon, {prefix: theme.links[key].prefix}) %></span>
                         <%}%>
                     </a>
                 <% } %>

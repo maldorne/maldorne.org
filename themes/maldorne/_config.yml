@@ -19,14 +19,27 @@ description: We play, host, build, develop and recover old and new retro online 
 avatar: /image/maldorne_old_logo.png
 
 # main menu navigation
-## links key words should not be changed.
-## Complete url after key words.
-## Unused key can be commented out.
+## link is the complete url
+## icon is the fontawesome icon name
+## prefix is the fontawesome style
+## Unused keys can be commented out.
 links:
-  Blog: /archives
-  Twitter: https://twitter.com/houseofmaldorne
-  LinkedIn: https://www.linkedin.com/company/11107294
-  Github: https://github.com/houseofmaldorne/
+  Blog: 
+    link: /archives
+    icon: book-open
+    prefix: fas
+  Twitter: 
+    link: https://twitter.com/houseofmaldorne
+    icon: twitter
+    prefix: fab
+  LinkedIn: 
+    link: https://www.linkedin.com/company/11107294
+    icon: linkedin
+    prefix: fab
+  Github: 
+    link: https://github.com/houseofmaldorne/
+    icon: github
+    prefix: fab
 #  Category:
 #  Tags: 
 #  Link:
