@@ -7,8 +7,9 @@ title: House of Maldorne
 subtitle: 'Retro gaming association'
 description: 'We play, host, build, develop and recover old and new retro online games, from muds to roguelikes.'
 keywords:
-language: es
+language: en
 timezone: ''
+author: neverbot
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
