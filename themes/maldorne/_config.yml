@@ -70,7 +70,6 @@ post_copyright_permalink_enable: true
 post_copyright_license_enable: false
 post_copyright_license_text: Copyright (c) 2020 House of Maldorne
 post_copyright_slogan_enable: false
-post_copyright_slogan_text: Do you believe in <strong>DESTINY</strong>?
 ## toc
 post_toc_enable: true
 
@@ -94,7 +93,6 @@ scripts:
   - /js/tocbot.min.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
-
 
 # plugin functions
 ## Mathjax: Math Formula Support

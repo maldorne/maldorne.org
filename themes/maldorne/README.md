@@ -4,7 +4,7 @@
 <img src="https://i.loli.net/2019/06/12/5d006bd289aa325037.png" alt="Chic theme">
 </p>
 
-> Chic ,French word means 'Elegant' in English.
+> Chic, French word means 'Elegant' in English.
 
 <p align="center">
 <img alt="Author" src="https://img.shields.io/badge/Author-Sirice-blue.svg"/>
@@ -36,24 +36,24 @@
 
 
 ## Introduction
-An elegant,powerful,easy-to-read Hexo theme.
+An elegant, powerful, easy-to-read Hexo theme.
 
 ## Demo
 - [Demo site](https://siricee.github.io/hexo-theme-Chic)
 - [Author's blog](https://siricee.github.io/)
 
 ## Features
-- Appropriate blank blocks,elegant but not simple.
+- Appropriate blank blocks, elegant but not simple.
 
 - Light/Dark theme，just one click.
 
 - Abundant highlight mode.
 
-- elaborately selected fonts,best reading experience. \* *'Microsoft Jhenghei' especially recommended.*
+- elaborately selected fonts, best reading experience. \* *'Microsoft Jhenghei' especially recommended.*
 
 - Auto fit Mobile and Screen responsively.
 
-- Support MathJax,Support Formula written in LaTeX.
+- Support MathJax, Support Formula written in LaTeX.
 
 ## Installation
 
