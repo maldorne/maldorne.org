@@ -11,7 +11,7 @@ categories:
 
 As you can see, we are buildiing the new **House of Maldorne** web page. The previous one we were using was just a placeholder without much content, and we were already missing having a web presence again.
 
-As a beginning, we have a blog again, and we have imported the contents from the old `www.ciudadcapital.net` web, the main gamee we host. All of these old contents are in spanish, but from now on every post will written both in english and spanish.
+To begin with, we have a blog again, and we have imported the contents from the old `www.ciudadcapital.net` web, the main gamee we host. All of these old contents are in spanish, but from now on every post will written both in english and spanish.
 
 Why abandon the old game web? For the last couple years, all the work we have been doing in the organization has been focused in develop a new platform to host the games, called [Hexagon](https://github.com/houseofmaldorne/hexagon), whose objective is to host different games inside the same environment.
 
