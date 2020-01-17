@@ -9,7 +9,7 @@ categories:
 
 ##### {% fa_inline language fas %} English
 
-As you can see, we are buildiing the new **House of Maldorne** web page. The previous one we were using was just a placeholder without much content, and we were already missing having a real web presence.
+As you can see, we are building the new **House of Maldorne** web page. The previous one we were using was just a placeholder without much content, and we were already missing having a real web presence.
 
 To begin with, we have a blog, and we have imported the contents from the old `www.ciudadcapital.net` web, the main game we host. All of these old contents are in spanish, but from now on every post will be written both in english and spanish.
 
