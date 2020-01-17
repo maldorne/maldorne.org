@@ -11,7 +11,9 @@
             <% if(theme.post_meta_enable){ %>
                 <div class="post-meta">
                     <% if(theme.post_author_enable && post.author){ %>
+                        <span class="post-author">
                         <%- __('author') %>: <a itemprop="author" rel="author" href="https://www.twitter.com/<%- post.author %>">@<%- post.author %></a>
+                        </span>
                     <% } %>
 
                     <% if(page.date && theme.post_date_enable){ %>
