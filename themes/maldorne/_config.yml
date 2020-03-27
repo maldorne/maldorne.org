@@ -18,6 +18,9 @@ nickname: House of Maldorne
 description: We play, host, build, develop and recover old and new retro online games, from muds to roguelikes.
 avatar: /image/maldorne_old_logo.png
 
+i18n:
+  language: [en, es]
+
 # main menu navigation
 ## link is the complete url
 ## icon is the fontawesome icon name
