@@ -10,6 +10,7 @@ url: 68.html
 id: 68
 date: 2009-10-28 15:02:47
 author:
+language: es
 ---
 
 En **Ciudad Capital**:

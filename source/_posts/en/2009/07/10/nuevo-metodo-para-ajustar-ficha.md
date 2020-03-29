@@ -9,6 +9,7 @@ url: 19.html
 id: 19
 date: 2009-07-10 19:23:08
 author:
+language: es
 ---
 
 Hasta hoy el sistema que había para ajustar ficha era uno aleatorio (de los de toda la vida): había que especificar el orden de los ocho atributos que definen a tu personaje y realizar tiradas aleatorias que podías repetir indefinidamente. Ahora existen dos métodos para ajustar la ficha:

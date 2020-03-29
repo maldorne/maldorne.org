@@ -10,6 +10,7 @@ url: 169.html
 id: 169
 date: 2010-03-31 19:14:06
 author:
+language: es
 ---
 
 Al este de la ciudad de _Neuburg_, llegando por fin a la lejana cordillera del _Gobbar-Lâr_, se han abierto las puertas de las grandes minas de _Mongûl_. Allí, los _aenures_ (los humanos de las tierras de los bosques) han excavado grandes minas para extraer el valioso metal conocido como _tremilita_, del que la principal montaña de la cordillera, el _Pico Gris_, parece contener en abundancia.

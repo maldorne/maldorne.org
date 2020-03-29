@@ -12,6 +12,7 @@ url: 151.html
 id: 151
 date: 2010-02-19 13:43:00
 author:
+language: es
 ---
 
 Como novedad para aligerar los inventarios de los personajes, se ha implementado una nueva funcionalidad para poder agruparlos de modo que ocupen menos y no os molesten tanto. Sólo tenéis que comprar una **cuerda** (que están a la venta en la mayor parte de las tiendas que podréis encontrar) y escribir '**_atar <objetos>_**' o '**_agrupar <objetos>_**'.

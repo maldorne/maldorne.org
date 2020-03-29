@@ -12,6 +12,7 @@ url: 197.html
 id: 197
 date: 2010-07-24 19:07:13
 author:
+language: es
 ---
 Este post se irá actualizando a lo largo del mes (de lo poco que queda, claro). **Cambios de juego:**
 

@@ -10,6 +10,7 @@ url: 23.html
 id: 23
 date: 2009-07-13 20:35:54
 author:
+language: es
 ---
 
 La **ampliación del verano** se pondrá en juego en Agosto, y está prácticamente terminada, a falta de algunos mecanismos especiales por el estilo de juego que habrá que llevar en dicha zona, así como algo más de testeo. Estará centrada en la primera **Torre de la Iluminación** (que llevará de nombre '**_El Martillo_'**), que es un concepto nuevo en Ciudad Capital que esperamos que despierte interés:

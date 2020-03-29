@@ -6,6 +6,7 @@ url: 154.html
 id: 154
 date: 2010-02-22 13:13:46
 author:
+language: es
 tags:
 ---
 

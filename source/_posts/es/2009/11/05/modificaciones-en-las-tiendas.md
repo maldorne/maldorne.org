@@ -9,6 +9,7 @@ url: 74.html
 id: 74
 date: 2009-11-05 13:17:52
 author:
+language: es
 ---
 
 Como sabéis, **las tiendas en Ciudad Capital** tienen un funcionamiento persistente, al contrario que en muchos otros _muds_. Aquí, los objetos que vendáis a las tiendas no desaparecerán con el siguiente reinicio de las mismas, sino que serán persistentes. Lógicamente, para evitar un llenado total y absoluto de las tiendas, se ha añadido un nuevo sistema de "_destockaje_" que se encarga de revisar **aperiódicamente** las mismas para eliminar el equipo básico que no deba estar en ellas.

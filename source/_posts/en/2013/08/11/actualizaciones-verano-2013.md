@@ -12,6 +12,7 @@ url: 355.html
 id: 355
 date: 2013-08-11 18:54:33
 author:
+language: es
 ---
 
 **Cambios de juego:**

@@ -6,6 +6,7 @@ url: 303.html
 id: 303
 date: 2012-09-17 17:30:16
 author:
+language: es
 tags:
 ---
 **Cambios de juego:**  

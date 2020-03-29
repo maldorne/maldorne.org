@@ -11,6 +11,7 @@ url: 48.html
 id: 48
 date: 2009-10-25 11:31:40
 author:
+language: es
 ---
 
 Se ha añadido el nuevo **limbo**, que será el lugar donde irán las almas de aquellos que hayan fallecido en el mundo terrenal. Hasta ahora todos iban al infierno, circunstancia que no era demasiado equitativa para todos... Además, el emisario encargado de atender a dichas almas en pena ahora tiene un mayor poder y, por tanto, una mayor capacidad de atención para con los jugadores. Es decir: al morir vuestro espítiru aparecerá en el limbo. Allí, podéis buscar a un ángel enviado por la Diosa Nhimue, que os dará varias opciones para volver al mundo terrenal:

@@ -2,7 +2,7 @@
 title: La nueva web de House of Maldorne
 date: 2020-01-15 21:42:36
 author: neverbot
-lang: es
+language: es
 tags:
 categories:
  - Web

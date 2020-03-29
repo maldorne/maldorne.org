@@ -6,6 +6,7 @@ url: 163.html
 id: 163
 date: 2010-03-07 18:11:09
 author:
+language: es
 tags:
 ---
 Este post se irá actualizando a lo largo del mes. **Cambios de juego:**

@@ -10,6 +10,7 @@ url: 50.html
 id: 50
 date: 2009-10-26 19:51:38
 author:
+language: es
 ---
 
 Ya está funcionando la nueva dote **esconderse**, así como el comando **buscar** (que estaban en pruebas y han sido mejorados). También se han pulido algunos detalles a la hora de utilizar estas funcionalides desde personajes no jugadores (algunos bandidos y ladrones ahora aparecen en juego escondidos directamente). La nueva característica de la ficha **Percepción** es bastante importante a la hora de utilizar estas habilidades, aunque también son de cierta importancia la inteligencia, la destreza y el nivel tanto de quien se esconde como de quien busca. Pueden darse varias situaciones:

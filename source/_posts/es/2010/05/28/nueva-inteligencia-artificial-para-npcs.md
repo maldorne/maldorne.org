@@ -9,6 +9,7 @@ url: 177.html
 id: 177
 date: 2010-05-28 14:10:14
 author:
+language: es
 ---
 Ha pasado un tiempo desde la última actualización, que se ha ocupado en el desarrollo de esta nueva funcionalidad: ahora algunos personajes no jugadores contarán con nuevos tipos de comportamiento. En principio sólo se cambiarán algunos de los personajes más poderosos (para empezar el _**Zombie de Fingol**_ y el **_Insector_**, otros se irán añadiendo durante los próximos días), que tendrán nuevos comportamientos y escogerán cómo, cuándo y dónde atacar a sus enemigos.
 

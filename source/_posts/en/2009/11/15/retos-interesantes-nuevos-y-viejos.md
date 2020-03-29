@@ -9,6 +9,7 @@ url: 77.html
 id: 77
 date: 2009-11-15 13:00:18
 author:
+language: es
 ---
 
 Durante la última semana ha caído por fin uno de los más poderosos enemigos con los que se pueden enfrentar cualquier jugador de Ciudad Capital.

@@ -8,6 +8,7 @@ url: 182.html
 id: 182
 date: 2010-05-29 20:09:10
 author:
+language: es
 ---
 
 [{% asset_img "mapa-medio.jpg" "mapa medio" %}](/2010/05/29/mapa-de-ciudad-capital/mapa-actual.jpg)

@@ -15,6 +15,7 @@ url: 44.html
 id: 44
 date: 2009-10-20 12:35:46
 author:
+language: es
 ---
 
 Siguiendo a las actualizaciones de **Nodd** que hubo ayer, hoy se han añadido en algunas ciudades otros negocios que son útiles y aún no estaban disponibles, por lo que se suman a los que ya existían. En la ciudad de **Sqargeld** se han abierto:

@@ -6,6 +6,7 @@ url: 238.html
 id: 238
 date: 2010-12-26 18:25:43
 author:
+language: es
 tags:
 ---
 

@@ -11,6 +11,7 @@ url: 134.html
 id: 134
 date: 2010-02-05 14:08:51
 author:
+language: es
 ---
 
 Siguen las ampliaciones hacia el oeste: tras el valle de Temail y el [pueblo de Roth](http://www.ciudadcapital.net/archivo/nuevo-dominio-roth/), y después de haber cruzado la [cordillera del Mor-Khâine](http://www.ciudadcapital.net/archivo/nuevo-dominio-mor-khaine/) por el paso de la fortaleza, el camino de descenso cruza por las calmadas **colinas de Mullingar** y, más al oeste, a los antiguos **bosques de Umroth**, donde ya ninguna ruta comercial pasa por sus caminos.

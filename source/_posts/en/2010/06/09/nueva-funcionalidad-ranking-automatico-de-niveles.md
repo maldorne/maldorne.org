@@ -5,6 +5,7 @@ url: 188.html
 id: 188
 date: 2010-06-09 13:13:02
 author:
+language: es
 tags:
 ---
 A partir de ahora cualquier jugador podrá consultar una tabla (que se actualiza en tiempo real) con los **máximos niveles de cada uno de los grupos a los que pertenezca**: _clase_, _gremio_ y _oficio_. En esta tabla se almacenan tanto jugadores como los personajes no jugadores únicos, pero no todos, sino únicamente aquellos de nivel más alto.

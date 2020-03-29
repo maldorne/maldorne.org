@@ -5,6 +5,7 @@ url: 279.html
 id: 279
 date: 2011-12-29 19:59:04
 author:
+language: es
 tags:
 ---
 Por un problema con el sistema de las _quests_ de los oficios, al existir dos escuelas de iniciación distintas (una en el _Bosque de Porte_ cerca de _Ciudad Capital_ y otra en el _Bosque de JukingNall_ cerca de _Dargaad_), las misiones para novatos estaban repetidas con distintos maestros, permitiendo que los jugadores pudieran hacerlas dos veces.

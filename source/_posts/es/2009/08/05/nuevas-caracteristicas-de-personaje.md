@@ -9,6 +9,7 @@ url: 27.html
 id: 27
 date: 2009-08-05 14:50:38
 author:
+language: es
 ---
 Las características de los jugadores han sido modificadas: se ha eliminado la antigua característica _Suerte_, y ha sido cambiada por _Voluntad_, por lo que ahora cada personaje tendrá:
 

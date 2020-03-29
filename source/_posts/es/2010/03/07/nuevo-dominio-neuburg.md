@@ -14,6 +14,7 @@ url: 162.html
 id: 162
 date: 2010-03-07 18:04:39
 author:
+language: es
 ---
 
 La **ciudad de Neuburg**, al oeste de los bosque de **Umroth**, ya está en juego. Incluye su propia ciudadanía (aunque son gobernados por Ciudad Capital) y la inclusión de un nuevo pueblo humano, los **aenur**, propios del centro del continente (que ya son jugables). El dominio incluye, por ahora:

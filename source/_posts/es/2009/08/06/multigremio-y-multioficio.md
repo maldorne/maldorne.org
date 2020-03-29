@@ -11,6 +11,7 @@ url: 29.html
 id: 29
 date: 2009-08-06 15:04:28
 author:
+language: es
 ---
 En Ciudad Capital, los únicos conceptos fijos durante toda la vida del personaje son los de la raza y clase:
 

@@ -6,6 +6,7 @@ url: 1.html
 id: 1
 date: 2009-07-06 11:28:39
 author:
+language: es
 tags:
 ---
 

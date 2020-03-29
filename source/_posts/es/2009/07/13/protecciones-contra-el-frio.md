@@ -13,6 +13,7 @@ url: 21.html
 id: 21
 date: 2009-07-13 12:34:38
 author:
+language: es
 ---
 
 Se acaba de poner en juego en la ciudad de **Sqargeld** (en la Calle de los Gremios) la primera **curtiduría** (si todo funciona bien, se construirá una en cada gran ciudad). En ella hay un artesano peletero que necesita nuevas pieles de animales para continuar su trabajo: en lugar de pagar a quienes le ayuden en su labor con dinero (como hacen otros mercaderes de la ciudad), este proporcionará un **Manto de piel** que proporciona protección contra el frío.

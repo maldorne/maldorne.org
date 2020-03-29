@@ -6,6 +6,7 @@ url: 138.html
 id: 138
 date: 2010-02-09 22:27:53
 author:
+language: es
 tags:
 ---
 

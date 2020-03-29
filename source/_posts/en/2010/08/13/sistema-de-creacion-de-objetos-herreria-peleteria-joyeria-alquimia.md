@@ -10,6 +10,7 @@ url: 224.html
 id: 224
 date: 2010-08-13 13:14:30
 author:
+language: es
 ---
 Ya está funcionando el nuevo sistema de creación de objetos, que será útil para unos cuantos oficios. **¿Cómo funciona?:**
 

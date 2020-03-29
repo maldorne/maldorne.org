@@ -13,6 +13,7 @@ url: 184.html
 id: 184
 date: 2010-06-07 18:37:46
 author:
+language: es
 ---
 
 Este post se irá actualizando a lo largo del mes. **Cambios de juego:**

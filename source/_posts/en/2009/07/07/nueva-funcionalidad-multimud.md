@@ -11,6 +11,7 @@ url: 10.html
 id: 10
 date: 2009-07-07 18:43:50
 author:
+language: es
 ---
 
 Para facilitar la administración a la hora de utilizar dos servidores en una misma máquina, se ha añadido una nueva funcionalidad que se configura desde el archivo _/secure/multimud.h_. Ahora, con comentar o descomentar un par de líneas, se hace muy fácil tener funcionando dos servidores distintos con las siguientes características:

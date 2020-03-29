@@ -8,7 +8,12 @@
         <% last_year = cur_year; } %>
 
         <article class="archive-item">
-            <a class="archive-item-link" href="<%- url_for(post.path) %>"><%= post.title %></a>
+            <a class="archive-item-link" href="<%- url_for(post.path) %>">
+                <% if (post.language && post.language !== page.lang) { %>
+                    <%= '(' + post.language + ')' %>
+                <% } %>
+
+                <%= post.title %></a>
             <span class="archive-item-date"><%- date(post.date, theme.date_format) %></span>
         </article>
     <% }) %>

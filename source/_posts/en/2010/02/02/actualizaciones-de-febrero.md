@@ -16,6 +16,7 @@ url: 122.html
 id: 122
 date: 2010-02-02 12:38:30
 author:
+language: es
 ---
 
 Este post se irá actualizando a lo largo del mes. **Cambios de juego:**
