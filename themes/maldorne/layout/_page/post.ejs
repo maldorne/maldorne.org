@@ -25,7 +25,7 @@
                         <span class="post-category">
                         <%- __('category') %>:
                         <% page.categories.forEach(item=>{ %>
-                            <a href="<%- url_for_lang(item.path) %>"><%- item.name %></a>
+                            <a href="<%- url_for(item.path) %>"><%- item.name %></a>
                         <% }) %>
                         </span>
                     <% } %>
@@ -72,7 +72,7 @@
                 <span><%- __('tag') %>s:</span>
                 <span class="tag">
                     <% page.tags.forEach(item=>{ %>
-                        <a href="<%- url_for_lang(item.path) %>">#<%- item.name %></a>
+                        <a href="<%- url_for(item.path) %>">#<%- item.name %></a>
                     <% }) %>
                 </span>
                 <% } %>
@@ -84,15 +84,13 @@
             </div>
         </section>
 
-        <!--    
         <section class="post-nav">
             <% if(post.prev){ %>
-                <a class="prev" rel="prev" href="<%- url_for_lang(post.prev.path)%>"><%- post.prev.title %></a>
+                <a class="prev" rel="prev" href="<%- url_for(post.prev.path)%>"><%- post.prev.title %></a>
             <% } %>
             <% if(post.next){ %>
-            <a class="next" rel="next" href="<%- url_for_lang(post.next.path)%>"><%- post.next.title %></a>
+            <a class="next" rel="next" href="<%- url_for(post.next.path)%>"><%- post.next.title %></a>
             <% } %>
         </section>
-        --> 
     </article>
 </div>
