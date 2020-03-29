@@ -6,7 +6,7 @@ tags:
   - gremios
   - oficios
 categories:
-  - Personajes
+  - [Personajes]
 url: 29.html
 id: 29
 date: 2009-08-06 15:04:28

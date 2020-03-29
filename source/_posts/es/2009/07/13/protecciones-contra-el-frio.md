@@ -6,9 +6,9 @@ tags:
   - protecciones
   - Sqargeld
 categories:
-  - Ambientación
-  - Programación
-  - Wiki
+  - [Ambientación]
+  - [Programación]
+  - [Wiki]
 url: 21.html
 id: 21
 date: 2009-07-13 12:34:38

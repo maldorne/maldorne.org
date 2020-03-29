@@ -3,7 +3,7 @@ tags:
   - enciclopedia
   - exploración
 categories:
-  - Novedades
+  - [Novedades]
 url: 156.html
 id: 156
 date: 2010-03-06 17:51:48

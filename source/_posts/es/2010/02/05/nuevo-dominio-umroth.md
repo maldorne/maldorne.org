@@ -5,8 +5,8 @@ tags:
   - Umroth
   - Zenell
 categories:
-  - Ambientación
-  - Novedades
+  - [Ambientación]
+  - [Novedades]
 url: 134.html
 id: 134
 date: 2010-02-05 14:08:51

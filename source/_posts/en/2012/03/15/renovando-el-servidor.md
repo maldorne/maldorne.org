@@ -1,7 +1,7 @@
 ---
 title: Renovando el servidor
 categories:
-  - Novedades
+  - [Novedades]
 url: 294.html
 id: 294
 date: 2012-03-15 20:16:56

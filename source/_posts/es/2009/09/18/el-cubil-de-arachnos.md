@@ -8,8 +8,8 @@ tags:
   - Mazmorras
   - Torres de la Iluminación
 categories:
-  - Ambientación
-  - Novedades
+  - [Ambientación]
+  - [Novedades]
 url: 33.html
 id: 33
 date: 2009-09-18 19:11:43

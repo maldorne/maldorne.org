@@ -1,6 +1,6 @@
 title: Actualizaciones Enero 2012
 categories:
-  - Novedades
+  - [Novedades]
 url: 283.html
 id: 283
 date: 2012-01-07 18:14:49

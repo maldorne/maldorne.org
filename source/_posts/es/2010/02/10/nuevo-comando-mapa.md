@@ -3,7 +3,7 @@ tags:
   - comandos
   - mapa
 categories:
-  - Novedades
+  - [Novedades]
 url: 140.html
 id: 140
 date: 2010-02-10 18:43:22

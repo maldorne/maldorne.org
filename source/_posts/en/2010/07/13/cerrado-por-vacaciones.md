@@ -1,7 +1,7 @@
 ---
 title: Cerrado por vacaciones
 categories:
-  - Administración
+  - [Administración]
 url: 196.html
 id: 196
 date: 2010-07-13 16:42:31

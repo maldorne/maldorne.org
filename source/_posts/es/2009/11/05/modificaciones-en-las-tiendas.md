@@ -4,7 +4,7 @@ tags:
   - negocios
   - tiendas
 categories:
-  - Programación
+  - [Programación]
 url: 74.html
 id: 74
 date: 2009-11-05 13:17:52

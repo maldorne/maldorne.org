@@ -3,8 +3,8 @@ tags:
   - ajustar
   - ficha
 categories:
-  - Administración
-  - Programación
+  - [Administración]
+  - [Programación]
 url: 27.html
 id: 27
 date: 2009-08-05 14:50:38

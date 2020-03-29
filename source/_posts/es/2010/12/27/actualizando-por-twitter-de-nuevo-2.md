@@ -1,7 +1,7 @@
 ---
 title: Actualizando por Twitter de nuevo
 categories:
-  - Administración
+  - [Administración]
 url: 248.html
 id: 248
 date: 2010-12-27 20:29:20

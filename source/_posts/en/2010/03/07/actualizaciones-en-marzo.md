@@ -1,7 +1,7 @@
 title: Actualizaciones en Marzo
 categories:
-  - Novedades
-  - Programación
+  - [Novedades]
+  - [Programación]
 url: 163.html
 id: 163
 date: 2010-03-07 18:11:09

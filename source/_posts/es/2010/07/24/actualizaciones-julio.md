@@ -6,8 +6,8 @@ tags:
   - gremios
   - misiones
 categories:
-  - Novedades
-  - Programación
+  - [Novedades]
+  - [Programación]
 url: 197.html
 id: 197
 date: 2010-07-24 19:07:13

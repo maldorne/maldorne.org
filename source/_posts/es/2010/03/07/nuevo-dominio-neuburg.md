@@ -8,8 +8,8 @@ tags:
   - Neuburg
   - Umroth
 categories:
-  - Ambientación
-  - Novedades
+  - [Ambientación]
+  - [Novedades]
 url: 162.html
 id: 162
 date: 2010-03-07 18:04:39

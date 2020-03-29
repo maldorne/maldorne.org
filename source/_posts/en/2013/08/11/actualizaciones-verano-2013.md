@@ -7,7 +7,7 @@ tags:
   - Umroth
   - Zenell
 categories:
-  - Novedades
+  - [Novedades]
 url: 355.html
 id: 355
 date: 2013-08-11 18:54:33

@@ -1,6 +1,6 @@
 title: Actualizaciones Agosto
 categories:
-  - Novedades
+  - [Novedades]
 url: 218.html
 id: 218
 date: 2010-08-10 18:54:36

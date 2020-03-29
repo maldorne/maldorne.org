@@ -5,8 +5,8 @@ tags:
   - Roth
   - Temail
 categories:
-  - Ambientación
-  - Novedades
+  - [Ambientación]
+  - [Novedades]
 url: 80.html
 id: 80
 date: 2009-12-03 18:17:29

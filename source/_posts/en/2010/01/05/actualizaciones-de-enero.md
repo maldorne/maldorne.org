@@ -4,8 +4,8 @@ tags:
   - dotes
   - Naga Negra
 categories:
-  - Administración
-  - Programación
+  - [Administración]
+  - [Programación]
 url: 95.html
 id: 95
 date: 2010-01-05 11:35:12

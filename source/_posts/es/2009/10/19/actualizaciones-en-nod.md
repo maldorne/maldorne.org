@@ -4,7 +4,7 @@ tags:
   - Dargaad
   - Nodd
 categories:
-  - Ambientación
+  - [Ambientación]
 url: 38.html
 id: 38
 date: 2009-10-19 15:59:33

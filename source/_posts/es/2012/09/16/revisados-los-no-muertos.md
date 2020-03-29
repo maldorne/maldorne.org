@@ -1,8 +1,8 @@
 ---
 title: Revisados los No Muertos
 categories:
-  - Ambientación
-  - Novedades
+  - [Ambientación]
+  - [Novedades]
 url: 318.html
 id: 318
 date: 2012-09-16 17:53:01

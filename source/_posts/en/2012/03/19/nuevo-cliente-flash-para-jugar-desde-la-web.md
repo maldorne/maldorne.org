@@ -1,7 +1,7 @@
 ---
 title: Nuevo cliente flash para jugar desde la web
 categories:
-  - Novedades
+  - [Novedades]
 url: 301.html
 id: 301
 date: 2012-03-19 18:23:35

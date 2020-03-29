@@ -3,7 +3,7 @@ tags:
   - finger
   - género
 categories:
-  - Programación
+  - [Programación]
 url: 17.html
 id: 17
 date: 2009-07-10 18:14:13
