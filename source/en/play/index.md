@@ -6,4 +6,4 @@ language: en
 
 Let's play!
 
-{% iframe http://play.maldorne.org 800 600 %}
+{% iframe https://play.maldorne.org 800 600 %}
