@@ -23,3 +23,8 @@ date: Date
 author: Author
 back: Back
 home: Home
+
+nav:
+  blog: Blog
+  about: About
+  play: Play

@@ -3,10 +3,17 @@ navname: House of Maldorne
 
 # navigator items
 nav:
-  Blog: /archives
+  - blog: 
+    name: blog 
+    url: /archives
+  - play: 
+    name: play
+    url: /play
   # Categories: /categories
   # Tags: /tags
-  About: /about
+  - about:
+    name: about
+    url: /about
 
 # favicons
 icons: true

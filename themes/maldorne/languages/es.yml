@@ -23,3 +23,8 @@ date: Fecha
 author: Autor
 back: Volver
 home: Home
+
+nav:
+  blog: Blog
+  about: Acerca de...
+  play: Jugar
