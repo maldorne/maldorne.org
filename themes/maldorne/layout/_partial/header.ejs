@@ -1,10 +1,10 @@
 <header>
     <nav class="navbar">
         <div class="container">
-            <div class="navbar-header header-logo"><a href="<%- config.root %>"><%= theme.navname %></a></div>
+            <div class="navbar-header header-logo"><a href="<%- url_for('') %>"><%= theme.navname %></a></div>
             <div class="menu navbar-right">
                 <% for (var i in theme.nav){ %>
-                    <a class="menu-item" href="<%- url_for(theme.nav[i].url) %>"><%= __('nav.'+theme.nav[i].name) %></a>
+                    <a class="menu-item" href="<%- url_for(theme.nav[i].url) %>"><%= __(theme.nav[i].name) %></a>
                 <% } %>
             </div>
 
@@ -22,13 +22,13 @@
             </div>
             <div class="menu" id="mobile-menu">
                 <% for (var i in theme.nav){ %>
-                    <a class="menu-item" href="<%- url_for(theme.nav[i].url) %>"><%= __('nav.'+theme.nav[i].name) %></a>
+                    <a class="menu-item" href="<%- url_for(theme.nav[i].url) %>"><%= __(theme.nav[i].name) %></a>
                 <% } %>
             </div>
         </div>
     </nav>
-
 </header>
+
 <script>
     var mobileBtn = function f() {
         var toggleMenu = document.getElementsByClassName("menu-toggle")[0];

@@ -4,25 +4,21 @@ navname: House of Maldorne
 # navigator items
 nav:
   - blog: 
-    name: blog 
+    name: nav.blog 
     url: /archives
   - play: 
-    name: play
+    name: nav.play
     url: /play
   # Categories: /categories
   # Tags: /tags
   - about:
-    name: about
+    name: nav.about
     url: /about
 
 # favicons
 icons: true
 
 # Profile
-nickname: House of Maldorne
-
-### this variable is MarkDown form.
-description: We play, host, build, develop and recover old and new retro online games, from muds to roguelikes.
 avatar: /image/maldorne_old_logo.png
 
 i18n:
