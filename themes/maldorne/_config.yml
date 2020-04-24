@@ -89,8 +89,10 @@ post_copyright_permalink_enable: true
 post_copyright_license_enable: false
 post_copyright_license_text: Copyright (c) 2020 House of Maldorne
 post_copyright_slogan_enable: false
+
 ## toc
 post_toc_enable: true
+page_toc_enable: true
 
 # Page
 page_title_enable: true
