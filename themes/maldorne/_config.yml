@@ -6,11 +6,12 @@ nav:
   - blog: 
     name: nav.blog 
     url: /archives
+  - games: 
+    name: nav.games
+    url: /games
   - play: 
     name: nav.play
     url: /play
-  # Categories: /categories
-  # Tags: /tags
   - about:
     name: nav.about
     url: /about
