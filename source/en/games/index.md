@@ -53,6 +53,6 @@ Language: spanish
 ## Endor Mud
 
 New game based in the **Tolkien's legendarium**, hosted by the _House of Maldorne_ association.  
-~Open to players. *Currently offline due to an error with LDMud logs. Fix pending.*
+~Open to players~. *Currently offline due to an error with LDMud logs. Fix pending.*
 Web client: [maldorne.org/en/play](https://maldorne.org/en/play?port=5050)  
 Telnet client: [muds.maldorne.org port 5050](telnet://muds.maldorne.org:5050)
