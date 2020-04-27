@@ -3,9 +3,11 @@
     </div>
     <div class="tocbot-list-menu">
         <a class="tocbot-toc-expand" onclick="expand_toc()"><%- __('toc.expand') %></a>
+        <!-- 
         <a onclick="go_top()"><%- __('toc.top') %></a>
         <a onclick="go_bottom()"><%- __('toc.bottom') %></a>
-    </div>
+        -->    
+        </div>
 </div>
 
 <script>
@@ -50,12 +52,12 @@
         b.innerHTML = "<%- __('toc.expand') %>"
     }
 
-    function go_top() {
-        window.scrollTo(0, 0);
-    }
+    // function go_top() {
+    //     window.scrollTo(0, 0);
+    // }
 
-    function go_bottom() {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
+    // function go_bottom() {
+    //     window.scrollTo(0, document.body.scrollHeight);
+    // }
 
 </script>
