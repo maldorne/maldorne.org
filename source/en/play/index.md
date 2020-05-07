@@ -2,6 +2,7 @@
 title: Web client
 date: 2020-03-31 21:09:46
 language: en
+template: player
 ---
 
-{% iframe https://play.maldorne.org 800 600 %}
+Go to the [game list](/en/games/) to see other Muds we host in different ports.

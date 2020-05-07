@@ -2,6 +2,7 @@
 title: Cliente web
 date: 2020-03-31 21:09:46
 language: es
+template: player
 ---
 
-{% iframe https://play.maldorne.org 800 600 %}
+Ve a la [lista de juegos](/en/games/) para ver los otros Muds que tenemos alojados en distintos puertos.
