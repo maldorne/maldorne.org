@@ -5,4 +5,4 @@ language: en
 template: player
 ---
 
-Go to the [game list](/en/games/) to see other Muds we host in different ports.
+Go to the [game list](/es/games/) to see other Muds we host in different ports.
