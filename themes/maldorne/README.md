@@ -16,7 +16,6 @@
 
 ## Doc language
 
-- [中文文档](README-CN.md)
 - [English](README.md)
 
 ## Contents
@@ -277,7 +276,7 @@ LaTeX grammers will not be illustrated in this doc. In Chic theme, Single '$' ro
 
 3. More questions will be added later...
 
-## Gallary
+## Gallery
 ![screely-1560228577821.png](https://i.loli.net/2019/06/12/5d00a0850285252790.png)
 ![screely-1560228791041.png](https://i.loli.net/2019/06/12/5d00a0856063661133.png)
 ![screely-1560228621288.png](https://i.loli.net/2019/06/12/5d00a084e29cd40271.png)
