@@ -1,5 +1,1 @@
-<% if (page.template === 'player') { %>
-<%- partial('_page/player', { post: page, index: false }) %>
-<% } else { %>
-<%- partial('_page/page', { post: page, index: false }) %>
-<% } %>
+<%- partial('_page/' + (page.template || 'page'), { post: page, index: false }) %>

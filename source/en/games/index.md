@@ -2,6 +2,7 @@
 title: Games hosted by maldorne.org
 date: 2020-04-24 20:09:10
 language: en
+template: page
 ---
 
 ## Hexagon

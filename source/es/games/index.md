@@ -2,6 +2,7 @@
 title: Juegos alojados en maldorne.org
 date: 2020-04-24 20:09:10
 language: es
+template: page
 ---
 
 ## Hexagon
