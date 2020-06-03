@@ -1,5 +1,5 @@
 ---
-title: New Hexagon logo
+title: Nuevo logo para Hexagon
 language: es
 date: 2020-06-03 22:02:03
 author: neverbot
