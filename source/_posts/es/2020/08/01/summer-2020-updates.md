@@ -8,7 +8,7 @@ categories:
   - [Novedades]
 ---
 
-Cambios y actualizaciones de librerías para la versión **v20.07 Anduin**:
+Cambios y actualizaciones de librerías para la versión **v20.07 Anduin**. Este post irá siendo actualizado durante el verano:
 
 ### Actualizaciones para jugadores
 

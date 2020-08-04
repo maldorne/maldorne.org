@@ -8,7 +8,7 @@ categories:
   - [Novedades]
 ---
 
-Changes and updates to the mudlib in its **v20.07 Anduin** version:
+Changes and updates to the mudlib in its **v20.07 Anduin** version. This post will be updated during the summer:
 
 ### Player updates
 
