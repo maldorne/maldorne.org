@@ -17,7 +17,7 @@ Original mudlib capable of hosting several games inside the same server. Current
 | Telnet client       | [muds.maldorne.org port 5000](telnet://muds.maldorne.org:5000) |
 | Git code repository | [github.com/houseofmaldorne/hexagon](https://github.com/houseofmaldorne/hexagon) |
 | Language            | english |
-| Mud type (driver)   | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([DGD](https://en.wikipedia.org/wiki/Dworkin%27s_Game_Driver) 1.6.6) |
+| Mud type (driver)   | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([DGD](https://en.wikipedia.org/wiki/Dworkin%27s_Game_Driver) 1.6.13) |
 
 ---
 
