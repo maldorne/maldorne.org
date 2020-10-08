@@ -17,6 +17,7 @@ Mudlib original capaz de alojar múltiples juegos en el mismo servidor. Actualme
 | Cliente telnet        | [muds.maldorne.org port 5000](telnet://muds.maldorne.org:5000) |
 | Repositorio de código | [github.com/houseofmaldorne/hexagon](https://github.com/houseofmaldorne/hexagon) |
 | Idioma                | inglés |
+| Tipo de Mud (driver)  | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([DGD](https://en.wikipedia.org/wiki/Dworkin%27s_Game_Driver) 1.6.13) |
 
 ---
 
@@ -31,6 +32,7 @@ Mud original desarrollado por el equipo de _House of Maldorne_. La primera versi
 | Cliente web           | [maldorne.org/en/play](https://maldorne.org/en/play?port=5010) |
 | Cliente telnet        | [muds.maldorne.org port 5010](telnet://muds.maldorne.org:5010) |
 | Idioma                | español |
+| Tipo de Mud (driver)  | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v22.2b13) |
 
 ---
 
@@ -45,6 +47,7 @@ El primer fork de _Reinos de Leyenda_, llevado por Gestur, Lummen, Astaroth, etc
 | Cliente web           | [maldorne.org/en/play](https://maldorne.org/en/play?port=5030) |
 | Cliente telnet        | [muds.maldorne.org port 5030](telnet://muds.maldorne.org:5030) |
 | Idioma                | español |
+| Tipo de Mud (driver)  | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21) |
 
 ---
 
@@ -59,6 +62,7 @@ La primera versión del conocido mud español, llevado por Paris, Oskuro, Osucar
 | Cliente web           | [maldorne.org/en/play](https://maldorne.org/en/play?port=5020) |
 | Cliente telnet        | [muds.maldorne.org port 5020](telnet://muds.maldorne.org:5020) |
 | Idioma                | español |
+| Tipo de Mud (driver)  | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21) |
 
 ---
 
@@ -73,6 +77,7 @@ Fork de _Reinos de Leyenda_, backup recuperado de Octubre de 2003. Abierto a jug
 | Cliente web           | [maldorne.org/en/play](https://maldorne.org/en/play?port=5040) |
 | Cliente telnet        | [muds.maldorne.org port 5040](telnet://muds.maldorne.org:5040) |
 | Idioma                | español |
+| Tipo de Mud (driver)  | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21) |
 
 ---
 
@@ -88,3 +93,4 @@ Nuevo juego basado en el **legendarium de Tolkien**, alojado por la asociación 
 | Cliente web           | [maldorne.org/en/play](https://maldorne.org/en/play?port=5050) |
 | Cliente telnet        | [muds.maldorne.org port 5050](telnet://muds.maldorne.org:5050) |
 | Idioma                | español |
+| Tipo de Mud (driver)  | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([LDMud](http://www.ldmud.eu/) 3.3.720) |

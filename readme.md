@@ -4,4 +4,4 @@
 
 Created with [Hexo](https://hexo.io/), using the [hexo-multilang](https://github.com/neverbot/hexo-multilang/) plugin.
 
-Template based on the [Chic Template](https://github.com/Siricee/hexo-theme-Chic) by [@Siricee](https://github.com/Siricee).
+Theme used [hexo-theme-chic-multilang](https://github.com/neverbot/hexo-theme-chic-multilang/), based on the [Chic Template](https://github.com/Siricee/hexo-theme-Chic) by [@Siricee](https://github.com/Siricee).
