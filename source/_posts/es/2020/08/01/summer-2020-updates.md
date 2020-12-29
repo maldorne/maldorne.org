@@ -22,4 +22,4 @@ Cambios y actualizaciones de librerías para la versión **v20.09 Anduin**. Este
   * Actualizada la versión usada de DGD a [1.6.13](https://github.com/dworkin/dgd/tree/1.6.13).
   * Replicada la documentación de `/docs/` para cada idioma.
   * Incluída la documentación actualizada del driver dentro del directorio `/docs/<lang>/driver` en cada deploy.
-  * Versión de Hexagon actualizada desde la última versión estable, **v19.05**, hasta **v21.09 Anduin**
+  * [Versión de Hexagon actualizada](/es/2020/10/05/hexagon-v20-09-anduin/) desde la última versión estable, **v19.05**, hasta **v21.09 Anduin**
