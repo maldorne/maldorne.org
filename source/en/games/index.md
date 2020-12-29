@@ -9,12 +9,14 @@ template: page
 
 ![](/images/hexagon_logo.png)
 
-Original mudlib capable of hosting several games inside the same server. Currently it includes the v2 of *Ciudad Capital*. Developed by the _House of Maldorne_ staff. Open to players and in active development. **Currently in beta version**.
+Original mudlib capable of hosting several games inside the same server. Currently it includes the v2 of *Ciudad Capital*. Developed by the _House of Maldorne_ staff. Open to players and in active development. **Currently in beta version**. Two servers in parallel, one running in english and the other in spanish.
 
 |   |   |
 | - | - |
-| Web client          | [maldorne.org/en/play](https://maldorne.org/en/play?port=5000) |
-| Telnet client       | [muds.maldorne.org port 5000](telnet://muds.maldorne.org:5000) |
+| Web client (en)     | [maldorne.org/en/play](https://maldorne.org/en/play?port=5000) |
+| Telnet client (en)  | [muds.maldorne.org port 5000](telnet://muds.maldorne.org:5000) |
+| Web client (es)     | [maldorne.org/es/play](https://maldorne.org/es/play?port=5002) |
+| Telnet client (es)  | [muds.maldorne.org port 5002](telnet://muds.maldorne.org:5002) |
 | Git code repository | [github.com/houseofmaldorne/hexagon](https://github.com/houseofmaldorne/hexagon) |
 | Language            | english |
 | Mud type (driver)   | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([DGD](https://en.wikipedia.org/wiki/Dworkin%27s_Game_Driver) 1.6.13) |
