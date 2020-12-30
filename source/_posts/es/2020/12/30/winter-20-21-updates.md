@@ -12,6 +12,8 @@ Cambios y actualizaciones de librerías para la versión **v20.09 Anduin**. Este
 
 ### Actualizaciones para jugadores
 
+  * Arreglado error en el comando `characters`.
+
 ### Actualizaciones para desarrolladores
 
   * Arreglado error en el comando `tail`.
