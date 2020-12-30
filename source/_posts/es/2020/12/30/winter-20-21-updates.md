@@ -1,0 +1,17 @@
+---
+title: Actualizaciones Invierno 20/21
+language: es
+date: 2020-12-30 11:28:34
+author:
+tags:
+categories:
+  - [Novedades]
+---
+
+Cambios y actualizaciones de librerías para la versión **v20.09 Anduin**. Este post irá siendo actualizado durante el invierno:
+
+### Actualizaciones para jugadores
+
+### Actualizaciones para desarrolladores
+
+  * Arreglado error en el comando `tail`.
