@@ -13,7 +13,8 @@ Changes and updates to the mudlib in its **v20.09 Anduin** version. This post wi
 ### Player updates
 
   * Fixed error with `characters` command.
+  * Help for several commands has been reviewed and/or translated.
 
 ### Developer updates
 
-  * Fixed error with `tail` command.
+  * Fixed some errors with several commands: `tail`, `ls`, and others.
