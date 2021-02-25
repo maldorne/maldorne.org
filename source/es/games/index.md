@@ -18,7 +18,7 @@ Mudlib original capaz de alojar múltiples juegos en el mismo servidor. Actualme
 | Cliente web (en)      | [maldorne.org/en/play](https://maldorne.org/en/play?port=5000) |
 | Cliente telnet (en)   | [muds.maldorne.org port 5000](telnet://muds.maldorne.org:5000) |
 | Repositorio de código | [github.com/houseofmaldorne/hexagon](https://github.com/houseofmaldorne/hexagon) |
-| Idioma                | inglés |
+| Idioma                | español, inglés |
 | Tipo de Mud (driver)  | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([DGD](https://en.wikipedia.org/wiki/Dworkin%27s_Game_Driver) 1.6.13) |
 
 ---
