@@ -2,6 +2,11 @@
 
 ## maldorne.org static page, made by Ivan Alonso ([@neverbot](https://github.com/neverbot))
 
+![](screenshot.png)
+
+![](screenshot-blog.png)
+
 Created with [Hexo](https://hexo.io/), using the [hexo-multilang](https://github.com/neverbot/hexo-multilang/) plugin.
 
 Theme used [hexo-theme-chic-multilang](https://github.com/neverbot/hexo-theme-chic-multilang/), based on the [Chic Template](https://github.com/Siricee/hexo-theme-Chic) by [@Siricee](https://github.com/Siricee).
+
