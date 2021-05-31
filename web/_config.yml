@@ -7,7 +7,7 @@ title: House of Maldorne
 subtitle: 'Retro gaming association'
 description: 'We play, host, build, develop and recover old and new retro online games, from muds to roguelikes.'
 keywords:
-language: [en, es]
+language: es
 timezone: ''
 author: neverbot
 
@@ -15,7 +15,7 @@ author: neverbot
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://maldorne.org
 root: /
-permalink: :language/:year/:month/:day/:title/
+permalink: :year/:month/:day/:title/
 permalink_defaults:
   # lang: en
 pretty_urls:
@@ -29,11 +29,10 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :language
 skip_render:
 
 # Writing
-new_post_name: :language/:year/:month/:day/:title.md # File name of new posts
+new_post_name: :year/:month/:day/:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -109,35 +108,3 @@ theme: maldorne
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
-
-plugins:
-  hexo-multilang:
-    languages: [en, es]  
-
-    pagination-dir: page
-
-    index-generator:
-      per-page: 5
-      order-by: -date
-      index-dir: 
-      default-lang: en
-
-    archive-generator:
-      per-page: 10
-      order-by: -date
-      archives-dir: archives
-      yearly: true
-      monthly: true
-      daily: false
-
-    category-generator:
-      per-page: 10
-      order-by: -date
-      categories-dir: categories
-      enable-index-page: true
-
-    tag-generator:
-      per-page: 5
-      order-by: -date
-      tags-dir: tags
-      enable-index-page: true

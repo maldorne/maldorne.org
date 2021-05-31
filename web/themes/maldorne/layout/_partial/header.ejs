@@ -6,14 +6,6 @@
                 <% for (var i in theme.nav){ %>
                     <a class="menu-item" href="<%- url_for(theme.nav[i].url) %>"><%= __(theme.nav[i].name) %></a>
                 <% } %>
-                <% if (config.plugins && 
-                       config.plugins['hexo-multilang'] && 
-                       Array.isArray(config.plugins['hexo-multilang'].languages) && 
-                       config.plugins['hexo-multilang'].languages.length > 1) { %>
-                    <div class="language-selector">
-                    <%- partial('_partial/language.ejs') %>
-                    </div>
-                <% } %>
             </div>
 
         </div>
@@ -31,14 +23,6 @@
             <div class="menu" id="mobile-menu">
                 <% for (var i in theme.nav){ %>
                     <a class="menu-item" href="<%- url_for(theme.nav[i].url) %>"><%= __(theme.nav[i].name) %></a>
-                <% } %>
-                <% if (config.plugins && 
-                       config.plugins['hexo-multilang'] && 
-                       Array.isArray(config.plugins['hexo-multilang'].languages) && 
-                       config.plugins['hexo-multilang'].languages.length > 1) { %>
-                    <div class="language-selector-mobile">
-                    <%- partial('_partial/language.ejs') %>
-                    </div>
                 <% } %>
             </div>
         </div>
