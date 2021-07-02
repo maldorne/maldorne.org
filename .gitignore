@@ -1,8 +1,14 @@
 .DS_Store
 Thumbs.db
 
-web/db.json
-web/*.log
-web/public/
-web/node_modules/
-web/.deploy*/
+webs/en/db.json
+webs/en/*.log
+webs/en/public/
+webs/en/node_modules/
+webs/en/.deploy*/
+
+webs/es/db.json
+webs/es/*.log
+webs/es/public/
+webs/es/node_modules/
+webs/es/.deploy*/
