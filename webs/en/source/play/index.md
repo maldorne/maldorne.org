@@ -1,8 +1,8 @@
 ---
-title: Cliente web
+title: Web client
 date: 2020-03-31 21:09:46
-language: es
+language: en
 template: player
 ---
 
-Ve a la [lista de juegos](/es/games/) para ver los otros Muds que tenemos alojados en distintos puertos.
+Go to the [game list](/en/games/) to see other Muds we host in different ports.

@@ -32,7 +32,7 @@ i18n:
 ## Unused keys can be commented out.
 links:
   Blog: 
-    link: /archives
+    link: /archivo
     icon: book-open
     prefix: fas
   Twitter: 
@@ -88,7 +88,7 @@ post_copyright_enable: true
 post_copyright_author_enable: true
 post_copyright_permalink_enable: true
 post_copyright_license_enable: false
-post_copyright_license_text: Copyright (c) 2020 House of Maldorne
+post_copyright_license_text: Copyright (c) 2021 House of Maldorne
 post_copyright_slogan_enable: false
 
 ## toc

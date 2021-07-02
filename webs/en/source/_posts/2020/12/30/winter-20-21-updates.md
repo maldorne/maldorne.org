@@ -1,6 +1,6 @@
 ---
-title: Actualizaciones Invierno 20/21
-language: es
+title: Winter 20/21 updates
+language: en
 date: 2020-12-30 11:28:34
 author:
 tags:
@@ -8,13 +8,13 @@ categories:
   - [Novedades]
 ---
 
-Cambios y actualizaciones de librerías para la versión **v20.09 Anduin**. Este post irá siendo actualizado durante el invierno:
+Changes and updates to the mudlib in its **v20.09 Anduin** version. This post will be updated during the winter:
 
-### Actualizaciones para jugadores
+### Player updates
 
-  * Arreglado error en el comando `characters`.
-  * Revisadas las ayudas para múltiples comandos.
+  * Fixed error with `characters` command.
+  * Help for several commands has been reviewed and/or translated.
 
-### Actualizaciones para desarrolladores
+### Developer updates
 
-  * Arreglados algunos errores en múltiples comandos: `tail`, `ls`, y otros.
+  * Fixed some errors with several commands: `tail`, `ls`, and others.
