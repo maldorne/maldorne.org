@@ -32,7 +32,7 @@ i18n:
 ## Unused keys can be commented out.
 links:
   Blog: 
-    link: /archivo
+    link: /archives
     icon: book-open
     prefix: fas
   Twitter: 
