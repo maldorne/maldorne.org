@@ -1,6 +1,6 @@
 ---
-title: Web multi-idioma
-language: es
+title: Multilanguage web
+language: en
 date: 2020-05-07 18:55:19
 author: neverbot
 tags:
@@ -8,6 +8,6 @@ categories:
  - Web
 ---
 
-Una nota rápida: hemos hecho la página maldorne.org multi-idioma, como puedes ver en el selector desplegable de la esquina superior derecha. La mayor parte de los contenidos (como este post) están escritos tanto en inglés como en español, así que sólo es necesario cambiar el idioma para pasar a navegar la web como se prefiera o entienda mejor.
+Just a small note, we've made the maldorne.org web multilanguage, as you can see in the dropdown selector in the upper-right corner. Most of the contents (like this post) are written both in english and spanish, and you just have to change the language to browse the web the way you prefer or understand better.
 
-Por defecto el idioma elegido será inglés (seleccionado al visitar la página de inicio de [maldorne.org](https://maldorne.org))
+By default the chosen language would be english (set when you visit the [maldorne.org](https://maldorne.org) home page)
