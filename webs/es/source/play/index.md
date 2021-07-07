@@ -5,4 +5,4 @@ language: es
 template: player
 ---
 
-Ve a la [lista de juegos](/es/games/) para ver los otros Muds que tenemos alojados en distintos puertos.
+Ve a la [lista de juegos](/games/) para ver los otros Muds que tenemos alojados en distintos puertos.
