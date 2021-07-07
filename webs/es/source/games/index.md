@@ -15,7 +15,7 @@ Mudlib original capaz de alojar múltiples juegos en el mismo servidor. Actualme
 | - | - |
 | Cliente web (es)      | [maldorne.org/play](https://maldorne.org/play?port=5002) |
 | Cliente telnet (es)   | [muds.maldorne.org port 5002](telnet://muds.maldorne.org:5002) |
-| Cliente web (en)      | [maldorne.org/en/play](https://maldorne.org/en/play?port=5000) |
+| Cliente web (en)      | [en.maldorne.org/play](https://en.maldorne.org/play?port=5000) |
 | Cliente telnet (en)   | [muds.maldorne.org port 5000](telnet://muds.maldorne.org:5000) |
 | Repositorio de código | [github.com/houseofmaldorne/hexagon](https://github.com/houseofmaldorne/hexagon) |
 | Idioma                | español, inglés |
