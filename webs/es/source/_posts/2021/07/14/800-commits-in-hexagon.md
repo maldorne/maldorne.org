@@ -5,7 +5,7 @@ author:
 tags:
 categories:
   - [Programación]
-language: en
+language: es
 ---
 
 {% asset_img "hexagon_logo_bg.png" "Hexagon Logo" %}
