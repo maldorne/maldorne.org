@@ -38,4 +38,3 @@ Cambios y actualizaciones de librerías para la versión **v20.09 Anduin**. Este
   * `contents`, `event_enter/exit` y `hud` funcionando.
   * `write/say` y `tell_object/tell_room` revisados.
   * Combate con npcs y muerte revisados y funcionando.
-

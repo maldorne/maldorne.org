@@ -16,9 +16,7 @@ Changes and updates to the mudlib in its **v20.09 Anduin** version. This post wi
   * Help for several commands has been reviewed and/or translated.
   * `demo-fantasy` game included.
 
-
 ### Developer updates
-
 
   * Fixed some errors with several commands: 
     * `tail`
