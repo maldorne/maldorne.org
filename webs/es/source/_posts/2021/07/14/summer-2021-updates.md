@@ -13,5 +13,6 @@ Cambios y actualizaciones de librerías para la versión **v20.09 Anduin**. Este
 ### Actualizaciones para jugadores
 
   * Alias revisados y funcionando.
+  * Comando `clear` funcionando.
 
 ### Actualizaciones para desarrolladores
