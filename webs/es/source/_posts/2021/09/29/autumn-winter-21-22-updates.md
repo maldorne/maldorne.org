@@ -14,18 +14,18 @@ Cambios y actualizaciones de librerías para la versión  **v21.09 Beregost**. E
 
   * Comando `kill` traducido.
   * Revisada la ayuda acerca de múltiples comandos, usa `help <cmd>` para probarlo.
-    * coder/exec
-    * coder/exits
-    * coder/grep
-    * coder/home
-    * coder/ls
-    * coder/peace
-    * coder/sar
-    * login/finger
-    * login/who
-    * player/kill
-    * player/look
-    * player/prompt
+    * `coder/exec`
+    * `coder/exits`
+    * `coder/grep`
+    * `coder/home`
+    * `coder/ls`
+    * `coder/peace`
+    * `coder/sar`
+    * `login/finger`
+    * `login/who`
+    * `player/kill`
+    * `player/look`
+    * `player/prompt`
 
 ### Actualizaciones para desarrolladores
 

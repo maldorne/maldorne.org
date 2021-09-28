@@ -14,17 +14,17 @@ Changes and updates to the mudlib in its **v21.09 Beregost** version. This post 
 
   * `kill` command translated.
   * Help about multiple commands reviewed, use `help <cmd>` to test it.
-    * coder/exec
-    * coder/exits
-    * coder/grep
-    * coder/home
-    * coder/ls
-    * coder/peace
-    * coder/sar
-    * login/finger
-    * login/who
-    * player/kill
-    * player/look
-    * player/prompt
+    * `coder/exec`
+    * `coder/exits`
+    * `coder/grep`
+    * `coder/home`
+    * `coder/ls`
+    * `coder/peace`
+    * `coder/sar`
+    * `login/finger`
+    * `login/who`
+    * `player/kill`
+    * `player/look`
+    * `player/prompt`
 
 ### Developer updates
