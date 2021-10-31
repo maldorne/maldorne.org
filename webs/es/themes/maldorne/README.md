@@ -27,7 +27,7 @@ Based on the [Chic Template](https://github.com/Siricee/hexo-theme-Chic) by [@Si
 - [Features](#features)
 - [Installation](#installation)
 - [Configuration](#configuration)
-  - [Add 'Tag','Category' Page](#add-tagcategory-page)
+  - [Add 'Tag', 'Category' Page](#add-tagcategory-page)
   - [MathJax (Render LaTeX Formula)](#mathjax-render-latex-formula)
 - [Customize](#customize)
 - [FAQ](#faq)
@@ -39,12 +39,12 @@ Based on the [Chic Template](https://github.com/Siricee/hexo-theme-Chic) by [@Si
 An elegant, powerful, easy-to-read Hexo theme.
 
 ## Demo
+- [Demo site](https://maldorne.org)
 - [Demo site](https://siricee.github.io/hexo-theme-Chic)
-- [Author's blog](https://siricee.github.io/)
 
 ## Features
 - Appropriate blank blocks, elegant but not simple.
-- Light/Dark theme，just one click.
+- ~Light/Dark theme, just one click.~ Removed in Maldorne version.
 - Abundant highlight mode.
 - Elaborately selected fonts, best reading experience. \* *'Microsoft Jhenghei' especially recommended.*
 - Auto fit Mobile and Screen responsively.
@@ -196,7 +196,7 @@ mathjax:
 </details>
 <br>
 
-### Add 'Tag','Category' Page
+### Add 'Tag', 'Category' Page
 
 There is no 'tag' or 'category' page in initialized site. If you need it, please follow the steps below.
 
@@ -221,7 +221,8 @@ layout: tag
 
 ### MathJax (Render LaTeX Formula)
 
-Related config file（`Chic/_config.yml`）：
+Related config file（`maldorne/_config.yml`）:
+
 ```yaml
 # plugin functions
 ## Mathjax: Math Formula Support
@@ -234,18 +235,18 @@ mathjax:
 ```
 `mathjax` has keywords below：
 - `enable`: value`true` enable mathjax(default set `true`); value`false` disable.
-- `import`:this key sets mathjax load method，option could be `global` or `demand`.
-  - `global`：global import，all pages will load script.It's convenient，but **it may cause some MarkDown grammers parsed wrong**.for example, consecutive `$$` will be rendered as a formula；Besides,global import will waste performance in pages without any formula.
-  - `demand`【Recommended】：import mathjax when you need.After you set this value，if you need use formula,just declare it in post Front-matter.Here is an example below.
+- `import`:this key sets mathjax load method, option could be `global` or `demand`.
+  - `global`：global import, all pages will load script.It's convenient, but **it may cause some MarkDown grammers parsed wrong**.for example, consecutive `$$` will be rendered as a formula；Besides,global import will waste performance in pages without any formula.
+  - `demand`【Recommended】：import mathjax when you need.After you set this value, if you need use formula,just declare it in post Front-matter.Here is an example below.
     ```yaml
     ---
     title: MathJax Test
     date: 2019-07-05 21:27:59
     tags:
-    mathjax: true # add this statement,MathJax will enable in this post.
+    mathjax: true # add this statement, MathJax will enable in this post.
     ---
     ```
-LaTeX grammers will not be illustrated in this doc. In Chic theme, Single '$' rounded statement is regarded as inline formula like `$f(x)=ax+b$` ; Double '$' rounded statement is regarded as block formula like `$$f(x)=ax+b$$`.More information please read LaTeX doc and [Formula test page in Demo Site](https://siricee.github.io/hexo-theme-Chic/2019/07/05/MathJax_test/).
+LaTeX grammers will not be illustrated in this doc. In Chic theme, Single '$' rounded statement is regarded as inline formula like `$f(x)=ax+b$` ; Double '$' rounded statement is regarded as block formula like `$$f(x)=ax+b$$`. More information please read LaTeX doc and [Formula test page in Demo Site](https://siricee.github.io/hexo-theme-Chic/2019/07/05/MathJax_test/).
 
 ## Customize
 
