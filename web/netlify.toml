@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://es.maldorne.org/*"
+  to = "https://maldorne.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://en.maldorne.org/*"
+  to = "https://maldorne.org/:splat"
+  status = 301
+  force = true
