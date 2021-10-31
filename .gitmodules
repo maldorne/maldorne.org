@@ -1,0 +1,3 @@
+[submodule "web/themes/maldorne"]
+	path = web/themes/maldorne
+	url = https://github.com/neverbot/maldorne-theme
