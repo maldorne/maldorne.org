@@ -1,4 +1,5 @@
-[submodule "web/themes/maldorne"]
+[submodule "theme"]
 	path = web/themes/maldorne
 	url = https://github.com/neverbot/maldorne-theme
 	branch = master
+	update = merge
