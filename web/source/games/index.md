@@ -5,11 +5,28 @@ language: en
 template: page
 ---
 
-## Hexagon
+![](/images/ciudadcapital_logo.png)
+
+## Ciudad Capital (v1)
+
+Original mud developed by the _House of Maldorne_ staff. The first version (v1) was developed on the MudOS driver. Open to players, but **the development is currently halted**. The second version (v2) is currently being developed using the Hexagon mudlib, take a look below.
+
+|   |   |
+| - | - |
+| Web client          | [en.maldorne.org/play](https://en.maldorne.org/play?port=5010) |
+| Telnet client       | [muds.maldorne.org port 5010](telnet://muds.maldorne.org:5010) |
+| Language            | spanish |
+| Mud type (driver)   | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v22.2b13) |
+
+---
 
 ![](/images/hexagon_logo.png)
 
-Original mudlib capable of hosting several games inside the same server. Currently it includes the v2 of *Ciudad Capital*. Developed by the _House of Maldorne_ staff. Open to players and in active development. **Currently in beta version**. Two servers in parallel, one running in english and the other in spanish.
+## Hexagon
+
+Original mudlib capable of hosting several games inside the same server. Currently it includes the v2 of *Ciudad Capital*. Developed by the _House of Maldorne_ staff. Open to players and **in active development**. Two servers in parallel, one running in english and the other in spanish.
+
+**Currently in beta version**, things might be broken as the hosted versiones is always the last available. If you want to try a stable game, please try any other from this list.
 
 |   |   |
 | - | - |
@@ -20,21 +37,6 @@ Original mudlib capable of hosting several games inside the same server. Current
 | Git code repository | [github.com/houseofmaldorne/hexagon](https://github.com/houseofmaldorne/hexagon) |
 | Language            | english, spanish |
 | Mud type (driver)   | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([DGD](https://en.wikipedia.org/wiki/Dworkin%27s_Game_Driver) 1.6.13) |
-
----
-
-![](/images/ciudadcapital_logo.png)
-
-## Ciudad Capital (v1)
-
-Original mud developed by the _House of Maldorne_ staff. The first version (v1) was developed on the MudOS driver. Open to players and in active development.  
-
-|   |   |
-| - | - |
-| Web client          | [en.maldorne.org/play](https://en.maldorne.org/play?port=5010) |
-| Telnet client       | [muds.maldorne.org port 5010](telnet://muds.maldorne.org:5010) |
-| Language            | spanish |
-| Mud type (driver)   | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v22.2b13) |
 
 ---
 
