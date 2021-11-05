@@ -26,5 +26,6 @@ Changes and updates to the mudlib in its **v21.09 Beregost** version. This post 
     * `player/kill`
     * `player/look`
     * `player/prompt`
+  * {% post_link some-ascii-ansi-improvements-using-box-drawing-characters %}.
 
 ### Developer updates
