@@ -8,7 +8,7 @@ categories:
 language: en
 ---
 
-We've recovered the web client which was available in the old _ciudadcapital.net_ web page, and it's now available in the [**play**](/en/play) page, which you can find in the web header.
+We've recovered the web client which was available in the old _ciudadcapital.net_ web page, and it's now available in the [**play**](/play) page, which you can find in the web header.
 
 _Some techno-babble:_
 

@@ -22,4 +22,4 @@ Changes and updates to the mudlib in its **v20.09 Anduin** version. This post wi
   * DGD updated to [1.6.13](https://github.com/dworkin/dgd/tree/1.6.13).
   * `/docs/` contents replicated for every language.
   * Updated driver documentation included inside the `/docs/<lang>/driver` directory in every deploy.
-  * [Hexagon version updated](/en/2020/10/05/hexagon-v20-09-anduin/) from the last stable version, **v19.05**, to **v21.09 Anduin**.
+  * [Hexagon version updated](/2020/10/05/hexagon-v20-09-anduin/) from the last stable version, **v19.05**, to **v21.09 Anduin**.
