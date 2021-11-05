@@ -29,3 +29,4 @@ Changes and updates to the mudlib in its **v21.09 Beregost** version. This post 
   * {% post_link some-ascii-ansi-improvements-using-box-drawing-characters %}.
 
 ### Developer updates
+  * {% post_link tinkering-with-the-vt100-terminal %}.
