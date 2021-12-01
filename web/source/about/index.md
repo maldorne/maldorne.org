@@ -10,7 +10,7 @@ timeline:
     content: |
       The third milestone, still a work in progress, includes a revision of every command, advances the translation process trying to have every main system in english again, and has finished the first complete demo game: `demo-fantasy`.
 
-      It will mean the move from **alpha** version to a **beta** version, stable and usable enough for other users to create their own games or porting old games from other driver to DGD using Hexagon.
+      It will mean the move from **alpha** version to a **beta** version, stable and usable enough for other users to create their own games or porting old games from other drivers to `DGD` using `Hexagon`.
 
   - date: 2021
     version: Hexagon v21.09 Beregost
@@ -89,7 +89,7 @@ timeline:
   - date: 1998 
     title: Knowing about MUDs
     content: |
-      Some time around maybe 1998, I started playing in the Reinos de Leyenda MUD, and I fall in love with text-based games. I played with several classes/guilds, and after some time I became a `creator` (coder) and went up in the hierarchy up to `alchemist` (lesser admin).
+      Some time around maybe 1998, I started playing in the Reinos de Leyenda MUD, and I fell in love with text-based games. I played with several classes/guilds, and after some time I became a `creator` (coder) and went up in the hierarchy up to `alchemist` (lesser admin).
 
       With some other coders we started working in a hard-core revision of the codebase, updating the driver version, but the MUD would disappear before the new mudlib could open to the public.
 ---
