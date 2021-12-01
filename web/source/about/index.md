@@ -8,59 +8,59 @@ timeline:
     version: Hexagon v22.?? Castle Black
     title: Next milestone
     content: |
-      The third milestone, still a work in progress, includes a revision of every command, advances the translation process trying to have every main system in english again, and has finished the first complete demo game: <strong>demo-fantasy</strong>.
+      The third milestone, still a work in progress, includes a revision of every command, advances the translation process trying to have every main system in english again, and has finished the first complete demo game: `demo-fantasy`.
 
-      It will mean the move from alpha version to a beta version, stable and usable enough for other users to create their own games or porting old games from other driver to DGD using Hexagon.
+      It will mean the move from **alpha** version to a **beta** version, stable and usable enough for other users to create their own games or porting old games from other driver to DGD using Hexagon.
 
   - date: 2021
     version: Hexagon v21.09 Beregost
     title: Stable version
     content: |
-      The second big milestone, <em>Beregost</em>, includes a revision of every <em>initiator object</em>, the skeleton for the multigame system, continuous integration through Github Actions, finishes the conversion of all the remaining basic object types from <em>ccmudlib</em>, and includes for the first time a piece of a demo game.
+      The second big milestone, `Beregost`, includes a revision of every *initiator object*, the skeleton for the multigame system, continuous integration through [Github Actions](https://github.com/houseofmaldorne/hexagon/actions), finishes the conversion of all the remaining basic object types from `ccmudlib`, and includes for the first time a piece of a demo game.
 
-      25/09/2021 <strong>v21.09 Beregost</strong>
+      * 25/09/2021 `v21.09 Beregost`
 
   - date: 2020
     version: Hexagon v20.09 Anduin
     title: New versioning names
     content: |
-      I started working with milestones in github, naming every big milestone. The first one, <em>Anduin</em>, includes the multilanguage system on compilation time (translates contents of files during compile), separates <em>user</em> and <em>player</em> objects, and creates the new <em>login</em> basic user type to manage connections.
+      I started working with milestones in github, naming every big milestone. The first one, `Anduin`, includes the multilanguage system on compilation time (translates contents of files during compile), separates `user` and `player` objects, and creates the new `login` basic user type to manage connections.
 
-      01/10/2020 <strong>v20.09 Anduin</strong>
+      * 01/10/2020 `v20.09 Anduin`
 
   - date: 2019
     version: Hexagon v19.05
     title: We start moving from MudOS to DGD
     content: |
-      After years of creating content for Ciudad Capital using MudOS as our MUD driver, I started coding a conversion to the DGD driver.
+      After years of creating content for **Ciudad Capital** using `MudOS` as our MUD driver, I started coding a conversion to the `DGD` driver.
 
-      07/05/2019 v19.05
-      27/04/2019 v19.04
-      14/01/2019 v19.01
-      18/07/2017 v17.07
-      26/08/2014 <strong>First commit</strong> in the Hexagon code repository, temporarily using <em>2.0a</em> as version number, as this was going to be the mudlib for the second version of Ciudad Capital.
+      * 07/05/2019 `v19.05`
+      * 27/04/2019 `v19.04`
+      * 14/01/2019 `v19.01`
+      * 18/07/2017 `v17.07`
+      * 26/08/2014 [**First commit**](https://github.com/houseofmaldorne/hexagon/commit/4a115fe92941dbee0f8ad5c2a8fcde7b34574aa9) in the `Hexagon` code repository, temporarily using `2.0a` as version number, as this was going to be the mudlib for the second version of **Ciudad Capital**.
 
   - date: 2012
     version: ccmudlib v0.8
     title: Work goes on with ccmudlib
     content: |
-      Some more working on ccmudlib and Ciudad Capital, now in professional hostings (OVH and AWS during different years).
+      Some more working on `ccmudlib` and **Ciudad Capital**, now in professional hostings (OVH and AWS during different years).
 
-      03/2012 v0.8
-      11/2011 v0.7.1
-      12/2010 v0.7
-      ??/2010 v0.6.2
-      ??/2010 v0.6.1
-      02/2010 v0.6
-      18/12/2009 v0.5
+      * 03/2012 `v0.8`
+      * 11/2011 `v0.7.1`
+      * 12/2010 `v0.7`
+      * ??/2010 `v0.6.2`
+      * ??/2010 `v0.6.1`
+      * 02/2010 `v0.6`
+      * 18/12/2009 `v0.5`
 
   - date: 2009
     version: ccmudlib v0.4
     title: Final year project in Software Engineering
     content: |
-      ccmudlib v0.4 was the foundation for my final year project in Software Engineering (BSc and MSc) at Universidad Politécnica de Madrid.
+      `ccmudlib v0.4` was the foundation for my final year project in **Software Engineering** (BSc and MSc) at Universidad Politécnica de Madrid.
 
-      01/12/2009 <strong>Final year project</strong>.
+      01/12/2009 **Final year project**.
 
   - date: 2009
     version: ccmudlib v0.3
@@ -68,15 +68,15 @@ timeline:
     content: |
       For some years I just work on the MUD from time to time, adding features and content to the game, still hosted in a dedicated machine in my own home.
 
-      13/05/2009 v0.4
-      27/04/2009 v0.3.6
-      25/03/2009 v0.3.5
-      04/08/2008 v0.3.4
-      07/07/2005 v0.3.3
-      26/10/2004 v0.3.2
-      19/12/2003 v0.3.1
-      13/07/2003 v0.3
-      01/07/2003 v0.2
+      * 13/05/2009 `v0.4`
+      * 27/04/2009 `v0.3.6`
+      * 25/03/2009 `v0.3.5`
+      * 04/08/2008 `v0.3.4`
+      * 07/07/2005 `v0.3.3`
+      * 26/10/2004 `v0.3.2`
+      * 19/12/2003 `v0.3.1`
+      * 13/07/2003 `v0.3`
+      * 01/07/2003 `v0.2`
 
   - date: 2003
     version: ccmudlib v0.1
@@ -84,12 +84,12 @@ timeline:
     content: |
       Some time after Reinos de Leyenda closes its doors, I started coding my own game, based in some of the latest features I was working on for the new mudlib, and creating a new world and lore.
 
-      17/01/2003 <strong>First login</strong> to the new game.
+      * 17/01/2003 **First login** to the new game.
 
   - date: 1998 
     title: Knowing about MUDs
     content: |
-      Some time around maybe 1998, I started playing in the Reinos de Leyenda MUD, and I fall in love with text-based games. I played with several classes/guilds, and after some time I became a creator (coder) and went up in the hierarchy up to alchemist (lesser admin).
+      Some time around maybe 1998, I started playing in the Reinos de Leyenda MUD, and I fall in love with text-based games. I played with several classes/guilds, and after some time I became a `creator` (coder) and went up in the hierarchy up to `alchemist` (lesser admin).
 
       With some other coders we started working in a hard-core revision of the codebase, updating the driver version, but the MUD would disappear before the new mudlib could open to the public.
 ---
