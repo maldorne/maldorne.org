@@ -24,7 +24,7 @@ timeline:
     version: Hexagon v20.09 Anduin
     title: New versioning names
     content: |
-      I started working with milestones in github, naming every big milestone. The first one, `Anduin`, includes the multilanguage system on compilation time (translates contents of files during compile), separates `user` and `player` objects, and creates the new `login` basic user type to manage connections.
+      I started working with milestones in Github, naming every big milestone. The first one, `Anduin`, includes the multilanguage system on compilation time (translates contents of files during compilation), separates `user` and `player` objects, and creates the new `login` basic user type to manage connections.
 
       * 01/10/2020 `v20.09 Anduin`
 
