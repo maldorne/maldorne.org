@@ -89,9 +89,9 @@ timeline:
   - date: 1998 
     title: Knowing about MUDs
     content: |
-      Some time around maybe 1998, I started playing in the Reinos de Leyenda MUD, and I fall in love with text-based games. I play with several classes/guilds, and after some time I become a creator (coder) and go up in the hierarchy up to alchemist (lesser admin).
+      Some time around maybe 1998, I started playing in the Reinos de Leyenda MUD, and I fall in love with text-based games. I played with several classes/guilds, and after some time I became a creator (coder) and went up in the hierarchy up to alchemist (lesser admin).
 
-      With some other coders we started working in a hard-core revision of the codebase, updating the driver version, but the MUD will disappear before the new mudlib could open to the public.
+      With some other coders we started working in a hard-core revision of the codebase, updating the driver version, but the MUD would disappear before the new mudlib could open to the public.
 ---
 
 In the Maldorne non-profit organization we ([we? who are we?](/me)) host several retro-online [games](/games), develop or collaborate in most of them, and create tools and frameworks to help those who are yet working with these technologies.
