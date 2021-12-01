@@ -96,6 +96,6 @@ timeline:
 
 In the Maldorne non-profit organization we ([we? who are we?](/me)) host several retro-online [games](/games), develop or collaborate in most of them, and create tools and frameworks to help those who are yet working with these technologies.
 
-We created Ciudad Capital, the online fantasy game, and have been working on it since 2003.
+We created **Ciudad Capital**, the online fantasy game, and have been working on it since 2003.
 
-We are also developing the Hexagon mudlib/framework and tools, which helps developers in creating their own games.
+We are also developing the **Hexagon** mudlib/framework and tools, which helps developers in creating their own games.
