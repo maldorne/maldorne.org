@@ -30,7 +30,7 @@ timeline:
 
   - date: 2019
     version: Hexagon v19.05
-    title: We start moving from MudOS to DGD
+    title: We started moving from MudOS to DGD
     content: |
       After years of creating content for **Ciudad Capital** using `MudOS` as our MUD driver, I started coding a conversion to the `DGD` driver.
 
