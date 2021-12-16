@@ -82,7 +82,7 @@ timeline:
     version: ccmudlib v0.1
     title: "Started coding my own game: Ciudad Capital"
     content: |
-      Some time after Reinos de Leyenda closes its doors, I started coding my own game, based in some of the latest features I was working on for the new mudlib, and creating a new world and lore.
+      Some time after Reinos de Leyenda closed its doors, I started coding my own game, based in some of the latest features I was working on for the new mudlib, creating a new world and lore.
 
       * 17/01/2003 **First login** to the new game.
 
