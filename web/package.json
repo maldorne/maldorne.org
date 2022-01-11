@@ -9,13 +9,13 @@
     "server": "npx hexo server"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "6.0.0"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "hexo": "^5.4.0",
+    "hexo": "^6.0.0",
     "hexo-fontawesome": "^2.2.1",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-basic-set": "^0.1.1",
@@ -25,7 +25,7 @@
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^4.1.0",
     "hexo-renderer-stylus": "^2.0.1",
-    "hexo-server": "^2.0.0"
+    "hexo-server": "^3.0.0"
   },
   "devDependencies": {}
 }
