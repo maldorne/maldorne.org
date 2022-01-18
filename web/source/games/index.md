@@ -26,7 +26,7 @@ Original mud developed by the _House of Maldorne_ staff. The first version (v1) 
 
 Original mudlib capable of hosting several games inside the same server. Currently it includes the v2 of *Ciudad Capital*. Developed by the _House of Maldorne_ staff. Open to players and **in active development**. Two servers in parallel, one running in english and the other in spanish.
 
-**Currently in beta version**, things might be broken as the hosted versiones is always the last available. If you want to try a stable game, please try any other from this list.
+**Currently in alpha/beta version**, things might be broken as the hosted version is always the latest available. If you want to try a stable game, please try any other from this list.
 
 |   |   |
 | - | - |
