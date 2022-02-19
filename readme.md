@@ -6,7 +6,7 @@
 
 ![](screenshot-blog.png)
 
-Created with [Hexo](https://hexo.io/), using the [hexo-multilang](https://github.com/neverbot/hexo-multilang/) plugin.
+Created with [Hexo](https://hexo.io/).
 
-Theme used [hexo-theme-chic-multilang](https://github.com/neverbot/hexo-theme-chic-multilang/), based on the [Chic Template](https://github.com/Siricee/hexo-theme-Chic) by [@Siricee](https://github.com/Siricee).
+Theme used [maldorne-theme](https://github.com/neverbot/maldorne-theme), based on the [Chic Template](https://github.com/Siricee/hexo-theme-Chic) by [@Siricee](https://github.com/Siricee).
 
