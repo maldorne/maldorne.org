@@ -1,7 +1,7 @@
 ---
 title: Some ascii/ansi improvements using box drawing characters
 date: 2021-11-05 10:49:02
-author:
+author: neverbot
 tags:
 categories:
 language:

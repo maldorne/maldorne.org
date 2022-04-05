@@ -1,7 +1,7 @@
 ---
 title: Tinkering with the vt100 terminal
 date: 2021-11-05 11:19:11
-author:
+author: neverbot
 tags:
 categories:
 language:

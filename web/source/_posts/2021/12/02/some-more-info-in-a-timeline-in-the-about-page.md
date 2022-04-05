@@ -1,7 +1,7 @@
 ---
 title: Some more info in a timeline in the about page
 date: 2021-12-02 14:35:25
-author:
+author: neverbot
 tags:
 categories:
 language:
