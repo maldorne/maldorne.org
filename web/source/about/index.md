@@ -16,7 +16,7 @@ timeline:
     version: Hexagon v21.09 Beregost
     title: Stable version
     content: |
-      The second big milestone, `Beregost`, includes a revision of every *initiator object*, the skeleton for the multigame system, continuous integration through [Github Actions](https://github.com/houseofmaldorne/hexagon/actions), finishes the conversion of all the remaining basic object types from `ccmudlib`, and includes for the first time a piece of a demo game.
+      The second big milestone, `Beregost`, includes a revision of every *initiator object*, the skeleton for the multigame system, continuous integration through [Github Actions](https://github.com/maldorne/hexagon/actions), finishes the conversion of all the remaining basic object types from `ccmudlib`, and includes for the first time a piece of a demo game.
 
       * 25/09/2021 `v21.09 Beregost`
 
@@ -38,7 +38,7 @@ timeline:
       * 27/04/2019 `v19.04`
       * 14/01/2019 `v19.01`
       * 18/07/2017 `v17.07`
-      * 26/08/2014 [**First commit**](https://github.com/houseofmaldorne/hexagon/commit/4a115fe92941dbee0f8ad5c2a8fcde7b34574aa9) in the `Hexagon` code repository, temporarily using `2.0a` as version number, as this was going to be the mudlib for the second version of **Ciudad Capital**.
+      * 26/08/2014 [**First commit**](https://github.com/maldorne/hexagon/commit/4a115fe92941dbee0f8ad5c2a8fcde7b34574aa9) in the `Hexagon` code repository, temporarily using `2.0a` as version number, as this was going to be the mudlib for the second version of **Ciudad Capital**.
 
   - date: 2012
     version: ccmudlib v0.8
@@ -98,4 +98,4 @@ In the Maldorne non-profit organization we ([we? who are we?](/me)) host several
 
 We created **Ciudad Capital**, the online fantasy game, and have been working on it since 2003.
 
-We are also developing the [**Hexagon** mudlib/framework](https://github.com/houseofmaldorne/hexagon/) and tools, which helps developers in creating their own games.
+We are also developing the [**Hexagon** mudlib/framework](https://github.com/maldorne/hexagon/) and tools, which helps developers in creating their own games.

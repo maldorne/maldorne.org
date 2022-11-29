@@ -9,4 +9,4 @@ categories:
   - [Programación]
 ---
 
-The Hexagon mudlib [has been updated](https://github.com/houseofmaldorne/hexagon/releases/tag/20.09) to the version **v20.09 Anduin**. It still is an _alpha_ version, but we are reaching the point where it would be an usable beta version.
+The Hexagon mudlib [has been updated](https://github.com/maldorne/hexagon/releases/tag/20.09) to the version **v20.09 Anduin**. It still is an _alpha_ version, but we are reaching the point where it would be an usable beta version.

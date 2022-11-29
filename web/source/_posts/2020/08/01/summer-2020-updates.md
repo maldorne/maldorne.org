@@ -16,7 +16,7 @@ Changes and updates to the mudlib in its **v20.09 Anduin** version. This post wi
 
 ### Developer updates
 
-  * Continuous integration with the [github repository](https://github.com/houseofmaldorne/hexagon):
+  * Continuous integration with the [github repository](https://github.com/maldorne/hexagon):
     * Every time code is pushed to the master branch, Hexagon will be deployed again to the hosting server.
     * The driver is recompiled with every deployment.
   * DGD updated to [1.6.13](https://github.com/dworkin/dgd/tree/1.6.13).
