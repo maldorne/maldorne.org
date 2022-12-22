@@ -7,7 +7,7 @@ categories:
 language:
 ---
 
-I've been playing with the vt100 terminal specification (read [some history](https://en.wikipedia.org/wiki/VT100) on the wikipedia, some _very_ [technical specification](https://vt100.net/docs/vt100-ug/chapter3.html)), and although is not very useful yet, some results can be shown:
+I've been playing with the vt100 terminal specification (read [some history](https://en.wikipedia.org/wiki/VT100) on the wikipedia, or some _very_ [technical specification](https://vt100.net/docs/vt100-ug/chapter3.html)), and although is not very useful yet, some results can be shown:
 
 {% asset_img "vt100.png" "New sidebar" %}
 
