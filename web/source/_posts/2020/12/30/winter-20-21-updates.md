@@ -29,7 +29,7 @@ Changes and updates to the mudlib in its **v20.09 Anduin** version. This post wi
   * Coder room translated.
   * Some problems with `find_match` solved.
   * Races and gender translated and reviewed.
-  * `/lib.npc.c` -> `/lib/monster.c`
+  * `/lib/npc.c` -> `/lib/monster.c`
   * Some fixes with `load_chat()` and `load_a_chat()` in npcs.
   * `actions` reviewed, `private_actions` added. `actions` command.
   * Everything related with `read_mess` reviewed and translated.
