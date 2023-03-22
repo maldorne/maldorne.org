@@ -38,7 +38,7 @@ timeline:
       * 27/04/2019 `v1.19.04`
       * 14/01/2019 `v1.19.01`
       * 18/07/2017 `v1.17.07`
-      * 26/08/2014 [**First commit**](https://github.com/maldorne/hexagon/commit/4a115fe92941dbee0f8ad5c2a8fcde7b34574aa9) in the `Hexagon` code repository, this was an experiment to see if it was possible to use the DGD driver, and evolved with the idea of being the second version of **Ciudad Capital**.
+      * 26/08/2014 [**First commit**](https://github.com/maldorne/hexagon/commit/4a115fe92941dbee0f8ad5c2a8fcde7b34574aa9) in the `Hexagon` code repository, this was an experiment to see if it was possible to use the `DGD` driver, and evolved with the idea of being the second version of **Ciudad Capital**.
 
   - date: 2012
     version: ccmudlib v0.8
