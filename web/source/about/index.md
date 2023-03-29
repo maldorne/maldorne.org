@@ -28,7 +28,7 @@ timeline:
 
       * 01/10/2020 `v1.20.09 Anduin`
 
-  - date: 2019
+  - date: 2014
     version: Hexagon v1.19.05
     title: We started moving from MudOS to DGD
     content: |
