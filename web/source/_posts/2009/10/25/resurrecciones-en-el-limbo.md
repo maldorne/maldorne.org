@@ -5,8 +5,8 @@ tags:
   - Limbo
   - resurrecciones
 categories:
-  - [Ambientación]
-  - [Programación]
+  - lore
+  - coding
 url: 48.html
 id: 48
 date: 2009-10-25 11:31:40

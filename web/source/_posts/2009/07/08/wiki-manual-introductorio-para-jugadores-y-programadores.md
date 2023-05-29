@@ -2,7 +2,7 @@ title: 'Wiki: Manual introductorio para jugadores y programadores'
 tags:
   - nuevos usuarios
 categories:
-  - [Wiki]
+  - wiki
 url: 12.html
 id: 12
 date: 2009-07-08 18:10:26

@@ -1,8 +1,8 @@
 ---
 title: 'Modificaciones al sistema de combate: Maestrías'
 categories:
-  - [Novedades]
-  - [Programación]
+  - updates
+  - coding
 url: 323.html
 id: 323
 date: 2012-09-22 21:36:24

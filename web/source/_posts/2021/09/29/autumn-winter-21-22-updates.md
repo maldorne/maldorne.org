@@ -4,7 +4,7 @@ date: 2021-09-29 00:11:14
 author: neverbot
 tags:
 categories:
-  - [Novedades]
+  - updates
 language: en
 ---
 

@@ -1,3 +1,4 @@
+---
 title: Multigremio y multioficio
 tags:
   - ajustar
@@ -6,7 +7,7 @@ tags:
   - gremios
   - oficios
 categories:
-  - [Personajes]
+  - characters
 url: 29.html
 id: 29
 date: 2009-08-06 15:04:28

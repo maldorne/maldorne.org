@@ -5,7 +5,7 @@ date: 2020-06-03 22:02:03
 author: neverbot
 tags:
 categories:
-  - [Programación]
+  - coding
 ---
 
 Just a small update about the new _product identity_ (a.k.a. a new logo) of our own mudlib: [Hexagon](https://github.com/maldorne/hexagon).

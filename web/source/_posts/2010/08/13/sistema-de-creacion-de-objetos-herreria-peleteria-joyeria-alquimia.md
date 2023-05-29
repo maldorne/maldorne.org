@@ -1,3 +1,4 @@
+---
 title: 'Sistema de creación de objetos: herrería, peletería, alquimia...'
 tags:
   - cazadores
@@ -5,7 +6,7 @@ tags:
   - dotes
   - herboristas
 categories:
-  - [Novedades]
+  - updates
 url: 224.html
 id: 224
 date: 2010-08-13 13:14:30

@@ -4,7 +4,7 @@ date: 2021-07-14 12:22:24
 author:
 tags:
 categories:
-  - [Programación]
+  - coding
 language: en
 ---
 

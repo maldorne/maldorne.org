@@ -1,7 +1,7 @@
 ---
 title: ¡Décimo aniversario!
 categories:
-  - [Administración]
+  - admin
 url: 339.html
 id: 339
 date: 2013-01-17 21:07:33

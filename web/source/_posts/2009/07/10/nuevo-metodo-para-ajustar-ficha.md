@@ -4,7 +4,7 @@ tags:
   - ajustar
   - nuevos usuarios
 categories:
-  - [Programación]
+  - coding
 url: 19.html
 id: 19
 date: 2009-07-10 19:23:08

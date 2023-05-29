@@ -1,7 +1,7 @@
 ---
 title: Cuentas de usuario (II)
 categories:
-  - [Novedades]
+  - updates
 url: 258.html
 id: 258
 date: 2011-01-11 12:27:23

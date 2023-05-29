@@ -5,7 +5,7 @@ tags:
   - Insectoides
   - Mongûl
 categories:
-  - [Ambientación]
+  - lore
 url: 169.html
 id: 169
 date: 2010-03-31 19:14:06

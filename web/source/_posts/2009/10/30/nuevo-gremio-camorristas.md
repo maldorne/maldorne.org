@@ -6,8 +6,8 @@ tags:
   - dotes
   - gremios
 categories:
-  - [Ambientación]
-  - [Novedades]
+  - lore
+  - updates
 url: 70.html
 id: 70
 date: 2009-10-30 19:37:43

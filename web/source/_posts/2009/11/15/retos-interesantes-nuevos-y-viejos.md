@@ -4,7 +4,7 @@ tags:
   - Ükko
   - Arachnos
 categories:
-  - [Ambientación]
+  - lore
 url: 77.html
 id: 77
 date: 2009-11-15 13:00:18

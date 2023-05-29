@@ -1,7 +1,7 @@
 ---
 title: Caída de servidor
 categories:
-  - [Administración]
+  - admin
 url: 154.html
 id: 154
 date: 2010-02-22 13:13:46

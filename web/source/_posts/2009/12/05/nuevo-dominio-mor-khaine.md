@@ -10,7 +10,7 @@ tags:
   - Temail
   - Umroth
 categories:
-  - [Ambientación]
+  - lore
 url: 81.html
 id: 81
 date: 2009-12-05 16:45:45

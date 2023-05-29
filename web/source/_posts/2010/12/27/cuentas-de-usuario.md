@@ -1,7 +1,7 @@
 ---
 title: Cuentas de usuario
 categories:
-  - [Novedades]
+  - updates
 url: 244.html
 id: 244
 date: 2010-12-27 19:55:02

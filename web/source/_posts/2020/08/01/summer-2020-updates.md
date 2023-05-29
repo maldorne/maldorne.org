@@ -5,7 +5,7 @@ date: 2020-08-01 01:35:12
 author:
 tags:
 categories:
-  - [Novedades]
+  - updates
 ---
 
 Changes and updates to the mudlib in its **v20.09 Anduin** version. This post will be updated during the summer:

@@ -1,6 +1,7 @@
+---
 title: 'Nueva funcionalidad: Ranking automático de niveles'
 categories:
-  - [Novedades]
+  - updates
 url: 188.html
 id: 188
 date: 2010-06-09 13:13:02

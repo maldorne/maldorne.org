@@ -1,7 +1,7 @@
 ---
 title: Nuevo cliente para jugar desde la web
 categories:
-  - [Administración]
+  - admin
 url: 428.html
 id: 428
 date: 2017-03-24 23:46:52

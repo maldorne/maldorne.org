@@ -1,8 +1,8 @@
 ---
 title: Wiki funcionando
 categories:
-  - [Blog]
-  - [Wiki]
+  - blog
+  - wiki
 url: 5.html
 id: 5
 date: 2009-07-07 13:03:00

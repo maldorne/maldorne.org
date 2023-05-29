@@ -8,7 +8,7 @@ tags:
   - Rael
   - Untol
 categories:
-  - [Novedades]
+  - updates
 url: 184.html
 id: 184
 date: 2010-06-07 18:37:46

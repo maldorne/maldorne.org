@@ -4,7 +4,7 @@ tags:
   - Ciudad Capital
   - Dargaad
 categories:
-  - [Wiki]
+  - wiki
 url: 14.html
 id: 14
 date: 2009-07-09 16:10:06

@@ -3,8 +3,8 @@ title: Desactivado segundo servidor en Ciudad Capital
 tags:
   - servidores
 categories:
-  - [Administración]
-  - [Programación]
+  - admin
+  - coding
 url: 25.html
 id: 25
 date: 2009-08-05 12:11:21

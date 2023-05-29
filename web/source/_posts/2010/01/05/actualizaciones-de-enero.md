@@ -1,11 +1,12 @@
+---
 title: Actualizaciones de Enero
 tags:
   - camorristas
   - dotes
   - Naga Negra
 categories:
-  - [Administración]
-  - [Programación]
+  - admin
+  - coding
 url: 95.html
 id: 95
 date: 2010-01-05 11:35:12

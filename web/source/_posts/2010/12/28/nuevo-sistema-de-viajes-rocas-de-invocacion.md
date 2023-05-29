@@ -1,7 +1,7 @@
 ---
 title: 'Nuevo sistema de viajes: Rocas de invocación'
 categories:
-  - [Novedades]
+  - updates
 url: 249.html
 id: 249
 date: 2010-12-28 15:53:06

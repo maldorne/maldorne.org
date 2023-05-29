@@ -4,8 +4,8 @@ tags:
   - El Martillo
   - Torres de la Iluminación
 categories:
-  - [Ambientación]
-  - [Novedades]
+  - lore
+  - updates
 url: 23.html
 id: 23
 date: 2009-07-13 20:35:54
