@@ -9,6 +9,7 @@ author:
 language: es
 tags:
 ---
+
 A partir de ahora cualquier jugador podrá consultar una tabla (que se actualiza en tiempo real) con los **máximos niveles de cada uno de los grupos a los que pertenezca**: _clase_, _gremio_ y _oficio_. En esta tabla se almacenan tanto jugadores como los personajes no jugadores únicos, pero no todos, sino únicamente aquellos de nivel más alto.
 
 Además, para poder consultar estas tablas, tenéis a vuestra disposición el nuevo comando **_ranking_**, que os mostrará las tablas (únicamente) de aquellos grupos a los que pertenezcáis, sin que exista la posibilidad de ver la información de otros grupos.

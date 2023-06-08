@@ -6,6 +6,7 @@ author:
 tags:
 categories:
   - updates
+  - hexagon
 ---
 
 Changes and updates to the mudlib in its **v20.09 Anduin** version. This post will be updated during the summer:

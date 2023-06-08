@@ -1,7 +1,7 @@
 ---
 title: Actualizaciones del juego en forma de parches del sistema
 categories:
-  - admin
+  - blog
   - updates
   - coding
 url: 299.html

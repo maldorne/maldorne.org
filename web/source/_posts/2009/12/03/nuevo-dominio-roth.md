@@ -5,7 +5,7 @@ tags:
   - Roth
   - Temail
 categories:
-  - lore
+  - ciudad capital
   - updates
 url: 80.html
 id: 80

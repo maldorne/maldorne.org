@@ -5,7 +5,7 @@ tags:
   - dotes
   - Naga Negra
 categories:
-  - admin
+  - blog
   - coding
 url: 95.html
 id: 95
@@ -13,6 +13,7 @@ date: 2010-01-05 11:35:12
 author:
 language: es
 ---
+
 Este post se irá actualizando a lo largo del mes:
 
 **Cambios en el juego**:

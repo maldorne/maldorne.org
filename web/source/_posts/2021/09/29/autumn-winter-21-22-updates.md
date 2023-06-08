@@ -5,6 +5,7 @@ author: neverbot
 tags:
 categories:
   - updates
+  - hexagon
 language: en
 ---
 

@@ -5,7 +5,7 @@ tags:
   - Umroth
   - Zenell
 categories:
-  - lore
+  - ciudad capital
   - updates
 url: 134.html
 id: 134

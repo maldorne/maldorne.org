@@ -4,7 +4,7 @@ tags:
   - El Martillo
   - Torres de la Iluminación
 categories:
-  - lore
+  - ciudad capital
   - updates
 url: 23.html
 id: 23

@@ -6,7 +6,7 @@ tags:
   - dotes
   - gremios
 categories:
-  - lore
+  - ciudad capital
   - updates
 url: 70.html
 id: 70

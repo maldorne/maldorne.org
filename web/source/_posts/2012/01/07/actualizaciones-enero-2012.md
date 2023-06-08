@@ -9,6 +9,7 @@ author:
 language: es
 tags:
 ---
+
 **Cambios de juego:**
 
 *   Arreglados algunos fallos tipográficos de personajes no jugadores de _Mongûl_.    

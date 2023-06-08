@@ -4,7 +4,7 @@ date: 2022-04-08 21:22:01
 author: neverbot
 tags:
 categories:
-	- [Game Design]
+  - game design
 language:
 ---
 

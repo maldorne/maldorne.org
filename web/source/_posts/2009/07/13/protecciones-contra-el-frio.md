@@ -6,7 +6,7 @@ tags:
   - protecciones
   - Sqargeld
 categories:
-  - lore
+  - ciudad capital
   - coding
   - wiki
 url: 21.html

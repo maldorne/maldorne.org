@@ -4,6 +4,7 @@ date: 2021-12-02 14:35:25
 author: neverbot
 tags:
 categories:
+  - blog
 language:
 ---
 

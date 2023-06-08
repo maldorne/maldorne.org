@@ -5,7 +5,7 @@ tags:
   - Limbo
   - resurrecciones
 categories:
-  - lore
+  - ciudad capital
   - coding
 url: 48.html
 id: 48

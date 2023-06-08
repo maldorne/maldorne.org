@@ -1,7 +1,7 @@
 ---
 title: 'Nuevo hosting: Ahora alojados en Amazon Web Services'
 categories:
-  - admin
+  - blog
 url: 350.html
 id: 350
 date: 2013-07-26 23:13:19

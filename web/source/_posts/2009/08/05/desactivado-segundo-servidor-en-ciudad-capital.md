@@ -3,7 +3,7 @@ title: Desactivado segundo servidor en Ciudad Capital
 tags:
   - servidores
 categories:
-  - admin
+  - blog
   - coding
 url: 25.html
 id: 25

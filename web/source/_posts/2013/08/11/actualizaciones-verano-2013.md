@@ -24,7 +24,7 @@ language: es
 *   Múltiples arreglos menores de mapeado y personajes no jugadores, sobre todo en la zona de las _Cavernas de Umroth_.
 *   Cambios en el comando **_term_** para escoger el tipo de terminal utilizada en la conexión.
 *   Revisada la Torre del Temple en el Alcázar Hierro Negro, retocados sus personajes no jugadores.
-*   Nuevo **consentir** para permitir (o no) las invitaciones a **grupos**.
+*   Nuevo **consentir** para permitir (o no) las invitaciones a **grupos**.
 *   Ya en juego las **maestrías para las armas de rango** (arcos, cuchillos, hondas, etc). Se obtienen y suben automáticamente al usar estas armas.
 *   Ampliada la dote **examinar**: ahora muestra información sobre armas, armas de rango, proyectiles, escudos y armaduras.
 *   Revisado gran parte del **bajomundo**, especialmente el **Cementerio de Selozar** y **Zenell**. Algún objeto nuevo se puede conseguir, y se han solucionado algunos fallos en las tumbas y criptas del cementerio.

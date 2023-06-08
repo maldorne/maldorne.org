@@ -6,6 +6,7 @@ author:
 tags:
 categories:
   - updates
+  - hexagon  
 ---
 
 Changes and updates to the mudlib in its **v20.09 Anduin** version. This post will be updated during the winter:
@@ -38,4 +39,3 @@ Changes and updates to the mudlib in its **v20.09 Anduin** version. This post wi
   * `contents`, `event_enter/exit` and `hud` working.
   * `write/say` and `tell_object/tell_room` reviewed.
   * Npc combat and death reviewed and working.
-

@@ -8,7 +8,7 @@ tags:
   - Sqargeld
   - tiendas
 categories:
-  - lore
+  - ciudad capital
   - updates
   - coding
 url: 44.html

@@ -15,7 +15,7 @@ language: es
 Cambios menores, para **resolver algún posible problema** cuando se intentaba hacer finger a un jugador que estuviera creando la ficha en ese mismo instante. De paso le he añadido **reconocimiento del género**, algo que está en prácticamente todos los comandos pero en este se me había pasado:
 
 ```
-Nombre: Delie                      Nombre real: ???
+Nombre: Delie                      Nombre real: ???
 Es una tresia.
 Es una programadora en Ciudad Capital.
 Directorio raíz: /w/delie

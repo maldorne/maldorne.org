@@ -9,6 +9,7 @@ author:
 language: es
 tags:
 ---
+
 Este post se irá actualizando a lo largo del mes.
 
 **Cambios de juego:**

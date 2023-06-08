@@ -5,7 +5,7 @@ author: neverbot
 language: en
 tags:
 categories:
- - Web
+  - web
 ---
 
 As you can see, we are building the new **House of Maldorne** web page. The previous one we were using was just a placeholder without much content, and we were already missing having a real web presence.

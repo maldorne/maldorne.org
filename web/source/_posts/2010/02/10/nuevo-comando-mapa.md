@@ -11,6 +11,7 @@ date: 2010-02-10 18:43:22
 author:
 language: es
 ---
+
 En cualquier lugar en el que te encuentres, construye un mapa de la zona y te lo muestra, como en el siguiente ejemplo (de la ciudad de _Sqargeld_):
 
 ```

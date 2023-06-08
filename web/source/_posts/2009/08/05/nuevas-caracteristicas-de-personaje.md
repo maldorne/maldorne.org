@@ -4,7 +4,7 @@ tags:
   - ajustar
   - ficha
 categories:
-  - admin
+  - blog
   - coding
 url: 27.html
 id: 27

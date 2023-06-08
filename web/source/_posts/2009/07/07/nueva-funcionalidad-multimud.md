@@ -6,7 +6,7 @@ tags:
   - login
   - multimud
 categories:
-  - admin
+  - blog
 url: 10.html
 id: 10
 date: 2009-07-07 18:43:50

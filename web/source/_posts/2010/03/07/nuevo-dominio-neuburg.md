@@ -8,7 +8,7 @@ tags:
   - Neuburg
   - Umroth
 categories:
-  - lore
+  - ciudad capital
   - updates
 url: 162.html
 id: 162

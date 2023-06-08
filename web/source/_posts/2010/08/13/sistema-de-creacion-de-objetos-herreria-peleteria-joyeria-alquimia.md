@@ -13,6 +13,7 @@ date: 2010-08-13 13:14:30
 author:
 language: es
 ---
+
 Ya está funcionando el nuevo sistema de creación de objetos, que será útil para unos cuantos oficios. **¿Cómo funciona?:**
 
 Cada jugador tiene ahora una serie de conocimientos (utilizad el comando "**_conocimientos_**") sobre objetos que sabe fabricar, el tipo de habilidad que necesita para crearlos, los ingredientes o componentes que necesita utilizar, si necesita un lugar especial para crearlos (como una _forja_ o un _laboratorio_) o puede hacerlo en cualquier sitio, etc. Además, cada oficio tiene sus propias misiones para aprender la dote necesaria para utilizar una parte de esos conocimientos:

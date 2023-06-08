@@ -5,6 +5,7 @@ author:
 tags:
 categories:
   - updates
+  - hexagon
 language: en
 ---
 

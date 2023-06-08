@@ -1,7 +1,7 @@
 ---
 title: Revisados los No Muertos
 categories:
-  - lore
+  - ciudad capital
   - updates
 url: 318.html
 id: 318
