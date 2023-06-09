@@ -10,4 +10,4 @@ language: es
 tags:
 ---
 
-~Si en el menú de arriba hacéis click sobre "**Jugar**", o directamente vais a la dirección [play.ciudadcapital.net](http://play.ciudadcapital.net), os aparecerá un cliente que se conectará automáticamente a Ciudad Capital desde cualquier parte, sin tener que utilizar ninguna aplicación específica ni un cliente telnet básico.~
+~~Si en el menú de arriba hacéis click sobre "**Jugar**", o directamente vais a la dirección [play.ciudadcapital.net](http://play.ciudadcapital.net), os aparecerá un cliente que se conectará automáticamente a Ciudad Capital desde cualquier parte, sin tener que utilizar ninguna aplicación específica ni un cliente telnet básico.~~

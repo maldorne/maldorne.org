@@ -12,4 +12,4 @@ author:
 language: es
 ---
 
-~En la página de la wiki [Guía del Mundo](http://wiki.ciudadcapital.net/index.php?title=Gu%C3%ADa_del_mundo) hemos empezado a añadir contenidos (aunque, lógicamente, muchos de los enlaces de la wiki estarán aún vacíos; se irán completando poco a poco). **Dos muestras**: las páginas sobre el [Reino de Ciudad Capital](http://wiki.ciudadcapital.net/index.php?title=Ciudad_Capital_(reino)) y el [Reino de Dargaad](http://wiki.ciudadcapital.net/index.php?title=Dargaad).
+~~En la página de la wiki [Guía del Mundo](http://wiki.ciudadcapital.net/index.php?title=Gu%C3%ADa_del_mundo) hemos empezado a añadir contenidos (aunque, lógicamente, muchos de los enlaces de la wiki estarán aún vacíos; se irán completando poco a poco). **Dos muestras**: las páginas sobre el [Reino de Ciudad Capital](http://wiki.ciudadcapital.net/index.php?title=Ciudad_Capital_(reino)) y el [Reino de Dargaad](http://wiki.ciudadcapital.net/index.php?title=Dargaad).~~

@@ -10,4 +10,4 @@ language: es
 tags:
 ---
 
-~El [blog](http://www.ciudadcapital.net/) vuelve a estar conectado con la [cuenta de Twitter](http://twitter.com/ccmud).
+~~El [blog](http://www.ciudadcapital.net/) vuelve a estar conectado con la [cuenta de Twitter](http://twitter.com/ccmud).~~
