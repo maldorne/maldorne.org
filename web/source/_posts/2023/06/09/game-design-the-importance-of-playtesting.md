@@ -1,7 +1,7 @@
 ---
 title: 'Game Design: The Importance of Playtesting'
 date: 2023-06-09 12:25:28
-author:
+author: neverbot
 tags:
 categories:
   - game design
