@@ -7,7 +7,7 @@ tags:
   - inventario
   - oficios
 categories:
-  - [Novedades]
+  - updates
 url: 151.html
 id: 151
 date: 2010-02-19 13:43:00

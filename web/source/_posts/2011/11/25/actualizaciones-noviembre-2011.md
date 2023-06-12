@@ -1,8 +1,8 @@
 ---
 title: Actualizaciones Noviembre 2011
 categories:
-  - [Novedades]
-  - [Programación]
+  - updates
+  - coding
 url: 268.html
 id: 268
 date: 2011-11-25 12:11:05

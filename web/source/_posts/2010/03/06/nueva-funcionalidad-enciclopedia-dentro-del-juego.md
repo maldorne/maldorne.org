@@ -1,15 +1,17 @@
+---
 title: 'Nueva funcionalidad: Enciclopedia dentro del juego'
 tags:
   - enciclopedia
   - exploración
 categories:
-  - [Novedades]
+  - updates
 url: 156.html
 id: 156
 date: 2010-03-06 17:51:48
 author:
 language: es
 ---
+
 Aprovechando la vuelta de la conectividad, hemos añadido una nueva funcionalidad bastante interesante, una **enciclopedia dentro del propio mundo de juego**. Ahora el diario que todos los jugadores llevan encima tiene nuevas opciones:
 
 ```

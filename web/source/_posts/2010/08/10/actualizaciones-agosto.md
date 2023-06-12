@@ -1,6 +1,7 @@
+---
 title: Actualizaciones Agosto
 categories:
-  - [Novedades]
+  - updates
 url: 218.html
 id: 218
 date: 2010-08-10 18:54:36
@@ -8,6 +9,7 @@ author:
 language: es
 tags:
 ---
+
 Este post se irá actualizando a lo largo del mes.
 
 **Cambios de juego:**

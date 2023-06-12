@@ -10,8 +10,8 @@ tags:
   - Umroth
   - Zenell
 categories:
-  - [Novedades]
-  - [Programación]
+  - updates
+  - coding
 url: 122.html
 id: 122
 date: 2010-02-02 12:38:30

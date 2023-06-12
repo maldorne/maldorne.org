@@ -1,7 +1,7 @@
 ---
 title: Actualizaciones Diciembre
 categories:
-  - [Novedades]
+  - updates
 url: 238.html
 id: 238
 date: 2010-12-26 18:25:43
@@ -12,7 +12,7 @@ tags:
 
 **Cambios de juego:**
 
-*   Algunos cambios en la nomenclatura de determinadas localizaciones, como las ciudades de **Nodd** y **Del-Khâine**, y el **Valle de las nieblas**.
+*   Algunos cambios en la nomenclatura de determinadas localizaciones, como las ciudades de **Nodd** y **Del-Khâine**, y el **Valle de las nieblas**.
 *   En el proceso de creación de nuevos jugadores, si sólo existe una raza jugable (como es el caso actual, con _humanos_), este paso ahora se salta y se procede directamente a escoger la subraza o cultura relacionada (teniendo ahora disponibles _aenures_, _tresios_ y _velan_).
 *   Ahora todos los jugadores se agrupan en **cuentas de usuario**. Cada usuario tiene una cuenta, con sus mismos datos (nombre de usuario y contraseña, _email_, etc.) en la que se pueden crear múltiples personajes jugadores. Se recomienda crear los distintos personajes dentro de una misma cuenta, ya que así contarán con diversas ventajas que no se darán cuando jugadores de distintas cuentas tengan que interactuar.
 *   Ahora los **datos personales** (_nombre real_, _ciudad_, _dirección de email_) se comparten entre todos los personajes de una misma cuenta, por lo que cambiarlos desde cualquiera implica cambiarlos para todos. Esto ahora se hace mediante el comando **datos**.

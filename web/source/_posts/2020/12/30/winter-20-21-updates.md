@@ -5,7 +5,8 @@ date: 2020-12-30 11:28:34
 author:
 tags:
 categories:
-  - [Novedades]
+  - updates
+  - hexagon  
 ---
 
 Changes and updates to the mudlib in its **v20.09 Anduin** version. This post will be updated during the winter:
@@ -29,7 +30,7 @@ Changes and updates to the mudlib in its **v20.09 Anduin** version. This post wi
   * Coder room translated.
   * Some problems with `find_match` solved.
   * Races and gender translated and reviewed.
-  * `/lib.npc.c` -> `/lib/monster.c`
+  * `/lib/npc.c` -> `/lib/monster.c`
   * Some fixes with `load_chat()` and `load_a_chat()` in npcs.
   * `actions` reviewed, `private_actions` added. `actions` command.
   * Everything related with `read_mess` reviewed and translated.
@@ -38,4 +39,3 @@ Changes and updates to the mudlib in its **v20.09 Anduin** version. This post wi
   * `contents`, `event_enter/exit` and `hud` working.
   * `write/say` and `tell_object/tell_room` reviewed.
   * Npc combat and death reviewed and working.
-

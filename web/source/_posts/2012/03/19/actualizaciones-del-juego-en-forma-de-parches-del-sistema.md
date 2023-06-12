@@ -1,9 +1,9 @@
 ---
 title: Actualizaciones del juego en forma de parches del sistema
 categories:
-  - [Administración]
-  - [Novedades]
-  - [Programación]
+  - blog
+  - updates
+  - coding
 url: 299.html
 id: 299
 date: 2012-03-19 18:17:40

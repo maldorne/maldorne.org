@@ -1,7 +1,7 @@
 ---
 title: Actualizaciones en la web
 categories:
-  - Web
+   - web
 url: 440.html
 id: 440
 date: 2017-07-04 15:21:24

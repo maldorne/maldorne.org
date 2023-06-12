@@ -3,7 +3,7 @@ title: Cambios servidor
 tags:
   - servidores
 categories:
-  - [Novedades]
+  - updates
 url: 92.html
 id: 92
 date: 2009-12-13 18:36:12

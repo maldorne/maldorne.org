@@ -3,7 +3,7 @@ title: Nuevo apuntador por dificultad
 tags:
   - alineamiento
 categories:
-  - [Novedades]
+  - updates
 url: 124.html
 id: 124
 date: 2010-02-02 16:38:31

@@ -4,7 +4,8 @@ date: 2021-07-14 19:56:03
 author:
 tags:
 categories:
-  - [Novedades]
+  - updates
+  - hexagon
 language: en
 ---
 

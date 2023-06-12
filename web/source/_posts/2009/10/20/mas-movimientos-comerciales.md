@@ -8,9 +8,9 @@ tags:
   - Sqargeld
   - tiendas
 categories:
-  - [Ambientación]
-  - [Novedades]
-  - [Programación]
+  - ciudad capital
+  - updates
+  - coding
 url: 44.html
 id: 44
 date: 2009-10-20 12:35:46

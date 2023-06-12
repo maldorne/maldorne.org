@@ -13,7 +13,7 @@ author: neverbot
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://en.maldorne.org
+url: https://maldorne.org
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -41,7 +41,6 @@ external_link:
   exclude: ''
 filename_case: 1
 render_drafts: false
-post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -51,6 +50,11 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+
+post_asset_folder: true
+# marked:
+#   prependRoot: true
+#   postAsset: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -63,16 +67,7 @@ highlight:
 
 # Category & Tag
 default_category: uncategorized
-category_map:
-  Web: web
-  Administración: admin
-  Novedades: news
-  Programación: dev
-  Blog: blog
-  Wiki: wiki
-  Ambientación: lore
-  Personajes: npcs
-  
+category_map:  
 tag_map:
 
 # Metadata elements
@@ -108,3 +103,18 @@ theme: maldorne
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+# hexo-generator-feed config
+feed:
+  enable: true
+  type: ['atom', 'rss2']
+  path: atom.xml/rss2.xml
+  limit: 20
+  hub:
+  content: true
+  # content_limit: 140
+  # content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:

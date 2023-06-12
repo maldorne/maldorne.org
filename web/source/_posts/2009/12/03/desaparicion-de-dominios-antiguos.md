@@ -1,8 +1,8 @@
 ---
 title: Desaparición de dominios antiguos
 categories:
-  - [Administración]
-  - [Ambientación]
+  - blog
+  - ciudad capital
 url: 79.html
 id: 79
 date: 2009-12-03 18:10:00

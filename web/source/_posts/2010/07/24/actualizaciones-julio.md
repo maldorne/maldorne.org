@@ -1,3 +1,4 @@
+---
 title: Actualizaciones Julio
 tags:
   - aenures
@@ -6,14 +7,15 @@ tags:
   - gremios
   - misiones
 categories:
-  - [Novedades]
-  - [Programación]
+  - updates
+  - coding
 url: 197.html
 id: 197
 date: 2010-07-24 19:07:13
 author:
 language: es
 ---
+
 Este post se irá actualizando a lo largo del mes (de lo poco que queda, claro). **Cambios de juego:**
 
 *   Los nuevos jugadores _aenures_ ahora comenzarán a jugar dentro de _Ciudad Capital_, en lugar de hacerlo en _Neuburg_, como venía haciéndose hasta ahora. La zona de _Ciudad Capital_ está mejor preparada para jugadores de nivel bajo, mientras que en _Neuburg_ avanzar los primeros niveles podía hacerse muy cuesta arriba.

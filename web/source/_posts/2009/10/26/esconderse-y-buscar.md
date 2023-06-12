@@ -5,7 +5,7 @@ tags:
   - dotes
   - ficha
 categories:
-  - [Programación]
+  - coding
 url: 50.html
 id: 50
 date: 2009-10-26 19:51:38

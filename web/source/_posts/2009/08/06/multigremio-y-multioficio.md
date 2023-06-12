@@ -1,3 +1,4 @@
+---
 title: Multigremio y multioficio
 tags:
   - ajustar
@@ -6,13 +7,14 @@ tags:
   - gremios
   - oficios
 categories:
-  - [Personajes]
+  - characters
 url: 29.html
 id: 29
 date: 2009-08-06 15:04:28
 author:
 language: es
 ---
+
 En Ciudad Capital, los únicos conceptos fijos durante toda la vida del personaje son los de la raza y clase:
 
 *   La **raza** parece obvio que es un valor estable durante toda la vida del personaje. Aunque hay algunos conceptos a los que estamos dando vueltas para poder introducir algunas modificaciones, todavía están muy verdes, por lo que asumiremos que permanecerá siempre inalterable.

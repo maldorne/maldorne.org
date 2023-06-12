@@ -1,7 +1,7 @@
 ---
 title: Actualizaciones Diciembre 2011
 categories:
-  - [Novedades]
+  - updates
 url: 272.html
 id: 272
 date: 2011-12-27 19:38:08

@@ -1,6 +1,7 @@
+---
 title: Actualizaciones Enero 2012
 categories:
-  - [Novedades]
+  - updates
 url: 283.html
 id: 283
 date: 2012-01-07 18:14:49
@@ -8,7 +9,8 @@ author:
 language: es
 tags:
 ---
-**Cambios de juego:  **
+
+**Cambios de juego:**
 
 *   Arreglados algunos fallos tipográficos de personajes no jugadores de _Mongûl_.    
 *   Aumentada la probabilidad de encontrar pnjs en el _Bosque de Umroth_.

@@ -1,7 +1,8 @@
+---
 title: Actualizaciones en Marzo
 categories:
-  - [Novedades]
-  - [Programación]
+  - updates
+  - coding
 url: 163.html
 id: 163
 date: 2010-03-07 18:11:09
@@ -9,6 +10,7 @@ author:
 language: es
 tags:
 ---
+
 Este post se irá actualizando a lo largo del mes. **Cambios de juego:**
 
 *   Abierto el nuevo **dominio de Neuburg**, que incluye los caminos adyacentes, la ciudad, el bosque de Meldar y el encinar moribundo de Ükko, el puesto comercial de Lomar y los caminos hasta Mongûl Gathol.

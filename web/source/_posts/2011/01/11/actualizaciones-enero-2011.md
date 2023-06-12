@@ -1,8 +1,8 @@
 ---
 title: Actualizaciones Enero 2011
 categories:
-  - [Novedades]
-  - [Programación]
+  - updates
+  - coding
 url: 260.html
 id: 260
 date: 2011-01-11 12:32:57

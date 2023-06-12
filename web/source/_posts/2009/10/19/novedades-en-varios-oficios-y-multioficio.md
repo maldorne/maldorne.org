@@ -7,8 +7,8 @@ tags:
   - druidas
   - oficios
 categories:
-  - [Novedades]
-  - [Programación]
+  - updates
+  - coding
 url: 41.html
 id: 41
 date: 2009-10-19 23:27:00
