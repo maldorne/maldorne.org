@@ -12,11 +12,11 @@
     "version": "6.3.0"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^6.4.0",
-    "@fortawesome/free-regular-svg-icons": "^6.4.0",
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "hexo": "^6.3.0",
-    "hexo-asset-link": "^2.2.1",
+    "hexo-asset-link": "^2.2.2",
     "hexo-fontawesome": "^2.3.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-basic-set": "^0.1.1",
