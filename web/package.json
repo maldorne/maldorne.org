@@ -28,5 +28,16 @@
     "hexo-renderer-markdown": "^1.6.0",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-n": "^16.2.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.0.3"
   }
 }
