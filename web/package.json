@@ -9,15 +9,15 @@
     "server": "npx hexo server"
   },
   "hexo": {
-    "version": "6.3.0"
+    "version": "7.0.0"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^6.4.2",
-    "@fortawesome/free-regular-svg-icons": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "hexo": "^6.3.0",
-    "hexo-asset-link": "^2.2.2",
-    "hexo-fontawesome": "^2.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "hexo": "^7.0.0",
+    "hexo-asset-link": "^2.2.3",
+    "hexo-fontawesome": "^2.4.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-basic-set": "^0.1.1",
     "hexo-generator-category": "^2.0.0",
@@ -30,13 +30,13 @@
     "hexo-server": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.53.0",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-json-format": "^2.0.1",
-    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-prettier": "^5.1.2",
     "eslint-plugin-promise": "^6.1.1",
-    "prettier": "^3.0.3"
+    "prettier": "^3.1.1"
   }
 }
