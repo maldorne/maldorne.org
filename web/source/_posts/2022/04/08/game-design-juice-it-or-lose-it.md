@@ -6,8 +6,9 @@ tags:
 categories:
   - game design
 language:
-video: Fy0aCDmgnxg
 ---
+
+{% youtube "Fy0aCDmgnxg" %}
 
 [Juice it or lose it - a talk by Martin Jonasson & Petri Purho](https://www.youtube.com/watch?v=Fy0aCDmgnxg).{.center}
 

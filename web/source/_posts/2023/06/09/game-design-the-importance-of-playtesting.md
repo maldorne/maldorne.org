@@ -6,8 +6,9 @@ tags:
 categories:
   - game design
 language:
-video: 9Yomqk0C6kE
 ---
+
+{% youtube "9Yomqk0C6kE" %}
 
 [Valve's "Secret Weapon"](https://www.youtube.com/watch?v=9Yomqk0C6kE), by [Game Maker's Toolkit](https://www.youtube.com/@GMTK).{.center}
 
