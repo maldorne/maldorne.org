@@ -25,8 +25,6 @@ The second big milestone, `Beregost`, includes a revision of every *initiator ob
 * 25/09/2021 `v1.21.09 Beregost`
 {% endyear %}
 
-{% endtimeline %}
-
 {% year "2020" "New versioning names" "Hexagon v1.20.09 Anduin" %}
 I started working with milestones in Github, naming every big milestone. The first one, `Anduin`, includes the multilanguage system on compilation time (translates contents of files during compilation), separates `user` and `player` objects, and creates the new `login` basic user type to manage connections.
 
@@ -86,3 +84,5 @@ Some time around maybe 1998, I started playing in the _Reinos de Leyenda_ MUD, a
 
 With some other coders we started working in a hard-core revision of the codebase, updating the driver version, but the MUD would disappear before the new mudlib could open to the public.
 {% endyear %}
+
+{% endtimeline %}
