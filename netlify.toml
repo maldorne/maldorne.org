@@ -1,3 +1,10 @@
+# general build configuration
+[build]
+  base = "web/"
+  publish = "web/public"
+  command = "npm run build"
+
+# redirects from old multilang blog
 [[redirects]]
   from = "https://es.maldorne.org/*"
   to = "https://maldorne.org/:splat"
