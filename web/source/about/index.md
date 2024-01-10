@@ -11,6 +11,8 @@ We created **Ciudad Capital**, the online fantasy game, and have been working on
 
 We are also developing the [**Hexagon** mudlib/framework](https://github.com/maldorne/hexagon/) and tools, which helps developers in creating their own games.
 
+## Timeline
+
 {% timeline %}
 
 {% year "2023" "Next milestone" "Hexagon v1.23.03 Castle Black" %}
