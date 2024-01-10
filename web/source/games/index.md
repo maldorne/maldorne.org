@@ -90,7 +90,7 @@ Fork from _Reinos de Leyenda_, recovered backup from October 2003\. Open to play
 ## Endor Mud
 
 New game based in the **Tolkien's legendarium**, hosted by the _House of Maldorne_ association.  
-~Open to players~. *Currently offline due to an error with LDMud logs. Fix pending.*
+~~Open to players~~. *Currently offline due to an error with LDMud logs. Fix pending.*
 
 |   |   |
 | - | - |
