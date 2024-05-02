@@ -28,7 +28,13 @@ Changes and updates to the mudlib in its **v21.09 Beregost** version. This post 
     * `player/look`
     * `player/prompt`
   * {% post_link some-ascii-ansi-improvements-using-box-drawing-characters %}.
+  * Unarmed combat messages heavily improved.
+  * Notifications system for players: use `notifications` command.
+  * `alias` and `nicknames` reviewed.
 
 ### Developer updates
 
   * {% post_link tinkering-with-the-vt100-terminal %}.
+  * Solved bug with `find_match` (see [#10](https://github.com/maldorne/hexagon/issues/10)).
+  * Major `auto_load` revision: savefiles, vaults, update, ious.
+  * Old `login` cmds are now `user` cmds.
