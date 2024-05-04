@@ -12,7 +12,7 @@ Using the new packages functionality, I've added a new package to the Hexagon mu
 
 ![issue-tracker](./issue-tracker/issue-tracker.png)
 
-The packages adds its own command `issues`, where you can list, close, remove or open issues.
+The package adds its own command `issues`, where you can list, close, remove or open issues.
 
 We can create new issues automatically, i.e. when a shop cannot load an item:
 
