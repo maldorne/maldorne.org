@@ -45,6 +45,6 @@ At last, the `demo-fantasy` game included with the Hexagon mudlib is fully funct
           B10-B8-B9
 ```
 
-It is based in a very old newbie area made for the **Reinos de Leyenda** mud, circa maybe 1997. The code is new (as we use a different driver, from MudOS to DGD), but the map and the names have been kept, as an homage.
+It is based in a very old newbie area made for the **Reinos de Leyenda** mud, circa maybe 1997. The code is new (as we use a different driver, from MudOS to DGD, and a new mudlib, from `frmudlib` to `hexagon`, and now it's multilanguage, both in english and spanish), but the map and the names have been kept, as an homage.
 
 You can take a look to the game, it is included with the mudlib as an example of how to create your own game. Take a look at it in `/mudlib/games/demo-fantasy` in the [Hexagon repository](https://github.com/maldorne/hexagon).
