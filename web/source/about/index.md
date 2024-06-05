@@ -15,13 +15,17 @@ We are also developing the [**Hexagon** mudlib/framework](https://github.com/mal
 
 {% timeline %}
 
-{% year "2023" "Next milestone" "Hexagon v1.23.03 Castle Black" %}
-The third milestone, still a work in progress, includes a revision of every command, advances the translation process trying to have every main system in english again, and has finished the first complete demo game: `demo-fantasy`.
-
-It will mean the move from **alpha** version to a **beta** version, stable and usable enough for other users to create their own games or porting old games from other drivers to `DGD` using `Hexagon`.
+{% year "24/25" "Next milestone" "Hexagon v2.1 Daggerfall" %}
+The following milestone will include a full revision of communication and movement commands, skills, and the first version of **locations**, an alternative to rooms where data and behavior are separated, making every location fully modifiable and customizable by code, in execution time.
 {% endyear %}
 
-{% year "2021" "Stable version" "Hexagon v1.21.09 Beregost" %}
+{% year "2024" "Stable version" "Hexagon v2.0 Castle Black" %}
+The third milestone includes a revision of every command, advances the translation process trying to have every main system in english again, and has finished the first complete demo game: `demo-fantasy`.
+
+It means the move from **alpha** version to a **beta** version, stable and usable enough for other users to create their own games or porting old games from other drivers to `DGD` using `Hexagon`.
+{% endyear %}
+
+{% year "2021" "Migrating from older platforms" "Hexagon v1.21.09 Beregost" %}
 The second big milestone, `Beregost`, includes a revision of every *initiator object*, the skeleton for the multigame system, continuous integration through [Github Actions](https://github.com/maldorne/hexagon/actions), finishes the conversion of all the remaining basic object types from `ccmudlib`, and includes for the first time a piece of a demo game.
 
 * 25/09/2021 `v1.21.09 Beregost`
