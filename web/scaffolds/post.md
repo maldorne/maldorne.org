@@ -4,5 +4,4 @@ date: {{ date }}
 author:
 tags:
 categories:
-language: {{ language }}
 ---
