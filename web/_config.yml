@@ -122,3 +122,11 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+# giscus comments
+giscus:
+  repo: maldorne/maldorne.org
+  repoid: MDEwOlJlcG9zaXRvcnkyMzI4NTc5OTk=
+  category: Posts
+  categoryid: DIC_kwDODeEhj84Cg554
+  mapping: title
