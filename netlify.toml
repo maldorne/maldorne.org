@@ -1,6 +1,6 @@
 # general build configuration
 [build]
-  base = "web/"
+  base = "/"
   publish = "public"
   command = "build.sh"
 
