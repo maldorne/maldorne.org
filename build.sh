@@ -6,4 +6,5 @@ cd web/source/docs/dgd
 
 # build the hexo blog
 cd ../../..
+npm ci
 npm run build
