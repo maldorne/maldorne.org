@@ -1,3 +1,7 @@
 [submodule "web/themes/maldorne"]
 	path = web/themes/maldorne
 	url = https://github.com/neverbot/maldorne-theme
+[submodule "web/source/docs/dgd"]
+	path = web/source/docs/dgd
+	url = git@github.com:maldorne/dgd-docs.git
+	branch = master
