@@ -1,7 +1,7 @@
 # general build configuration
 [build]
   base = "/"
-  publish = "public"
+  publish = "web/public"
   command = "./build.sh"
 
 # redirects from old multilang blog
