@@ -2,7 +2,7 @@
 title: About
 date: 2021-11-30 20:33:46
 language: en
-authot: neverbot
+author: neverbot
 ---
 
 In the Maldorne non-profit organization we ([we? who are we?](/me)) host several retro-online [games](/games), develop or collaborate in most of them, and create tools and frameworks to help those who are yet working with these technologies.
