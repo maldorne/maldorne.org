@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # get current date
 # DATE=$(date +%Y-%m-%d)
