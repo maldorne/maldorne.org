@@ -3,5 +3,5 @@
 	url = https://github.com/neverbot/maldorne-theme
 [submodule "web/source/docs/dgd"]
 	path = web/source/docs/dgd
-	url = git@github.com:maldorne/dgd-docs.git
+	url = https://github.com/maldorne/dgd-docs
 	branch = master
