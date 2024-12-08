@@ -12,9 +12,9 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^6.6.0",
-    "@fortawesome/free-regular-svg-icons": "^6.6.0",
-    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.7.1",
+    "@fortawesome/free-regular-svg-icons": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "hexo": "^7.3.0",
     "hexo-asset-link": "^2.2.3",
     "hexo-fontawesome": "^2.4.0",
@@ -33,10 +33,9 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-json-format": "^2.0.1",
     "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-promise": "^6.2.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.4.2"
   }
 }
