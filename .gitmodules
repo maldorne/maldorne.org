@@ -5,6 +5,6 @@
 	path = web/source/docs/dgd
 	url = git@github.com:maldorne/dgd-docs.git
 	branch = master
-[submodule "web/source/lore/rl"]
+[submodule "web/source/docs/rl"]
 	path = web/source/docs/rl
 	url = git@github.com:maldorne/rl-aeternum-docs.git
