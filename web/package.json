@@ -2,10 +2,14 @@
   "name": "maldorne.org",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "npx hexo generate",
     "clean": "npx hexo clean",
     "deploy": "npx hexo deploy",
+    "lint": "npx eslint . --ext js,json,md",
+    "lint:fix": "npx eslint . --ext js,json,md --fix",
+    "lint:quiet": "npx eslint . --ext js,json,md --quiet",
     "server": "npx hexo server"
   },
   "hexo": {
@@ -31,12 +35,16 @@
     "hexo-server": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-config-standard": "^17.1.0",
+    "@babel/eslint-parser": "^7.26.8",
+    "@eslint/js": "^9.22.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-json-format": "^2.0.1",
-    "eslint-plugin-prettier": "^5.2.2",
-    "prettier": "^3.4.2"
+    "eslint-plugin-jsonc": "^2.19.1",
+    "eslint-plugin-markdownlint": "^0.6.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^16.0.0",
+    "jsonc-eslint-parser": "^2.4.0",
+    "prettier": "^3.5.3"
   }
 }
