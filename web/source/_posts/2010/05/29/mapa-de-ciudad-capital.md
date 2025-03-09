@@ -3,7 +3,7 @@ title: Mapa de Ciudad Capital
 tags:
   - mapa
 categories:
-  - ciudad capital
+  - capital city
 url: 182.html
 id: 182
 date: 2010-05-29 20:09:10
@@ -11,7 +11,7 @@ author:
 language: es
 ---
 
-[{% asset_img "mapa-medio.jpg" "mapa medio" %}](/2010/05/29/mapa-de-ciudad-capital/mapa-actual.jpg)
+[![Mapa de Ciudad Capital](./mapa-de-ciudad-capital/mapa-medio.jpg)](./mapa-de-ciudad-capital/mapa-actual.jpg)
 
 [_Haz click para verlo a mayor tamaño_](/2010/05/29/mapa-de-ciudad-capital/mapa-actual.jpg)
 

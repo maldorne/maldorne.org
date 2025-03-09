@@ -2,6 +2,7 @@
 title: Revisado el oficio de cazadores
 categories:
   - updates
+  - capital city
 url: 279.html
 id: 279
 date: 2011-12-29 19:59:04

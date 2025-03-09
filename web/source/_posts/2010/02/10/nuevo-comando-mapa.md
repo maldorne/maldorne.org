@@ -5,6 +5,7 @@ tags:
   - mapa
 categories:
   - updates
+  - capital city
 url: 140.html
 id: 140
 date: 2010-02-10 18:43:22

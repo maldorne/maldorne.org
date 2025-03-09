@@ -2,6 +2,7 @@
 title: Actualizaciones Diciembre 2011
 categories:
   - updates
+  - capital city
 url: 272.html
 id: 272
 date: 2011-12-27 19:38:08

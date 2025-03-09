@@ -6,6 +6,7 @@ tags:
 categories:
   - blog
   - coding
+  - capital city
 url: 27.html
 id: 27
 date: 2009-08-05 14:50:38

@@ -2,6 +2,7 @@
 title: Actualizaciones Otoño 2012
 categories:
   - updates
+  - capital city
 url: 326.html
 id: 326
 date: 2012-09-30 01:51:21

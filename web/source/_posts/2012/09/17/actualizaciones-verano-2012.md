@@ -3,6 +3,7 @@ title: Actualizaciones Verano 2012
 categories:
   - updates
   - coding
+  - capital city
 url: 303.html
 id: 303
 date: 2012-09-17 17:30:16

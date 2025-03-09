@@ -3,6 +3,7 @@ title: Actualizaciones Noviembre 2011
 categories:
   - updates
   - coding
+  - capital city
 url: 268.html
 id: 268
 date: 2011-11-25 12:11:05

@@ -6,6 +6,7 @@ categories:
   - updates
   - characters
   - coding
+  - capital city
 url: 177.html
 id: 177
 date: 2010-05-28 14:10:14

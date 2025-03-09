@@ -8,6 +8,7 @@ tags:
   - oficios
 categories:
   - updates
+  - capital city
 url: 151.html
 id: 151
 date: 2010-02-19 13:43:00

@@ -6,7 +6,7 @@ tags:
   - protecciones
   - Sqargeld
 categories:
-  - ciudad capital
+  - capital city
   - coding
   - wiki
 url: 21.html
@@ -20,10 +20,10 @@ Se acaba de poner en juego en la ciudad de **Sqargeld** (en la Calle de los Grem
 
 > He aprovechado durante el fin de semana para revisar el funcionamiento de las resistencias mágicas, de cómo añadirlas a los items para jugadores, y a algunos detalles menores del sistema de clima. Ahora, si el jugador tiene:
 > 
-> *   50% de protección contral el frío o más: el clima nunca le afectará.
-> *   40% o más de protección: sólo le afectará una vez de cada cuatro.
-> *   30% o más de protección: sólo le afectará una vez de cada tres (caso del nuevo **Manto de piel**).
-> *   20% o más de protección: sólo le afectará una vez de cada dos.
+> * 50% de protección contral el frío o más: el clima nunca le afectará.
+> * 40% o más de protección: sólo le afectará una vez de cada cuatro.
+> * 30% o más de protección: sólo le afectará una vez de cada tres (caso del nuevo **Manto de piel**).
+> * 20% o más de protección: sólo le afectará una vez de cada dos.
 > 
 > Teniendo en cuenta que, además, esta reducción es sólo acerca de cuándo se aplica el daño. La reducción de cuánto daño se hace **también** se sigue aplicando, por lo que en cualquiera de estos casos el personaje probablemente sólo reciba el daño mínimo tras la protección, que es de un único punto de vida. Más información en el [artículo de la Wiki sobre Climatología](http://wiki.ciudadcapital.net/index.php?title=Climatolog%C3%ADa).
 

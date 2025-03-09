@@ -6,11 +6,10 @@ author: neverbot
 tags:
 categories:
   - coding
-  - hexagon
 ---
 
 Just a small update about the new _product identity_ (a.k.a. a new logo) of our own mudlib: [Hexagon](https://github.com/maldorne/hexagon).
 
-{% asset_img "hexagon_logo_bg.png" "Hexagon Logo" %}
+![Hexagon Logo](./new-hexagon-logo/hexagon_logo_bg.png)
 
 Remember to take a look in [the github repository](https://github.com/maldorne/hexagon) if you are interested!

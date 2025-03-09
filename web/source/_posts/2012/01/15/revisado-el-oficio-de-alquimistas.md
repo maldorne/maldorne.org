@@ -2,6 +2,7 @@
 title: Revisado el oficio de alquimistas
 categories:
   - updates
+  - capital city
 url: 290.html
 id: 290
 date: 2012-01-15 21:11:20

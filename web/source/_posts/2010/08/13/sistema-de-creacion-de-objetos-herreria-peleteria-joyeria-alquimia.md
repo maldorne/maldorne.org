@@ -7,6 +7,7 @@ tags:
   - herboristas
 categories:
   - updates
+  - capital city
 url: 224.html
 id: 224
 date: 2010-08-13 13:14:30

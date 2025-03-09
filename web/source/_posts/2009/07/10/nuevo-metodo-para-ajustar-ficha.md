@@ -5,6 +5,7 @@ tags:
   - nuevos usuarios
 categories:
   - coding
+  - capital city
 url: 19.html
 id: 19
 date: 2009-07-10 19:23:08
@@ -14,8 +15,8 @@ language: es
 
 Hasta hoy el sistema que había para ajustar ficha era uno aleatorio (de los de toda la vida): había que especificar el orden de los ocho atributos que definen a tu personaje y realizar tiradas aleatorias que podías repetir indefinidamente. Ahora existen dos métodos para ajustar la ficha:
 
-1.  El aleatorio clásico (cansino y repetitivo).
-2.  Uno de valores fijos para tener el **personaje listo siendo competitivo en apenas segundos**.
+1. El aleatorio clásico (cansino y repetitivo).
+2. Uno de valores fijos para tener el **personaje listo siendo competitivo en apenas segundos**.
 
 El método nuevo sólo requiere que especifiques cuál es el orden de importancia de los atributos para tu personaje, de entre los ocho disponibles:
 

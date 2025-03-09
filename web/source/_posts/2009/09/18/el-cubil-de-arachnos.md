@@ -8,7 +8,7 @@ tags:
   - Mazmorras
   - Torres de la Iluminación
 categories:
-  - ciudad capital
+  - capital city
   - updates
 url: 33.html
 id: 33

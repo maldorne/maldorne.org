@@ -5,7 +5,7 @@ tags:
   - Umroth
   - Zenell
 categories:
-  - ciudad capital
+  - capital city
   - updates
 url: 134.html
 id: 134

@@ -6,7 +6,7 @@ tags:
   - dotes
   - gremios
 categories:
-  - ciudad capital
+  - capital city
   - updates
 url: 70.html
 id: 70

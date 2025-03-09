@@ -3,6 +3,7 @@ title: 'Modificaciones al sistema de combate: Maestrías'
 categories:
   - updates
   - coding
+  - capital city
 url: 323.html
 id: 323
 date: 2012-09-22 21:36:24

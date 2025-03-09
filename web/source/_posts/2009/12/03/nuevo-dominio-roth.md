@@ -5,7 +5,7 @@ tags:
   - Roth
   - Temail
 categories:
-  - ciudad capital
+  - capital city
   - updates
 url: 80.html
 id: 80

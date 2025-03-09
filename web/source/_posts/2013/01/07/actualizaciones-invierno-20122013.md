@@ -2,6 +2,7 @@
 title: Actualizaciones Invierno 2012/2013
 categories:
   - updates
+  - capital city
 url: 335.html
 id: 335
 date: 2013-01-07 15:33:46

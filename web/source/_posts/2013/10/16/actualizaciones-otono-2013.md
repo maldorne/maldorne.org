@@ -2,6 +2,7 @@
 title: Actualizaciones Otoño 2013
 categories:
   - updates
+  - capital city
 url: 375.html
 id: 375
 date: 2013-10-16 21:58:39

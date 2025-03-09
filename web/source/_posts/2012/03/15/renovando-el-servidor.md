@@ -12,7 +12,7 @@ tags:
 
 Esta semana el servidor ha cambiado de localización, y aprovechando esta "mudanza", hemos renovado un poco el hardware, excusa que nos ha servido también para cambiar la fuente de alimentación y los ventiladores por unos más silenciosos.
 
-{% asset_img "hardware.jpg" "nuevo hardware" %}
+![nuevo hardware](./renovando-el-servidor/hardware.jpg)
 
 _Componentes nuevos antes de montar._
 

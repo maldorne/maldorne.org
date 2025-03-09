@@ -2,6 +2,7 @@
 title: 'Nuevo sistema de viajes: Rocas de invocación'
 categories:
   - updates
+  - capital city
 url: 249.html
 id: 249
 date: 2010-12-28 15:53:06
@@ -18,25 +19,25 @@ Ninguna de ellas está localizada dentro de los pueblos o ciudades, ya que en un
 
 Desde un primer momento **están funcionando trece rocas de invocación**:
 
-*   Puesto comercial de Orlos
-*   Alrededores del Bosque de Porte
-*   Río Temail, junto a la ciudad de Roth
-*   Cordillera del Mor-Khâine
-*   Entrada a las cuevas de Umroth
-*   Ruinas de la Atalaya de Ostel, cerca de Neuburg
-*   Puesto comercial de Lomar
-*   Puertas de Mongûl
-*   Camino al Alcázar Hierro Negro
-*   Alrededores del pueblo de Nodd
-*   Alrededores de la ciudad de Sqargeld
-*   Llanuras de Siempreinvierno, junto a Dargaad
-*   Fortaleza de Denesher, en las Montañas Nubladas
+* Puesto comercial de Orlos
+* Alrededores del Bosque de Porte
+* Río Temail, junto a la ciudad de Roth
+* Cordillera del Mor-Khâine
+* Entrada a las cuevas de Umroth
+* Ruinas de la Atalaya de Ostel, cerca de Neuburg
+* Puesto comercial de Lomar
+* Puertas de Mongûl
+* Camino al Alcázar Hierro Negro
+* Alrededores del pueblo de Nodd
+* Alrededores de la ciudad de Sqargeld
+* Llanuras de Siempreinvierno, junto a Dargaad
+* Fortaleza de Denesher, en las Montañas Nubladas
 
 Además de estos puntos generales, cada **mazmorra** tendrá siempre su propia roca de invocación en la entrada. Ahora mismo eso significa que hay otros tres lugares de viaje posibles:
 
-*   Caverna de la Naga Negra
-*   Cubil de Arachnos
-*   Templo de Rhael
+* Caverna de la Naga Negra
+* Cubil de Arachnos
+* Templo de Rhael
 
 Además, en la localización de una de estas rocas del mapeado general se ha añadido un nuevo punto de exploración, que en total ya superan ampliamente la veintena.
 
