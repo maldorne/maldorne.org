@@ -12,4 +12,4 @@ tags:
 
 Tras mucho tiempo en _hostings_ más pequeños, por fin mudamos el _mud_ a un alojamiento más grande, concretamente a una máquina virtual dedicada de los [Amazon Web Services](http://aws.amazon.com/es/). Mejor conexión, menores caídas y menores problemas a partir de ahora.
 
-{% asset_img "aws-logo.png" "Amazon Web Services" %}
+![Amazon Web Services](./nuevo-hosting-ahora-alojados-en-amazon-web-services/aws-logo.png)
