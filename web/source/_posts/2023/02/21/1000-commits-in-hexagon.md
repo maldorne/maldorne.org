@@ -1,5 +1,5 @@
 ---
-title: 1000 commits in hexagon
+title: 1000 commits in Hexagon
 date: 2023-02-21 12:22:24
 author: neverbot
 tags:
