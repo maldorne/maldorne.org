@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400" font-family="'Courier New', Courier, monospace">
+  <rect width="500" height="400" fill="#fff"/>
+
+  <!-- Axes -->
+  <line x1="250" y1="60" x2="250" y2="340" stroke="#333" stroke-width="2" stroke-dasharray="6,4"/>
+  <line x1="80" y1="200" x2="420" y2="200" stroke="#333" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Axis labels -->
+  <text x="250" y="40" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">ACTING</text>
+  <text x="250" y="370" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">INTERACTING</text>
+  <text x="40" y="205" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">PLAYERS</text>
+  <text x="460" y="205" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">WORLD</text>
+
+  <!-- Player types -->
+  <text x="100" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#c0392b">Killers</text>
+  <text x="400" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#2d96bd">Achievers</text>
+  <text x="100" y="310" text-anchor="middle" font-size="18" font-weight="bold" fill="#27ae60">Socialisers</text>
+  <text x="400" y="310" text-anchor="middle" font-size="18" font-weight="bold" fill="#d4a017">Explorers</text>
+</svg>
