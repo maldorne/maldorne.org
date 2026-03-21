@@ -1,7 +1,7 @@
 # general build configuration
 [build]
   base = "web/"
-  publish = "web/public"
+  publish = "public/"
   command = "cd source/docs/dgd && ./generate.sh && cd ../../.. && npm run build"
 
 # redirects from old multilang blog
