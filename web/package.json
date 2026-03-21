@@ -13,38 +13,40 @@
     "server": "npx hexo server"
   },
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.1.1"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "hexo": "^7.3.0",
-    "hexo-asset-link": "^2.2.3",
-    "hexo-fontawesome": "^2.4.0",
+    "hexo": "^8.1.1",
+    "hexo-asset-link": "^2.3.1",
+    "hexo-fontawesome": "github:hexojs/hexo-fontawesome",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-basic-set": "^0.1.1",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-feed": "^4.0.0",
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-markdown": "^1.6.1",
+    "hexo-renderer-markdown-it": "^7.1.1",
     "hexo-renderer-stylus": "^3.0.1",
-    "hexo-server": "^3.0.0"
+    "hexo-server": "^3.0.0",
+    "markdown-it-attrs": "^4.3.1"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.26.8",
-    "@eslint/js": "^9.22.0",
-    "eslint": "^9.22.0",
-    "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsonc": "^2.19.1",
-    "eslint-plugin-markdownlint": "^0.6.0",
-    "eslint-plugin-prettier": "^5.2.3",
-    "globals": "^16.0.0",
-    "jsonc-eslint-parser": "^2.4.0",
-    "prettier": "^3.5.3"
+    "@babel/core": "^7.29.0",
+    "@babel/eslint-parser": "^7.28.6",
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsonc": "^3.1.2",
+    "eslint-plugin-markdownlint": "^0.9.0",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.4.0",
+    "jsonc-eslint-parser": "^3.1.0",
+    "prettier": "^3.8.1"
   }
 }

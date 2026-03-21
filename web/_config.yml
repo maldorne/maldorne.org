@@ -56,9 +56,26 @@ post_asset_folder: true
 #   prependRoot: true
 #   postAsset: true
 markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: 'language-'
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '\u201c\u201d\u2018\u2019'
   plugins:
-    markdown-it-texmath:
-      disabled: true
+    - markdown-it-attrs
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    permalink: false
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'left'
+    permalinkSymbol: ''
+    case: 0
+    separator: '-'
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
