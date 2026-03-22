@@ -4,18 +4,18 @@ Retro gaming association blog. English language. MUDs, roguelikes, game developm
 
 ## Color Scheme
 
-| Role                   | Value      |
-| ---------------------- | ---------- |
-| Background             | `#fff`     |
-| Font (body)            | `#363636`  |
-| Font secondary (meta)  | `#767676`  |
-| Post content color     | `#545454`  |
-| Accent / link hover    | `#2d96bd`  |
-| Post link              | `#2d96bd`  |
-| Post meta              | `#696969`  |
-| Border                 | `#e8e8e8`  |
-| Code font              | `#c7254e`  |
-| Code background        | `#f8f5ec`  |
+| Role                  | Value     |
+| --------------------- | --------- |
+| Background            | `#fff`    |
+| Font (body)           | `#363636` |
+| Font secondary (meta) | `#767676` |
+| Post content color    | `#545454` |
+| Accent / link hover   | `#2d96bd` |
+| Post link             | `#2d96bd` |
+| Post meta             | `#696969` |
+| Border                | `#e8e8e8` |
+| Code font             | `#c7254e` |
+| Code background       | `#f8f5ec` |
 
 No dark mode.
 
@@ -33,14 +33,14 @@ See `/docs/category-wave-edge-effect.md` in the workspace root for technical det
 
 ## Typography
 
-| Role     | Font                          |
-| -------- | ----------------------------- |
+| Role     | Font                           |
+| -------- | ------------------------------ |
 | Body     | Source Sans Pro (sans-serif)   |
-| Headings | IvyMode (display, self-hosted)|
-| Title    | IvyMode (display)             |
+| Headings | IvyMode (display, self-hosted) |
+| Title    | IvyMode (display)              |
 | Alt/Nav  | Source Sans Pro                |
 
-IvyMode is a high-contrast sans-serif display font by Jan Maack (The Ivy Foundry). Self-hosted in `source/fonts/IvyMode/` as woff2 + woff. Used for post titles, content headings (h2-h6), and archive section titles.
+IvyMode is a high-contrast sans-serif display font. Self-hosted in `source/fonts/IvyMode/` as woff2 + woff. Used for post titles, content headings (h2-h6), and archive section titles.
 
 ## Header
 
