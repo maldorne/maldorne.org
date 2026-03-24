@@ -2,6 +2,10 @@
 
 Retro gaming association blog. English language. MUDs, roguelikes, game development.
 
+## Design Philosophy
+
+Sharp edges everywhere. No rounded corners on any element. The design uses straight lines, 90-degree angles, and angled clip-paths for visual interest instead of curves.
+
 ## Color Scheme
 
 | Role                  | Value     |
@@ -29,34 +33,45 @@ Posts in specific categories get full-width dark backgrounds with their own colo
 | Accent       | `#81D8D9`          | `#E8B84B`           |
 | Text         | `rgb(246,240,228)` | `rgb(246,240,228)`  |
 
-See `/docs/category-wave-edge-effect.md` in the workspace root for technical details on the wave edge transition.
-
 ## Typography
 
 | Role     | Font                           |
 | -------- | ------------------------------ |
-| Body     | Source Sans Pro (sans-serif)   |
+| Body     | Source Sans Pro (sans-serif)    |
 | Headings | IvyMode (display, self-hosted) |
 | Title    | IvyMode (display)              |
-| Alt/Nav  | Source Sans Pro                |
+| Alt/Nav  | Source Sans Pro                 |
 
-IvyMode is a high-contrast sans-serif display font. Self-hosted in `source/fonts/IvyMode/` as woff2 + woff. Used for post titles, content headings (h2-h6), and archive section titles.
+IvyMode is a high-contrast sans-serif display font by Jan Maack (The Ivy Foundry). Self-hosted in `source/fonts/IvyMode/` as woff2 + woff. Used for post titles, content headings (h2-h6), and archive section titles.
+
+## Corners and Borders
+
+Everything uses sharp corners (border-radius: 0):
+- Images in post content
+- Code blocks (inline and figure.highlight)
+- Video player (.plyr)
+- Miniblog post cards
+- Category mobile badges
+- Tooltips
+- Dropdown menus
+
+No element in maldorne should have rounded corners.
 
 ## Header
 
 - Desktop: horizontal navbar with logo icon + "House of Maldorne" text + menu items (Archive, Docs dropdown, Games, Play, About)
-- Docs has a dropdown with grouped sections (PROGRAMMING, GAMES headers + sub-links)
+- Docs has a dropdown with grouped sections (PROGRAMMING, GAMES headers in uppercase/small + indented sub-links)
 - Dropdown uses `<button>` elements with `aria-expanded`
-- Mobile: hamburger icon (3 spans, absolute positioning, transforms to symmetric X), vertical menu
+- Mobile: hamburger icon (3 spans, absolute positioning, transforms to symmetric X), vertical menu with touch-friendly padding
 
 ## Footer
 
-Shows site title. Plyr video player loads conditionally.
+Shows site title. Plyr video player loads conditionally (only when `.js-player` elements exist).
 
 ## Navigation
 
 - Desktop: flex row navbar with dropdown support
-- Dropdown redesigned with grouped headers (uppercase, small, secondary color) + indented links
+- Dropdown: grouped headers (uppercase, small, secondary color) + indented links, subtle border separators
 - Mobile: full-width menu, dropdown sections indented (32px headers, 44px links)
 - All interactive elements use semantic `<button>` instead of `<div onclick>`
 
@@ -74,25 +89,29 @@ Profile section with:
 - IvyMode for title and headings
 - Post meta: 0.93em, letter-spacing 0.02em, line-height 1.5em, margin-top -5px
 - Author links use `config.authors` system (links to neverbot.com)
-- Images: `border-radius: 9px`
-- Code blocks: `border-radius: 9px`
+- Images: no border-radius, block display
+- Code blocks: no border-radius
 - Image captions: centered, 0.85em, uses `img ~ em` selector
-- Miniblog posts: bordered cards, `#` as permalink link (not pseudo-element)
+- Miniblog posts: bordered cards with sharp corners, `#` as permalink link (not pseudo-element)
   - Desktop: `#` positioned absolute to the left of the card
-  - Mobile: `#` inline with `float: left`, 1.5em, within the card
+  - Mobile: `#` inline with `float: left`, 1.5em, within the card, reduced padding
 
 ## Category Posts (Hexagon / Capital City)
 
-- Full-width dark background that breaks out of the centered container
-- SVG clip-path wave edges (objectBoundingBox units, consistent across viewport sizes)
-- Category icon: 60x60px, positioned to the left of content area in desktop
-- Tooltip on icon hover: centered below with arrow, dark background
-- Mobile: icon hidden, replaced by text badge (uppercase pill)
+- Full-width dark background that breaks out of the centered container (`width: 100vw`, `margin-left: 50%`, `transform: translateX(-50%)`)
+- Angled edges via `clip-path: polygon(0 30px, 100% 0, 100% calc(100% - 30px), 0 100%)` — straight diagonal lines, not curves
+- Mobile: clip-path disabled, posts get left/right padding instead
+- Category icon: 60x60px in a white square with 10px padding (`background-origin: content-box`), positioned to the left of content area
+  - Icon top edge aligns with the visual top of the title's capital letters
+- Tooltip below icon on hover: dark background, text "This is a post about the [category name]", arrow pointing up
+  - Arrow is not visible on dark post backgrounds (dark on dark) — this is acceptable
+- Mobile: icon hidden, replaced by text badge (uppercase, sharp corners, category accent color)
 - All text colors overridden for dark background (title, meta, content, links, code, blockquotes)
+- Between consecutive category posts: no extra transition needed, backgrounds are continuous
 
 ## Comments
 
-Giscus (GitHub Discussions). Theme set to `light`.
+Giscus (GitHub Discussions). Theme set to `light` (not `preferred_color_scheme`).
 
 ## i18n
 
@@ -101,10 +120,12 @@ The theme supports English and Spanish via language files. Navigation labels use
 ## Unique Features
 
 - IvyMode display font for headings
-- Full-width category post sections with wave edge transitions
-- Category icon with tooltip (desktop) / badge (mobile)
+- Sharp corners design system (no border-radius anywhere)
+- Full-width category post sections with angled diagonal edges
+- Category icon in white square with tooltip (desktop) / badge (mobile)
 - Dropdown navbar with grouped sections
 - Bilingual support (en/es)
-- SVG clip-path for organic edges between post sections
-- Plyr video player (conditional loading from CDN)
-- DGD documentation generation before build (`build.sh`)
+- Plyr video player (conditional loading from CDN 3.8.4)
+- DGD documentation generation before build (netlify.toml command)
+- `document.ready` polyfill removed — all JS uses native `DOMContentLoaded`
+- Semantic HTML: `<button>` for actions, `<time>` for dates, `<main>` landmark
