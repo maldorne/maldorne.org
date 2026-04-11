@@ -156,7 +156,7 @@ We applied the same `sed` step defensively to every branch, including the ones w
 
 ## The result
 
-Every supported MudOS branch in [`maldorne/mudos`](https://github.com/maldorne/mudos) — `v21.7`, `v21.7b21_fr`, `v22.2b13` and `v22.2b14` — has been migrated to the new build, all sharing the **exact same `Dockerfile`** (modulo the version string in the header comment):
+Every supported MudOS branch in [`maldorne/mudos`](https://github.com/maldorne/mudos) — `v21.7`, `v21.7b21_fr`, `v22.2b13` and `v22.2b14` — has been migrated to the new build, all sharing the **exact same `Dockerfile`** (except for the version string in the header comment):
 
 | Before | After |
 |---|---|
