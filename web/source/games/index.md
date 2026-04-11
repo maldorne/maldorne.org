@@ -14,7 +14,7 @@ Original mud developed by the _House of Maldorne_ staff. The first version (v1) 
 |                   |                                                                                                      |
 | ----------------- | ---------------------------------------------------------------------------------------------------- |
 | Web client        | [maldorne.org/play](/play/?mud=ciudad-capital)                                                       |
-| Telnet client     | [muds.maldorne.org port 5010](telnet://muds.maldorne.org:5010)                                       |
+| Telnet client     | [mud.maldorne.org port 5010](telnet://mud.maldorne.org:5010)                                         |
 | Language          | spanish                                                                                              |
 | Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v22.2b13) |
 
