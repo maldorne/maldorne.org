@@ -21,6 +21,8 @@ Some of the muds we run at maldorne are still based on [MudOS](https://github.co
 
 So we sat down to see if we could compile MudOS on a current Linux. Spoiler: we could. This post is a tour of what it took.
 
+<!-- more -->
+
 ## The starting point
 
 Each version branch in the [`maldorne/mudos`](https://github.com/maldorne/mudos) repository has its own `Dockerfile`. They all looked roughly like this:
