@@ -51,7 +51,7 @@ The first fork from _Reinos de Leyenda_, run by Gestur, Lummen, Astaroth, etc. R
 | Web client        | [maldorne.org/play](/play/?mud=iluminado)                                                            |
 | Telnet client     | [mud.maldorne.org port 5030](telnet://mud.maldorne.org:5030)                                         |
 | Language          | spanish                                                                                              |
-| Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21) |
+| Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21_fr) |
 
 ---
 
@@ -66,7 +66,7 @@ The first version of the well known spanish mud, run by Paris, Oskuro, Osucaru, 
 | Web client        | [maldorne.org/play](/play/?mud=rlmud)                                                                |
 | Telnet client     | [mud.maldorne.org port 5020](telnet://mud.maldorne.org:5020)                                         |
 | Language          | spanish                                                                                              |
-| Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21) |
+| Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21_fr) |
 
 ---
 
@@ -81,7 +81,7 @@ Fork from _Reinos de Leyenda_, recovered backup from October 2003\. Open to play
 | Web client        | [maldorne.org/play](/play/?mud=ancient-kingdoms)                                                     |
 | Telnet client     | [mud.maldorne.org port 5040](telnet://mud.maldorne.org:5040)                                         |
 | Language          | spanish                                                                                              |
-| Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21) |
+| Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21_fr) |
 
 ---
 
