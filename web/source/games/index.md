@@ -78,7 +78,7 @@ Fork from _Reinos de Leyenda_, recovered backup from October 2003\. Open to play
 
 |                   |                                                                                                      |
 | ----------------- | ---------------------------------------------------------------------------------------------------- |
-| Web client        | [maldorne.org/play](/play/?mud=ancient)                                                              |
+| Web client        | [maldorne.org/play](/play/?mud=ancient-kingdoms)                                                     |
 | Telnet client     | [mud.maldorne.org port 5040](telnet://mud.maldorne.org:5040)                                         |
 | Language          | spanish                                                                                              |
 | Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21) |

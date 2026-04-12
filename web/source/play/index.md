@@ -7,4 +7,4 @@ template: player
 
 Go to the [game list](/games/) to see other Muds we host in different ports.
 
-[Hexagon (english)](/play/?mud=hexagon-en) | [Hexagon (spanish)](/play/?mud=hexagon-es) | [Ciudad Capital](/play/?mud=ciudad-capital) | [Iluminado](/play/?mud=iluminado) | [Reinos de Leyenda](/play/?mud=reinos) | [Ancient Kingdoms](/play/?mud=ancient) {.center}
+[Hexagon (english)](/play/?mud=hexagon-en) | [Hexagon (spanish)](/play/?mud=hexagon-es) | [Ciudad Capital](/play/?mud=ciudad-capital) | [Iluminado](/play/?mud=iluminado) | [Reinos de Leyenda](/play/?mud=reinos) | [Ancient Kingdoms](/play/?mud=ancient-kingdoms) {.center}
