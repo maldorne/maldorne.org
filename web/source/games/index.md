@@ -89,12 +89,11 @@ Fork from _Reinos de Leyenda_, recovered backup from October 2003\. Open to play
 
 ## Endor Mud
 
-New game based in the **Tolkien's legendarium**, hosted by the _House of Maldorne_ association.  
-~~Open to players~~. *Currently offline due to an error with LDMud logs. Fix pending.*
+New game based in the **Tolkien's legendarium**, hosted by the _House of Maldorne_ association. Open to players.
 
 |                   |                                                                                      |
 | ----------------- | ------------------------------------------------------------------------------------ |
-| Web client        | [maldorne.org/play](/play/?port=5050)                                                |
-| Telnet client     | [muds.maldorne.org port 5050](telnet://muds.maldorne.org:5050)                       |
+| Web client        | [maldorne.org/play](/play/?mud=endor)                                                |
+| Telnet client     | [mud.maldorne.org port 5050](telnet://mud.maldorne.org:5050)                         |
 | Language          | spanish                                                                              |
 | Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([LDMud](http://www.ldmud.eu/) 3.3.720) |
