@@ -63,8 +63,8 @@ The first version of the well known spanish mud, run by Paris, Oskuro, Osucaru, 
 
 |                   |                                                                                                      |
 | ----------------- | ---------------------------------------------------------------------------------------------------- |
-| Web client        | [maldorne.org/play](/play/?mud=reinos)                                                               |
-| Telnet client     | [muds.maldorne.org port 5020](telnet://muds.maldorne.org:5020)                                       |
+| Web client        | [maldorne.org/play](/play/?mud=rlmud)                                                                |
+| Telnet client     | [mud.maldorne.org port 5020](telnet://mud.maldorne.org:5020)                                         |
 | Language          | spanish                                                                                              |
 | Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v21.7b21) |
 
