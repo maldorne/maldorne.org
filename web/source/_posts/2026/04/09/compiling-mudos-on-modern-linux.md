@@ -1,5 +1,5 @@
 ---
-title: 'Modernizing the MudOS Driver: From Sarge to Bookworm'
+title: 'Compiling MudOS on Modern Linux: From Debian Sarge to Bookworm'
 date: 2026-04-09 22:00:00
 author: neverbot
 tags:
