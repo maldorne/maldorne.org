@@ -129,9 +129,50 @@ LDMud 3.6.8's type checker is significantly stricter than 3.3's. Several files n
 
 Each file was fixed individually rather than disabling type checking globally.
 
+## 11. Master object must be pure 7-bit ASCII
+
+This was the trickiest encoding issue. LDMud 3.6.8 uses `iconv` to convert source files from their declared encoding to UTF-8 internally. The encoding is determined by the `H_FILE_ENCODING` driver hook. But the master object is compiled *before* any LPC code runs, so the hook cannot be set in time.
+
+Without the hook, the driver defaults to **7-bit ASCII** — and `iconv("ascii" → "utf-8")` in glibc **strictly rejects** any byte above 127. This means every file in the master's `#include` chain must be pure ASCII, even if the rest of the mudlib is UTF-8.
+
+The [official migration document](https://github.com/ldmud/ldmud/blob/master/doc/3.5vs3.6) states:
+
+> Because the master must be loaded first to set the encoding for other files using the `file_encoding(H)` hook, the master itself must be written in 7-bit ASCII only. If you need Unicode characters you can use Unicode escape sequences like `\u2165` or `\U0001F603`.
+
+We had non-ASCII characters in both comments and string literals across the master and all its included files (about 13 files total). The fix:
+
+- **Comments**: replaced accented characters with their ASCII equivalents (`inicialización` → `inicializacion`).
+- **Active string literals**: replaced non-ASCII characters with `\uXXXX` escape sequences (`"¿Qué?\n"` → `"\u00bfQu\u00e9?\n"`, `"empuñar"` → `"empu\u00f1ar"`).
+- **Commented-out code**: also used `\uXXXX` escapes so the strings would work correctly if uncommented.
+
+Then, in `inaugurate_master()`, we set the hook for every subsequent file:
+
+```lpc
+set_driver_hook(H_FILE_ENCODING, "UTF-8");
+```
+
+This way the master compiles as ASCII, and every other file in the mudlib (simul_efun, login, game objects, etc.) loads as UTF-8.
+
+> **Note**: we initially discovered this on x86_64 (production) while it worked fine on arm64 (local Mac). The difference is that macOS's `iconv` is lenient with ASCII-to-UTF-8 conversion and passes through high bytes, while glibc on Linux is strict and rejects them. The behavior on Linux is correct per the spec.
+
+## 12. Interactive encoding for modern clients
+
+By default, LDMud 3.6.8 assumes player connections use ISO-8859-1 encoding. Modern MUD clients (Atlantis, Mudlet, or browser-based clients) typically send UTF-8. If a player types an accented character like `í`, a UTF-8 client sends `0xC3 0xAD` (two bytes). With the default ISO-8859-1 setting, the driver interprets each byte separately, producing two garbage characters instead of one — and commands with accents (like `telepatía`) fail to match.
+
+The fix is to set the interactive encoding to UTF-8 as early as possible in the connection flow:
+
+```lpc
+#include "/sys/configuration.h"
+
+public nomask int logon() {
+    configure_interactive(this_object(), IC_ENCODING, "UTF-8");
+    // ... rest of logon
+}
+```
+
 ## The result
 
-Endor's mudlib loads and runs on LDMud 3.6.8. Players can log in, the database connection works (via a shared MariaDB Unix socket), and the driver is stable — no segfaults, no crashes.
+Endor's mudlib loads and runs on LDMud 3.6.8. Players can log in, the database connection works (via a shared MariaDB Unix socket), accented commands work from modern clients, and the driver is stable — no segfaults, no crashes.
 
 The driver itself required **zero patches**. Every change was in the mudlib or in the compatibility simul_efun layer. LDMud's official `deprecated/` directory was invaluable — it provided drop-in replacements for every removed efun.
 
@@ -140,3 +181,5 @@ The driver itself required **zero patches**. Every change was in the mudlib or i
 - **Don't try to keep the old driver alive.** We spent hours trying to make 3.3.720 work with modern compilers before accepting that the 64-bit bugs are unfixable without driver patches. Porting the mudlib to 3.6.8 was the right call.
 - **LDMud's `deprecated/` directory is excellent.** Every removed efun has an official simul_efun replacement with the exact same behavior. Use them.
 - **Convert encoding first.** The UTF-8 requirement is absolute — there's no flag to disable it. Do the bulk conversion before anything else.
+- **The master must be pure ASCII.** This is documented but easy to miss. If your mudlib is in a language other than English, you almost certainly have accented characters in the master's string literals. Use `\uXXXX` escapes and set `H_FILE_ENCODING` to `"UTF-8"` in `inaugurate_master()`.
+- **Set interactive encoding to UTF-8.** The default ISO-8859-1 breaks accented input from modern clients. A single `configure_interactive` call in the login object fixes it.
