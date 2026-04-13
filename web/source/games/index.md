@@ -96,4 +96,4 @@ New game based in the **Tolkien's legendarium**, hosted by the _House of Maldorn
 | Web client        | [maldorne.org/play](/play/?mud=endor)                                                |
 | Telnet client     | [mud.maldorne.org port 5050](telnet://mud.maldorne.org:5050)                         |
 | Language          | spanish                                                                              |
-| Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([LDMud](http://www.ldmud.eu/) 3.3.720) |
+| Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([LDMud](http://www.ldmud.eu/) 3.6.8) |
