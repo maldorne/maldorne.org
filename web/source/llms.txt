@@ -1,0 +1,21 @@
+# House of Maldorne
+
+> Retro gaming association hosting and developing MUDs, roguelikes, and other online retro games. Active since 2003.
+
+House of Maldorne is a retro gaming community and development group. We host several active MUD (Multi-User Dungeon) games and develop the Hexagon mudlib framework built on the DGD driver. The site includes game access, technical documentation, and development blog posts.
+
+## Sections
+
+- [About](https://maldorne.org/about/): History and timeline of the House of Maldorne from 1998 to present
+- [Games](https://maldorne.org/games/): Directory of hosted MUDs including Ciudad Capital, Hexagon, Reinos de Leyenda, and others
+- [Play](https://maldorne.org/play/): Web client for connecting to hosted games
+- [Archive](https://maldorne.org/archives/): Blog post archive by date
+- [Categories](https://maldorne.org/categories/): Post categories index
+- [Tags](https://maldorne.org/tags/): Post tags index
+- [RSS](https://maldorne.org/atom.xml): Atom/RSS feed
+- [Sitemap](https://maldorne.org/sitemap.xml): XML sitemap
+
+## Optional
+
+- [DGD Documentation](https://maldorne.org/docs/dgd/): Complete reference for the DGD driver, kernel functions, and LPC programming language
+- [Reinos de Leyenda Docs](https://maldorne.org/docs/rl/): Documentation for the Reinos de Leyenda MUD world
