@@ -164,11 +164,13 @@ The feature is controlled by `#define SUPPORT_PROXY_PROTOCOL` in `config.h`, ena
 ./configure --enable-use-proxy-protocol
 ```
 
-The LDMud patch differs from the MudOS one in two ways:
+The LDMud patch differs from the MudOS one in three ways:
 
-1. **IPv6 support**: LDMud can be compiled with `USE_IPV6`. The patch handles both native IPv6 addresses and IPv4-to-IPv6-mapped addresses (when Traefik sends `PROXY TCP4` but the driver uses IPv6 sockets internally).
+1. **`\r\n` validation**: the header terminator is validated as `\r\n` per the PROXY protocol spec.
 
-2. **Integration with configure**: instead of a manual `#define` in a local options file, the feature follows LDMud's standard `configure.ac` pattern with `--enable-use-proxy-protocol` (disabled by default) and appears in `--options` output as "PROXY protocol v1 supported".
+2. **IPv6 support**: LDMud can be compiled with `USE_IPV6`. The patch uses the `proto` field (`TCP4` vs `TCP6`) to select the right address parser, with IPv4-to-IPv6 mapping when needed and a warning when a TCP6 header arrives on a non-IPv6 build.
+
+3. **Integration with configure**: the feature follows LDMud's standard `configure.ac` pattern with `--enable-use-proxy-protocol` (disabled by default) and appears in `--options` output as "PROXY protocol v1 supported".
 
 ### The patch
 
@@ -206,7 +208,8 @@ if ((int)new_socket != -1) {
         {
             char *end = (char *)memchr(
                 proxy_buf, '\n', n);
-            if (end) {
+            if (end && end > proxy_buf
+                && *(end - 1) == '\r') {
                 int hdr_len = (int)(end - proxy_buf) + 1;
                 char proto[6], src_ip[46], dst_ip[46];
                 int src_port, dst_port;
@@ -220,33 +223,50 @@ if ((int)new_socket != -1) {
                     proto, src_ip, dst_ip,
                     &src_port, &dst_port) == 5)
                 {
+                    if (strcmp(proto, "TCP4") == 0)
+                    {
+                        struct in_addr real4;
+                        if (inet_aton(src_ip, &real4)) {
 #ifdef USE_IPV6
-                    struct in6_addr real6;
-                    struct in_addr  real4;
-                    if (inet_pton(AF_INET6, src_ip,
-                                  &real6) == 1) {
-                        addr.sin6_addr = real6;
-                        addr.sin6_port =
-                            htons((unsigned short)src_port);
-                    } else if (inet_pton(AF_INET, src_ip,
-                                         &real4) == 1) {
-                        /* map IPv4 to IPv6-mapped */
-                        memset(&addr.sin6_addr, 0, 10);
-                        memset((char*)&addr.sin6_addr+10,
-                               0xff, 2);
-                        memcpy((char*)&addr.sin6_addr+12,
-                               &real4, 4);
-                        addr.sin6_port =
-                            htons((unsigned short)src_port);
+                            /* map IPv4 to IPv6-mapped */
+                            memset(&addr.sin6_addr, 0, 10);
+                            memset((char*)&addr.sin6_addr+10,
+                                   0xff, 2);
+                            memcpy((char*)&addr.sin6_addr+12,
+                                   &real4, 4);
+                            addr.sin6_port =
+                                htons((unsigned short)src_port);
+#else
+                            addr.sin_addr = real4;
+                            addr.sin_port =
+                                htons((unsigned short)src_port);
+#endif
+                        }
+                    }
+#ifdef USE_IPV6
+                    else if (strcmp(proto, "TCP6") == 0)
+                    {
+                        struct in6_addr real6;
+                        if (inet_pton(AF_INET6, src_ip,
+                                      &real6) == 1) {
+                            addr.sin6_addr = real6;
+                            addr.sin6_port =
+                                htons((unsigned short)src_port);
+                        }
                     }
 #else
-                    struct in_addr real_addr;
-                    if (inet_aton(src_ip, &real_addr)) {
-                        addr.sin_addr = real_addr;
-                        addr.sin_port =
-                            htons((unsigned short)src_port);
+                    else if (strcmp(proto, "TCP6") == 0)
+                    {
+                        debug_message(
+                            "%s PROXY protocol: received "
+                            "TCP6 address %s but driver "
+                            "was compiled without IPv6 "
+                            "support, ignoring.\n",
+                            time_stamp(), src_ip);
                     }
 #endif
+                    /* else: unknown proto, drop
+                     * (invalid header per spec) */
                 }
             }
         }
