@@ -99,6 +99,8 @@ The logic:
 4. Overwrite the stored client address in the `interactive_t` struct.
 5. If the connection does not start with `"PROXY "`, do nothing — backwards compatible with direct connections.
 
+One subtlety: the socket is non-blocking at the point where we peek, so `recv(MSG_PEEK)` can return `EWOULDBLOCK` if the PROXY header hasn't arrived yet from the reverse proxy. To avoid this race condition, we use `select()` with a 100ms timeout before peeking, giving the proxy enough time to send the header without blocking the driver indefinitely.
+
 The feature is controlled by `#define SUPPORT_PROXY_PROTOCOL` in `driver/local_options`, following MudOS conventions for compile-time options.
 
 ### The patch
@@ -116,8 +118,24 @@ Add:
 {
     char proxy_buf[108]; /* v1 max line length */
     int n;
+    fd_set readfds;
+    struct timeval tv;
 
-    n = recv(new_socket_fd, proxy_buf, sizeof(proxy_buf) - 1, MSG_PEEK);
+    /* The socket is non-blocking at this point, so MSG_PEEK can
+     * return EWOULDBLOCK if the PROXY header hasn't arrived yet.
+     * Use select() with a short timeout to wait for data first.
+     */
+    FD_ZERO(&readfds);
+    FD_SET(new_socket_fd, &readfds);
+    tv.tv_sec = 0;
+    tv.tv_usec = 100000; /* 100ms timeout */
+
+    n = select(new_socket_fd + 1, &readfds, NULL, NULL, &tv);
+    if (n > 0)
+        n = recv(new_socket_fd, proxy_buf, sizeof(proxy_buf) - 1, MSG_PEEK);
+    else
+        n = 0;
+
     if (n >= 6 && memcmp(proxy_buf, "PROXY ", 6) == 0) {
         char *end = (char *)memchr(proxy_buf, '\n', n);
         if (end) {
