@@ -1,2 +1,3 @@
 {% for post in posts %}{{ post.permalink | uriencode }}
+{% endfor %}{% for tag in tags %}{{ tag.permalink.replace("index.html", "") | uriencode }}
 {% endfor %}{{ config.url | uriencode }}

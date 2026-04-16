@@ -8,6 +8,13 @@
     <priority>0.6</priority>
   </url>
   {% endfor %}
+  {% for tag in tags %}<url>
+    <loc>{{ tag.permalink.replace("index.html", "") | uriencode }}</loc>
+    <lastmod>{{ sNow | formatDate }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  {% endfor %}
   <url>
     <loc>{{ config.url | uriencode }}</loc>
     <lastmod>{{ sNow | formatDate }}</lastmod>
