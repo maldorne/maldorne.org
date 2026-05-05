@@ -485,7 +485,7 @@ Finally, in `src/host/Makefile`, add `proxy.o` to the `OBJ` list and a `proxy.o:
 
 [FluffOS](https://github.com/fluffos/fluffos) is the main actively maintained fork of MudOS. It does **not** support PROXY protocol as of 2026. The same problem was [raised in 2019](https://github.com/fluffos/fluffos/issues/505) and the maintainer's approach was to add a native WebSocket server to the driver instead, avoiding the external proxy entirely.
 
-*Work in progress. We are currently working on adding PROXY protocol support to FluffOS, following the same approach as our MudOS patch.*
+We considered porting the same patch to FluffOS, but it is not currently a priority: we don't host any FluffOS-based game in our servers, so there's no concrete deployment that would benefit from it. We may revisit this if that changes.
 
 ## What about WebSocket proxies?
 
