@@ -1,9 +1,9 @@
 import globals from 'globals';
 import babelParser from '@babel/eslint-parser';
 import eslintJsonc from 'eslint-plugin-jsonc';
-import eslintJsoncParser from 'jsonc-eslint-parser';
+import * as eslintJsoncParser from 'jsonc-eslint-parser';
 import prettier from 'eslint-plugin-prettier';
-import importPlugin from 'eslint-plugin-import';
+import * as importPlugin from 'eslint-plugin-import-x';
 import markdownPlugin from 'eslint-plugin-markdownlint';
 import markdownPluginParser from 'eslint-plugin-markdownlint/parser.js';
 import js from '@eslint/js';
@@ -37,7 +37,7 @@ export default [
         },
       ],
       'no-console': 'warn',
-      'import/extensions': [
+      'import-x/extensions': [
         'warn',
         'always',
         {
