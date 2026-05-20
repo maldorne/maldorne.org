@@ -1,5 +1,4 @@
 import globals from 'globals';
-import babelParser from '@babel/eslint-parser';
 import eslintJsonc from 'eslint-plugin-jsonc';
 import * as eslintJsoncParser from 'jsonc-eslint-parser';
 import prettier from 'eslint-plugin-prettier';
@@ -26,6 +25,13 @@ export default [
   js.configs.recommended,
   importPlugin.flatConfigs.recommended,
   {
+    // disable namespace rule globally: its internal parser doesn't understand
+    // ES2025 import attributes used by jsonc-eslint-parser
+    rules: {
+      'import-x/namespace': 'off',
+    },
+  },
+  {
     files: ['**/*.js'],
     ignores: [],
     rules: {
@@ -51,8 +57,7 @@ export default [
       importPlugin,
     },
     languageOptions: {
-      parser: babelParser,
-      ecmaVersion: 2018,
+      ecmaVersion: 2022,
       sourceType: 'module',
       globals: {
         ...globals.node,
@@ -61,14 +66,6 @@ export default [
         ...globals.browser,
         ...globals.jquery,
         hexo: true,
-      },
-      parserOptions: {
-        requireConfigFile: false,
-        allowImportExportEverywhere: true,
-
-        ecmaFeatures: {
-          experimentalObjectRestSpread: true,
-        },
       },
     },
   },
