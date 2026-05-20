@@ -13,7 +13,7 @@ categories:
   - mudos
 ---
 
-![MudOS](./modernizing-the-mudos-driver/mudos_logo.webp)
+![MudOS](mudos_logo.webp)
 
 > Heads up: this is a technical post about programming and, frankly, software archaeology — compilers, linkers, decades-old C, that sort of thing. If you usually come here for game design, mud lore or play notes, you can safely skip this one. We will be back to the regular topics in the next post.
 
