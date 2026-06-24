@@ -1,6 +1,6 @@
 ---
 title: "Game Design: The Jedi Problem of Star Wars Galaxies"
-date: 2026-06-17 19:30:00
+date: 2026-06-24 19:30:00
 author: neverbot
 tags:
 categories:
