@@ -16,9 +16,9 @@
     "version": "8.1.2"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^6.7.2",
-    "@fortawesome/free-regular-svg-icons": "^6.7.2",
-    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^7.3.1",
+    "@fortawesome/free-regular-svg-icons": "^7.3.1",
+    "@fortawesome/free-solid-svg-icons": "^7.3.1",
     "hexo": "^8.1.2",
     "hexo-asset-link": "^2.3.1",
     "hexo-fontawesome": "github:hexojs/hexo-fontawesome",
@@ -32,7 +32,7 @@
     "hexo-renderer-markdown-it": "github:hexojs/hexo-renderer-markdown-it",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "markdown-it-attrs": "^4.5.0"
+    "markdown-it-attrs": "^5.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
