@@ -8,3 +8,6 @@
 [submodule "web/source/docs/rl"]
 	path = web/source/docs/rl
 	url = git@github.com:maldorne/rl-aeternum-docs.git
+[submodule "web/source/docs/cc"]
+	path = web/source/docs/cc
+	url = git@github.com:maldorne/ciudad-capital-docs.git
