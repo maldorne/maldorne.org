@@ -36,17 +36,18 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.7.0",
+    "eslint": "^10.10.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import-x": "^4.17.1",
-    "eslint-plugin-jsonc": "^3.3.0",
-    "eslint-plugin-markdownlint": "^0.10.1",
+    "eslint-plugin-jsonc": "^3.4.2",
+    "eslint-plugin-markdownlint": "^1.0.0",
     "eslint-plugin-prettier": "^5.5.6",
-    "globals": "^17.7.0",
-    "jsonc-eslint-parser": "^3.1.0",
-    "prettier": "^3.9.5"
+    "globals": "^17.12.0",
+    "jsonc-eslint-parser": "^3.3.0",
+    "prettier": "^3.9.8"
   },
   "overrides": {
-    "strip-ansi": "^6.0.1"
+    "strip-ansi": "^6.0.1",
+    "fast-xml-parser": "^5.10.1"
   }
 }
