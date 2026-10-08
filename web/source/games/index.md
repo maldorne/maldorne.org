@@ -5,21 +5,6 @@ language: en
 template: page
 ---
 
-![](/images/ciudadcapital_logo.png)
-
-## Ciudad Capital (v1)
-
-Original mud developed by the _House of Maldorne_ staff. The first version (v1) was developed on the MudOS driver. Open to players, but **the development is currently halted**. The second version (v2) is currently being developed using the Hexagon mudlib, take a look below.
-
-|                   |                                                                                                      |
-| ----------------- | ---------------------------------------------------------------------------------------------------- |
-| Web client        | [maldorne.org/play](/play/?mud=ciudad-capital)                                                       |
-| Telnet client     | [mud.maldorne.org port 5010](telnet://mud.maldorne.org:5010)                                         |
-| Language          | spanish                                                                                              |
-| Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v22.2-maldorne) |
-
----
-
 ![](/images/hexagon_logo.png)
 
 ## Hexagon
@@ -39,6 +24,22 @@ Original mudlib capable of hosting several games inside the same server. Current
 | Mud type (driver)   | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([DGD](https://en.wikipedia.org/wiki/Dworkin%27s_Game_Driver) 1.7.6) |
 
 ---
+
+![](/images/ciudadcapital_logo.png)
+
+## Ciudad Capital (v1)
+
+Original mud developed by the _House of Maldorne_ staff. The first version (v1) was developed on the MudOS driver. Open to players, but **the development is currently halted**. The second version (v2) is currently being developed using the Hexagon mudlib, take a look below.
+
+|                   |                                                                                                      |
+| ----------------- | ---------------------------------------------------------------------------------------------------- |
+| Web client        | [maldorne.org/play](/play/?mud=ciudad-capital)                                                       |
+| Telnet client     | [mud.maldorne.org port 5010](telnet://mud.maldorne.org:5010)                                         |
+| Language          | spanish                                                                                              |
+| Mud type (driver) | [LPMud](https://en.wikipedia.org/wiki/LPMud) ([MudOS](https://en.wikipedia.org/wiki/MudOS) v22.2-maldorne) |
+
+---
+
 
 ![](/images/iluminado_logo.png)
 
