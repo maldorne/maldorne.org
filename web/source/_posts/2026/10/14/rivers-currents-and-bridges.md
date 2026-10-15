@@ -48,13 +48,13 @@ You can see the shore towards the west. You can swim towards the north, the sout
 
 Going in from a coast always works. Every stroke after that is rolled: 50 plus the swimmer's ability, 20 more going with the current, 5 less per point of strength going across it. Against a `hard` current the penalty is 10 per point of strength plus one, and nobody swims against a `block` one. Deep water costs another 10, and so does every point of load beyond half of what the swimmer can carry.
 
-Whoever fails a stroke swallows water and loses a bite of life, never the last of it, and the current takes them downstream. Whoever stays in moving water without swimming is carried off after twenty seconds anyway. That is the easy way down a river:
+Whoever fails a stroke swallows water and loses a bite of life, never the last of it, and the current takes them downstream. Whoever stays in moving water without swimming is carried off after a while anyway. That is the easy way down a river:
 
 ```
 You let yourself go and the current sweeps you away.
 ```
 
-Then the next location, and twenty seconds later the next one.
+Then the next location, and a while later the next one.
 
 ## What the current carries
 
