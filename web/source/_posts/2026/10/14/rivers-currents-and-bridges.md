@@ -17,6 +17,9 @@ The rules come from the system of oceans and seas I wrote for [Ciudad Capital](/
 
 ![World map with a river drawn in blue between the forest and Naduk](./rivers-currents-and-bridges/world-map.png)
 
+The world map of [Reinos de Leyenda: Aeternum](/games/#Hexagon), with the Anduin in blue. Each cell of the world map stands for 10×10 locations of the game.
+{.caption}
+
 <!-- more -->
 
 ## Water and coasts
@@ -108,9 +111,12 @@ A location needs only the `bridge` component, in place of the water one. Other c
 
 ## On the maps
 
-The local map marks both kinds of cell, and its legend says what they are. This is the abandoned bridge over the Anduin, in the Orgoth forest:
+The local map marks both kinds of cell, and its legend says what they are. This is the local map seen from the abandoned bridge over the Anduin, in the Orgoth forest:
 
 ![Local map seen from the bridge cell: water and bridge cells along the river, with the legend for shore, water and bridge](./rivers-currents-and-bridges/local-map-bridge.png)
+
+The local map seen from the abandoned bridge, where the star stands. The bridge drawn upstream is Gyneth's bridge; the water cells and the shore have glyphs of their own.
+{.caption}
 
 On the world map rivers are drawn per sector, the way roads are, in blue box lines, as in the map at the top of this post. A sector records the swum exits of every water location with a current in it, and a line is drawn only between two water locations; still water, with no current, draws no line. Where a straight road crosses a straight river in the same sector, the map shows a crossing glyph.
 
