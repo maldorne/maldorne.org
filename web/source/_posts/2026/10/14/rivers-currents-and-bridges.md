@@ -46,7 +46,7 @@ You manage to swim towards the south.
 You can see the shore towards the west. You can swim towards the north, the south and the west.
 ```
 
-Going in from a coast always works. Every stroke after that is rolled: 50 plus the swimmer's ability, 20 more going with the current, 5 less per point of strength going across it. Against a `hard` current the penalty is 10 per point of strength plus one, and nobody swims against a `block` one. Deep water costs another 10, and so does every point of load beyond half of what the swimmer can carry.
+Going in from a coast always works. Every stroke after that is rolled against the swimmer's ability. Going with the current makes it easier; crossing it gets harder the stronger it runs, and against a `hard` current harder still, while nobody swims against a `block` one. Deep water makes it harder, and so does carrying more than half of what the swimmer can bear.
 
 Whoever fails a stroke swallows water and loses a bite of life, never the last of it, and the current takes them downstream. Whoever stays in moving water without swimming is carried off after a while anyway. That is the easy way down a river:
 
@@ -58,7 +58,7 @@ Then the next location, and a while later the next one.
 
 ## What the current carries
 
-Each drag also rolls a chance of 10, plus 10 per point of strength, minus a tenth of the swim ability, of being thrown against the rocks. The damage is a d6 per point of strength plus 3% of the victim's maximum life per point:
+Each drag also rolls a chance of being thrown against the rocks, higher the stronger the current and lower the better the swimmer. The harm grows with the strength of the current and with the victim's own life, so a strong river hurts anybody:
 
 ```
 The current batters you against the rocks and drags you under.
@@ -68,8 +68,8 @@ It can kill, and the death happens in the water: the ghost stays where it died, 
 
 Items go the same way. Anything that is not a living and can be picked up is carried off when it lies in a location with a current. Each location keeps a single call_out, armed when the first item arrives, and moves everything that arrived by then in one pass. Items dropped together reach the next location together. On every drag each item rolls once:
 
-- 15% of the time it is lost for good, unless it is or holds a unique item, which the water never takes;
-- another 25% of the time, if that location has a swum exit to a coast, it is washed onto that shore;
+- it can be lost for good, unless it is or holds a unique item, which the water never takes;
+- it can be washed onto the shore, if that location has a swum exit to a coast;
 - otherwise it goes on downstream and is queued again there.
 
 Someone who dies in the water leaves the gear out of the corpse, money and worn items included, and each piece drifts on its own, like the corpse, so your clothes, your armour or anything else you carried can end up on a bank further down, or be lost for good.
