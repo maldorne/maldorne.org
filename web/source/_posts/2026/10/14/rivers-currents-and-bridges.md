@@ -15,6 +15,8 @@ categories:
 
 The rules come from the system of oceans and seas I wrote for [Ciudad Capital](/games/#Ciudad-Capital-v1) in 2009, ported and extended. They live in two shared files, `lib/room/water.c` and `lib/room/coast.c`. A game still made of rooms inherits them through the room bases `/lib/water.c` and `/lib/coast.c`. A game on [locations](/2025/01/23/from-rooms-to-locations-an-ecs-approach/) gets the same rules from the `water` and `coast` components, and converting a room to a location attaches the component with the room's own settings, so rooms and locations run the same code.
 
+![World map with a river drawn in blue between the forest and Naduk](./rivers-currents-and-bridges/world-map.png)
+
 <!-- more -->
 
 ## Water and coasts
@@ -110,10 +112,6 @@ The local map marks both kinds of cell, and its legend says what they are. This 
 
 ![Local map seen from the bridge cell: water and bridge cells along the river, with the legend for shore, water and bridge](./rivers-currents-and-bridges/local-map-bridge.png)
 
-On the world map rivers are drawn per sector, the way roads are, in blue box lines:
-
-![World map with a river drawn in blue between the forest and Naduk](./rivers-currents-and-bridges/world-map.png)
-
-A sector records the swum exits of every water location with a current in it, and a line is drawn only between two water locations; still water, with no current, draws no line. Where a straight road crosses a straight river in the same sector, the map shows a crossing glyph.
+On the world map rivers are drawn per sector, the way roads are, in blue box lines, as in the map at the top of this post. A sector records the swum exits of every water location with a current in it, and a line is drawn only between two water locations; still water, with no current, draws no line. Where a straight road crosses a straight river in the same sector, the map shows a crossing glyph.
 
 The source code is in the [Hexagon repository](https://github.com/maldorne/hexagon).
