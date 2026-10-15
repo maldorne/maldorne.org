@@ -13,8 +13,6 @@ categories:
 
 [Hexagon](https://github.com/maldorne/hexagon) has adventuring parties now. You put one together on the spot, you share a channel nobody else hears, and you see on the map who is with you. When you are done with it, it is gone.
 
-<!-- more -->
-
 ## What a party is
 
 Whoever creates it leads it, and is the only one who can invite, throw somebody out, rename it or hand it over. Five people fit in one, and an invitation has to be taken up shortly after it is offered. If the leader leaves the world, whether they quit or their link drops, the next member takes over: a party does not evaporate halfway through a dungeon because the one who called it had to go.
@@ -31,6 +29,8 @@ Party 'Into the Caves':
   Ilmarin (leading)
   Dorian
 ```
+
+<!-- more -->
 
 The channel comes with it. `party channel <message>`, or the `adventurer` verb on its own, reaches everybody in it wherever they are standing.
 
