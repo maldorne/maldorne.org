@@ -15,8 +15,16 @@ We are also developing the [**Hexagon** mudlib/framework](https://github.com/mal
 
 {% timeline %}
 
-{% year "24/25" "Next milestone" "Hexagon v2.1 Daggerfall" %}
-The following milestone will include a full revision of communication and movement commands, skills, and the first version of **locations**, an alternative to rooms where data and behavior are separated, making every location fully modifiable and customizable by code, in execution time.
+{% year "26/27" "Next milestone" "Hexagon v2.2 Edoras" %}
+The following milestone, `Edoras`, is about living worlds. We have already reviewed the quest system, citizenships and guards, rivers and bridges, the light system and the world map, and added props as an alternative to items in locations, plus shared houses. Still to come are area-driven NPC population, settlements that replace the people they lose, families and houses, more quest types, crime and guards, and a review of the spell system.
+{% endyear %}
+
+{% year "2026" "Stable version" "Hexagon v2.1 Daggerfall" %}
+The fourth milestone, `Daggerfall`, brings the first version of **locations**, an alternative to rooms where data and behavior are separated. A location is an *entity* that carries *components*, small objects that each hold one slice of its behavior (a shop, its props, a maze), so any location can be changed by code at run time. NPCs are entities too, with components of their own such as a schedule, a guard post or a toll, and both kinds share the same entity-component core.
+
+Around it we revised the communication and movement commands, the mail system, the combat system and the skill system, and wrote a new help system. Each game now has its own weather and calendar. The mudlib also gained NPCs with hourly schedules, jobs, deities and temples, and guest users.
+
+* 17/09/2026 `v2.1 Daggerfall`
 {% endyear %}
 
 {% year "2024" "Stable version" "Hexagon v2.0 Castle Black" %}
