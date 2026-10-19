@@ -27,7 +27,7 @@ Around it we revised the communication and movement commands, the mail system, t
 * 17/09/2026 `v2.1 Daggerfall`
 {% endyear %}
 
-{% year "2024" "Stable version" "Hexagon v2.0 Castle Black" %}
+{% year "2024" "First beta" "Hexagon v2.0 Castle Black" %}
 The third milestone, `Castle Black`, includes a revision of every command, advances the translation process trying to have every main system in english again, and has finished the first complete demo game: `demo-fantasy`.
 
 It means the move from **alpha** version to a **beta** version, stable and usable enough for other users to create their own games or porting old games from other drivers to `DGD` using `Hexagon`.
