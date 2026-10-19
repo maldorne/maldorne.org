@@ -10,7 +10,8 @@
     "lint": "npx eslint . --ext js,json,md",
     "lint:fix": "npx eslint . --ext js,json,md --fix",
     "lint:quiet": "npx eslint . --ext js,json,md --quiet",
-    "server": "npx hexo server"
+    "server": "npx hexo server",
+    "maps:sync": "node tools/maps-sync.js"
   },
   "hexo": {
     "version": "8.1.2"

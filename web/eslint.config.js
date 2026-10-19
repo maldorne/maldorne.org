@@ -19,6 +19,8 @@ export default [
       '**/package-lock.json',
       '**/*.min.js',
       '**/fontawesome/*',
+      // maps written by the mud and copied by maps:sync
+      'source/_data/maps/',
     ],
   },
   // general defaults
