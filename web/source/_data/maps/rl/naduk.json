@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"naduk","name":"naduk","generated":"2026-10-19",
+{"format":"mapper/1","game":"rl-aeternum","area":"naduk","name":"naduk","generated":"2026-10-29",
 "areas":[
 {"id":"naduk/rooms","name":"Naduk","parent":""},
 {"id":"naduk/rooms/farms","name":"farms","parent":"naduk/rooms"},
@@ -21,7 +21,7 @@
 {"id":"rooms/P02","name":"Carretera entre campos","area":"naduk/rooms","x":8,"y":-2,"z":0,"zone":"","exits":[{"dir":"southeast","to":"rooms/P03"},{"dir":"west","to":"rooms/P01"}]},
 {"id":"rooms/P03","name":"Carretera entre el bosque y el pueblo","area":"naduk/rooms","x":9,"y":-3,"z":0,"zone":"","exits":[{"dir":"northwest","to":"rooms/P02"},{"dir":"southeast","to":"rooms/P04"}]},
 {"id":"rooms/P04","name":"Carretera hacia el río","area":"naduk/rooms","x":10,"y":-4,"z":0,"zone":"","exits":[{"dir":"east","to":"rooms/P05"},{"dir":"northwest","to":"rooms/P03"}]},
-{"id":"rooms/P05","name":"Carretera junto al río","area":"naduk/rooms","x":11,"y":-4,"z":0,"zone":"","exits":[{"dir":"northeast","to":"rooms/P06"},{"dir":"west","to":"rooms/P04"}]},
+{"id":"rooms/P05","name":"Carretera junto al río","area":"naduk/rooms","x":11,"y":-4,"z":0,"zone":"","exits":[{"dir":"northeast","to":"rooms/P06"},{"dir":"south","to":"rooms/camino-sur-01"},{"dir":"west","to":"rooms/P04"}]},
 {"id":"rooms/P06","name":"Puente de Naduk","area":"naduk/rooms","x":12,"y":-3,"z":0,"zone":"","exits":[{"dir":"northeast","to":"rooms/P07"},{"dir":"southwest","to":"rooms/P05"}]},
 {"id":"rooms/P07","name":"Carretera tras el puente","area":"naduk/rooms","x":13,"y":-2,"z":0,"zone":"","exits":[{"dir":"east","to":"rooms/P08"},{"dir":"southwest","to":"rooms/P06"}]},
 {"id":"rooms/P08","name":"Carretera entre el bosque y el pueblo","area":"naduk/rooms","x":14,"y":-2,"z":0,"zone":"","exits":[{"dir":"southeast","to":"rooms/P09"},{"dir":"west","to":"rooms/P07"}]},
@@ -48,6 +48,13 @@
 {"id":"rooms/a9","name":"Oficina de correos de Naduk","area":"naduk/rooms","x":29,"y":-5,"z":0,"zone":"","exits":[{"dir":"north","to":"rooms/a5"}]},
 {"id":"rooms/ap","name":"El Penúltimo Hogar","area":"naduk/rooms","x":30,"y":-4,"z":0,"zone":"","exits":[{"dir":"north","to":"rooms/a4"},{"dir":"south","to":"rooms/plot_30_-5_0"}]},
 {"id":"rooms/as","name":"Tienda de Naduk","area":"naduk/rooms","x":30,"y":-2,"z":0,"zone":"","exits":[{"dir":"north","to":"rooms/plot_30_-1_0"},{"dir":"south","to":"rooms/a4"}]},
+{"id":"rooms/camino-sur-01","name":"Camino cerca de Naduk","area":"naduk/rooms","x":11,"y":-5,"z":0,"zone":"62ab971e","exits":[{"dir":"north","to":"rooms/P05"},{"dir":"southeast","to":"rooms/camino-sur-02"}]},
+{"id":"rooms/camino-sur-02","name":"Camino cerca de Naduk","area":"naduk/rooms","x":12,"y":-6,"z":0,"zone":"62ab971e","exits":[{"dir":"northwest","to":"rooms/camino-sur-01"},{"dir":"south","to":"rooms/camino-sur-03"}]},
+{"id":"rooms/camino-sur-03","name":"Camino cerca de Naduk","area":"naduk/rooms","x":12,"y":-7,"z":0,"zone":"62ab971e","exits":[{"dir":"north","to":"rooms/camino-sur-02"},{"dir":"south","to":"rooms/camino-sur-04"}]},
+{"id":"rooms/camino-sur-04","name":"Camino cerca de Naduk","area":"naduk/rooms","x":12,"y":-8,"z":0,"zone":"62ab971e","exits":[{"dir":"north","to":"rooms/camino-sur-03"},{"dir":"southwest","to":"rooms/camino-sur-05"}]},
+{"id":"rooms/camino-sur-05","name":"Camino cerca de Naduk","area":"naduk/rooms","x":11,"y":-9,"z":0,"zone":"62ab971e","exits":[{"dir":"northeast","to":"rooms/camino-sur-04"}]},
+{"id":"rooms/camino-sur-06","name":"Camino cerca de Naduk","area":"naduk/rooms","x":11,"y":-10,"z":0,"zone":"62ab971e","exits":[{"dir":"north","to":"rooms/camino-sur-05"},{"dir":"south","to":"rooms/camino-sur-07"}]},
+{"id":"rooms/camino-sur-07","name":"Camino cerca de Naduk","area":"naduk/rooms","x":11,"y":-11,"z":0,"zone":"62ab971e","exits":[{"dir":"north","to":"rooms/camino-sur-06"}]},
 {"id":"rooms/farms/c1","name":"Campo de trigo","area":"naduk/rooms/farms","x":33,"y":-2,"z":0,"zone":"5b7eb9ee","exits":[{"dir":"north","to":"rooms/farms/plot_33_-1_0"},{"dir":"south","to":"rooms/farms/f1"},{"dir":"west","to":"rooms/farms/plot_32_-2_0"}]},
 {"id":"rooms/farms/c2","name":"Campo de cebada","area":"naduk/rooms/farms","x":34,"y":-4,"z":0,"zone":"5b7eb9ee","exits":[{"dir":"north","to":"rooms/farms/f2"}]},
 {"id":"rooms/farms/c3","name":"Huerta de hortalizas","area":"naduk/rooms/farms","x":34,"y":-1,"z":0,"zone":"5b7eb9ee","exits":[{"dir":"south","to":"rooms/farms/f3"}]},
@@ -147,6 +154,8 @@
 {"from":"rooms/P06","dir":"north","area":"anduin/rooms","kind":"area","label":"Anduin","to":"river-47"},
 {"from":"rooms/P06","dir":"south","area":"anduin/rooms","kind":"area","label":"Anduin","to":"river-48"},
 {"from":"rooms/P07","dir":"west","area":"anduin/rooms","kind":"area","label":"Anduin","to":"river-47"},
+{"from":"rooms/camino-sur-07","dir":"south","area":"zulk/camino/rooms","kind":"area","label":"Zulk","to":"camino-00"},
+{"from":"rooms/camino-sur-07","dir":"southeast","area":"zulk/camino/rooms","kind":"area","label":"Zulk","to":"camino-01"},
 {"from":"rooms/road/7","dir":"west","area":"elfereth/rooms","kind":"area","label":"Elfereth","to":"P01"},
 {"from":"rooms/road/n30","dir":"north","area":"orgoth/bosque/rooms","kind":"area","label":"Orgoth","to":"83"}
 ]}

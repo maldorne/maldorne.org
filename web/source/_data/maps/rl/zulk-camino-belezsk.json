@@ -1,0 +1,38 @@
+{"format":"mapper/1","game":"rl-aeternum","area":"zulk/camino-belezsk","name":"camino-belezsk","generated":"2026-10-29",
+"areas":[
+{"id":"zulk/camino-belezsk/rooms","name":"camino-belezsk","parent":""}
+],
+"levels":[0],
+"locations":[
+{"id":"rooms/camino-belezsk-01","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-19,"y":-93,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-02"}]},
+{"id":"rooms/camino-belezsk-02","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-19,"y":-92,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-03"},{"dir":"south","to":"rooms/camino-belezsk-01"}]},
+{"id":"rooms/camino-belezsk-03","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-19,"y":-91,"z":0,"zone":"00e9130d","exits":[{"dir":"northeast","to":"rooms/camino-belezsk-04"},{"dir":"south","to":"rooms/camino-belezsk-02"}]},
+{"id":"rooms/camino-belezsk-04","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-18,"y":-90,"z":0,"zone":"00e9130d","exits":[{"dir":"northeast","to":"rooms/camino-belezsk-05"},{"dir":"southwest","to":"rooms/camino-belezsk-03"}]},
+{"id":"rooms/camino-belezsk-05","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-17,"y":-89,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-06"},{"dir":"southwest","to":"rooms/camino-belezsk-04"}]},
+{"id":"rooms/camino-belezsk-06","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-17,"y":-88,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-07"},{"dir":"south","to":"rooms/camino-belezsk-05"}]},
+{"id":"rooms/camino-belezsk-07","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-17,"y":-87,"z":0,"zone":"00e9130d","exits":[{"dir":"northwest","to":"rooms/camino-belezsk-08"},{"dir":"south","to":"rooms/camino-belezsk-06"}]},
+{"id":"rooms/camino-belezsk-08","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-18,"y":-86,"z":0,"zone":"00e9130d","exits":[{"dir":"northwest","to":"rooms/camino-belezsk-09"},{"dir":"southeast","to":"rooms/camino-belezsk-07"}]},
+{"id":"rooms/camino-belezsk-09","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-19,"y":-85,"z":0,"zone":"00e9130d","exits":[{"dir":"southeast","to":"rooms/camino-belezsk-08"},{"dir":"west","to":"rooms/camino-belezsk-10"}]},
+{"id":"rooms/camino-belezsk-10","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-20,"y":-85,"z":0,"zone":"00e9130d","exits":[{"dir":"east","to":"rooms/camino-belezsk-09"},{"dir":"north","to":"rooms/camino-belezsk-11"}]},
+{"id":"rooms/camino-belezsk-11","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-20,"y":-84,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-12"},{"dir":"south","to":"rooms/camino-belezsk-10"}]},
+{"id":"rooms/camino-belezsk-12","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-20,"y":-83,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-13"},{"dir":"south","to":"rooms/camino-belezsk-11"}]},
+{"id":"rooms/camino-belezsk-13","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-20,"y":-82,"z":0,"zone":"00e9130d","exits":[{"dir":"northeast","to":"rooms/camino-belezsk-14"},{"dir":"south","to":"rooms/camino-belezsk-12"}]},
+{"id":"rooms/camino-belezsk-14","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-19,"y":-81,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-15"},{"dir":"southwest","to":"rooms/camino-belezsk-13"}]},
+{"id":"rooms/camino-belezsk-15","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-19,"y":-80,"z":0,"zone":"00e9130d","exits":[{"dir":"northeast","to":"rooms/camino-belezsk-16"},{"dir":"south","to":"rooms/camino-belezsk-14"}]},
+{"id":"rooms/camino-belezsk-16","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-18,"y":-79,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-17"},{"dir":"southwest","to":"rooms/camino-belezsk-15"}]},
+{"id":"rooms/camino-belezsk-17","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-18,"y":-78,"z":0,"zone":"00e9130d","exits":[{"dir":"northeast","to":"rooms/camino-belezsk-18"},{"dir":"south","to":"rooms/camino-belezsk-16"}]},
+{"id":"rooms/camino-belezsk-18","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-17,"y":-77,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-19"},{"dir":"southwest","to":"rooms/camino-belezsk-17"}]},
+{"id":"rooms/camino-belezsk-19","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-17,"y":-76,"z":0,"zone":"00e9130d","exits":[{"dir":"northwest","to":"rooms/camino-belezsk-20"},{"dir":"south","to":"rooms/camino-belezsk-18"}]},
+{"id":"rooms/camino-belezsk-20","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-18,"y":-75,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-21"},{"dir":"southeast","to":"rooms/camino-belezsk-19"}]},
+{"id":"rooms/camino-belezsk-21","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-18,"y":-74,"z":0,"zone":"00e9130d","exits":[{"dir":"northeast","to":"rooms/camino-belezsk-22"},{"dir":"south","to":"rooms/camino-belezsk-20"}]},
+{"id":"rooms/camino-belezsk-22","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-17,"y":-73,"z":0,"zone":"00e9130d","exits":[{"dir":"northeast","to":"rooms/camino-belezsk-23"},{"dir":"southwest","to":"rooms/camino-belezsk-21"}]},
+{"id":"rooms/camino-belezsk-23","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-16,"y":-72,"z":0,"zone":"00e9130d","exits":[{"dir":"north","to":"rooms/camino-belezsk-24"},{"dir":"southwest","to":"rooms/camino-belezsk-22"}]},
+{"id":"rooms/camino-belezsk-24","name":"Camino de Belezsk","area":"zulk/camino-belezsk/rooms","x":-16,"y":-71,"z":0,"zone":"00e9130d","exits":[{"dir":"south","to":"rooms/camino-belezsk-23"}]}
+],
+"external":[
+{"from":"rooms/camino-belezsk-01","dir":"south","area":"zulk/grimoszk/rooms","kind":"area","label":"Zulk","to":"puerta-norte"},
+{"from":"rooms/camino-belezsk-07","dir":"northeast","area":"zulk/pantano/rooms","kind":"area","label":"Zulk","to":"pantano-grimoszk-106"},
+{"from":"rooms/camino-belezsk-10","dir":"west","area":"zulk/pantano/rooms","kind":"area","label":"Zulk","to":"pantano-grimoszk-115"},
+{"from":"rooms/camino-belezsk-18","dir":"east","area":"zulk/campamento/camino/rooms","kind":"area","label":"Zulk","to":"campamento-camino-01"},
+{"from":"rooms/camino-belezsk-24","dir":"north","area":"zulk/belezsk/rooms","kind":"area","label":"Zulk","to":"camino-01"}
+]}
