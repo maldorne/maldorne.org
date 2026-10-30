@@ -1,4 +1,4 @@
-// Copies the map files of each game (format mapper/1) from its GitHub repo
+// Copies the map files of each game (formats mapper/1 and worldmap/1) from its GitHub repo
 // into source/_data/maps/<slug>/. Uses the gh CLI, so the repos may be private.
 // Usage: npm run maps:sync
 import { execFileSync } from 'node:child_process';
@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const config = JSON.parse(fs.readFileSync(path.join(root, 'maps.config.json'), 'utf8'));
-const FORMAT = 'mapper/1';
+const FORMATS = ['mapper/1', 'worldmap/1'];
 
 const gh = (args) =>
   execFileSync('gh', ['api', ...args], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
@@ -44,13 +44,15 @@ for (const [slug, game] of Object.entries(config)) {
         skipped.push(`${file.name} (invalid JSON: ${err.message})`);
         continue;
       }
-      if (data.format !== FORMAT) {
-        skipped.push(`${file.name} (format ${data.format}, expected ${FORMAT})`);
+      if (!FORMATS.includes(data.format)) {
+        skipped.push(`${file.name} (format ${data.format}, expected ${FORMATS.join(' or ')})`);
         continue;
       }
       fs.writeFileSync(path.join(dir, file.name), text);
       wanted.add(file.name);
-      added.push(`${file.name} (${data.locations.length} locations)`);
+      added.push(
+        `${file.name} (${data.locations ? `${data.locations.length} locations` : `level ${data.z}`})`,
+      );
     }
 
     // drop local files that no longer exist upstream

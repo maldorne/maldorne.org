@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"tzerneelledol/cavernas","name":"cavernas","generated":"2026-10-29",
+{"format":"mapper/1","game":"rl-aeternum","area":"tzerneelledol/cavernas","name":"cavernas","generated":"2026-10-30",
 "areas":[
 {"id":"tzerneelledol/cavernas/camino/rooms","name":"camino","parent":"tzerneelledol/cavernas/entrada/rooms"},
 {"id":"tzerneelledol/cavernas/campamento/rooms","name":"campamento","parent":"tzerneelledol/cavernas/entrada/rooms"},
@@ -409,6 +409,6 @@
 {"id":"templo/rooms/templo","name":"Templo de la Sangre Sagrada","area":"tzerneelledol/cavernas/templo/rooms","x":62,"y":47,"z":-5,"zone":"efaf301c","exits":[{"dir":"south","to":"templo/rooms/frente-templo"}]}
 ],
 "external":[
-{"from":"galeria/rooms/galeria-01","dir":"up","area":"tzerneelledol/tuneles/nivel-2/rooms","kind":"area","label":"Tzerneelledol","to":"tunel-71"},
-{"from":"suboscuridad/rooms/acceso-1","dir":"south","area":"tzerneelledol/ciudad/puertas/rooms","kind":"area","label":"Tzerneelledol","to":"puerta-02"}
+{"from":"galeria/rooms/galeria-01","dir":"up","area":"tzerneelledol/tuneles/nivel-2/rooms","kind":"area","label":"Túneles de Tzerneelledol","to":"tunel-71"},
+{"from":"suboscuridad/rooms/acceso-1","dir":"south","area":"tzerneelledol/ciudad/puertas/rooms","kind":"area","label":"Tzerneelle'Dol","to":"puerta-02"}
 ]}

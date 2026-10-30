@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"orgoth","name":"orgoth","generated":"2026-10-19",
+{"format":"mapper/1","game":"rl-aeternum","area":"orgoth","name":"orgoth","generated":"2026-10-30",
 "areas":[
 {"id":"orgoth/bosque/rooms","name":"Bosque de Orgoth","parent":""},
 {"id":"orgoth/bosque/rooms/road","name":"road","parent":""},
@@ -180,6 +180,10 @@
 {"id":"hithrim/rooms/casa","name":"Hithrim: casa","area":"orgoth/hithrim/rooms","x":10,"y":53,"z":1,"zone":"28476bb8","exits":[{"dir":"east","to":"hithrim/rooms/rama-baja-01"}]},
 {"id":"hithrim/rooms/correos","name":"Hithrim: correos","area":"orgoth/hithrim/rooms","x":14,"y":52,"z":1,"zone":"28476bb8","exits":[{"dir":"north","to":"hithrim/rooms/rama-baja-04"}]},
 {"id":"hithrim/rooms/entrada","name":"Hithrim: entrada","area":"orgoth/hithrim/rooms","x":11,"y":50,"z":1,"zone":"28476bb8","exits":[{"dir":"down","to":"bosque/rooms/163"},{"dir":"north","to":"hithrim/rooms/tronco-02"}]},
+{"id":"hithrim/rooms/herbalists-entrance","name":"Hithrim: escuela de herboristas, entrada","area":"orgoth/hithrim/rooms","x":12,"y":52,"z":1,"zone":"28476bb8","exits":[{"dir":"east","to":"hithrim/rooms/herbalists-hall"},{"dir":"north","to":"hithrim/rooms/rama-baja-02"}]},
+{"id":"hithrim/rooms/herbalists-hall","name":"Hithrim: escuela de herboristas, sala principal","area":"orgoth/hithrim/rooms","x":13,"y":52,"z":1,"zone":"28476bb8","exits":[{"dir":"west","to":"hithrim/rooms/herbalists-entrance"}]},
+{"id":"hithrim/rooms/herbalists-library","name":"Hithrim: escuela de herboristas, biblioteca","area":"orgoth/hithrim/rooms","x":13,"y":51,"z":1,"zone":"28476bb8","exits":[{"dir":"east","to":"hithrim/rooms/herbalists-store"},{"dir":"north","to":"hithrim/rooms/herbalists-hall"}]},
+{"id":"hithrim/rooms/herbalists-store","name":"Hithrim: escuela de herboristas, almacén","area":"orgoth/hithrim/rooms","x":14,"y":51,"z":1,"zone":"28476bb8","exits":[{"dir":"west","to":"hithrim/rooms/herbalists-library"}]},
 {"id":"hithrim/rooms/herboristeria","name":"Hithrim: herboristería","area":"orgoth/hithrim/rooms","x":11,"y":58,"z":1,"zone":"28476bb8","exits":[{"dir":"north","to":"hithrim/rooms/rama-alta-06"}]},
 {"id":"hithrim/rooms/pasarela-01","name":"Hithrim: pasarela","area":"orgoth/hithrim/rooms","x":10,"y":58,"z":1,"zone":"28476bb8","exits":[{"dir":"northeast","to":"hithrim/rooms/rama-alta-06"},{"dir":"south","to":"hithrim/rooms/pasarela-04"}]},
 {"id":"hithrim/rooms/pasarela-02","name":"Hithrim: pasarela","area":"orgoth/hithrim/rooms","x":12,"y":58,"z":1,"zone":"28476bb8","exits":[{"dir":"northwest","to":"hithrim/rooms/rama-alta-06"},{"dir":"southeast","to":"hithrim/rooms/pasarela-05"}]},
@@ -340,7 +344,8 @@
 "external":[
 {"from":"bosque/rooms/155","dir":"east","area":"takome/senda","kind":"area","label":"Takome","to":"camino-orgoth-01"},
 {"from":"bosque/rooms/58","dir":"west","area":"anduar/llanuras-orgoth/rooms","kind":"area","label":"Anduar","to":"real-96"},
+{"from":"bosque/rooms/69","dir":"down","area":"tzerneelledol/tuneles/nivel-1/rooms","kind":"area","label":"Túneles de Tzerneelledol","to":"pozo-entrada"},
 {"from":"bosque/rooms/83","dir":"south","area":"naduk/rooms/road","kind":"area","label":"Naduk","to":"n30"},
-{"from":"bosque/rooms/river-12","dir":"south","area":"anduin/rooms","kind":"area","label":"Anduin","to":"river-13"},
+{"from":"bosque/rooms/river-12","dir":"south","area":"anduin/rooms","kind":"area","label":"Río Anduin","to":"river-13"},
 {"from":"tsarzladen/tunnels/tunnel35","dir":"south","area":"guilds/warrior-mages/orgoth/rooms","kind":"guild","label":"Mago Guerrero","to":"ent"}
 ]}

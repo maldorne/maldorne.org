@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"naduk","name":"naduk","generated":"2026-10-29",
+{"format":"mapper/1","game":"rl-aeternum","area":"naduk","name":"Naduk","generated":"2026-10-30",
 "areas":[
 {"id":"naduk/rooms","name":"Naduk","parent":""},
 {"id":"naduk/rooms/farms","name":"farms","parent":"naduk/rooms"},
@@ -140,22 +140,22 @@
 {"id":"rooms/road/vault","name":"Casa del Aventurero: Baúl","area":"naduk/rooms/road","x":2,"y":0,"z":0,"zone":"","exits":[{"dir":"west","to":"rooms/road/guild"}]}
 ],
 "external":[
-{"from":"rooms/10","dir":"north","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"35"},
-{"from":"rooms/10","dir":"northeast","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"36"},
-{"from":"rooms/10","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"39"},
-{"from":"rooms/11","dir":"north","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"36"},
-{"from":"rooms/11","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"40"},
-{"from":"rooms/11","dir":"southwest","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"39"},
-{"from":"rooms/12","dir":"northwest","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"36"},
+{"from":"rooms/10","dir":"north","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"35"},
+{"from":"rooms/10","dir":"northeast","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"36"},
+{"from":"rooms/10","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"39"},
+{"from":"rooms/11","dir":"north","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"36"},
+{"from":"rooms/11","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"40"},
+{"from":"rooms/11","dir":"southwest","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"39"},
+{"from":"rooms/12","dir":"northwest","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"36"},
 {"from":"rooms/25","dir":"south","area":"erken/rooms","kind":"area","label":"Erken","to":"P01"},
-{"from":"rooms/9","dir":"southeast","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"39"},
+{"from":"rooms/9","dir":"southeast","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"39"},
 {"from":"rooms/P02","dir":"north","area":"jobs/hunter/naduk/rooms","kind":"job","label":"Cazador","to":"garden"},
-{"from":"rooms/P05","dir":"east","area":"anduin/rooms","kind":"area","label":"Anduin","to":"river-48"},
-{"from":"rooms/P06","dir":"north","area":"anduin/rooms","kind":"area","label":"Anduin","to":"river-47"},
-{"from":"rooms/P06","dir":"south","area":"anduin/rooms","kind":"area","label":"Anduin","to":"river-48"},
-{"from":"rooms/P07","dir":"west","area":"anduin/rooms","kind":"area","label":"Anduin","to":"river-47"},
-{"from":"rooms/camino-sur-07","dir":"south","area":"zulk/camino/rooms","kind":"area","label":"Zulk","to":"camino-00"},
-{"from":"rooms/camino-sur-07","dir":"southeast","area":"zulk/camino/rooms","kind":"area","label":"Zulk","to":"camino-01"},
+{"from":"rooms/P05","dir":"east","area":"anduin/rooms","kind":"area","label":"Río Anduin","to":"river-48"},
+{"from":"rooms/P06","dir":"north","area":"anduin/rooms","kind":"area","label":"Río Anduin","to":"river-47"},
+{"from":"rooms/P06","dir":"south","area":"anduin/rooms","kind":"area","label":"Río Anduin","to":"river-48"},
+{"from":"rooms/P07","dir":"west","area":"anduin/rooms","kind":"area","label":"Río Anduin","to":"river-47"},
+{"from":"rooms/camino-sur-07","dir":"south","area":"zulk/camino/rooms","kind":"area","label":"Pantanos de Zulk","to":"camino-00"},
+{"from":"rooms/camino-sur-07","dir":"southeast","area":"zulk/camino/rooms","kind":"area","label":"Pantanos de Zulk","to":"camino-01"},
 {"from":"rooms/road/7","dir":"west","area":"elfereth/rooms","kind":"area","label":"Elfereth","to":"P01"},
-{"from":"rooms/road/n30","dir":"north","area":"orgoth/bosque/rooms","kind":"area","label":"Orgoth","to":"83"}
+{"from":"rooms/road/n30","dir":"north","area":"orgoth/bosque/rooms","kind":"area","label":"Bosque de Orgoth","to":"83"}
 ]}

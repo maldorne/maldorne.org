@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"elrhair-forest","name":"elrhair-forest","generated":"2026-10-19",
+{"format":"mapper/1","game":"rl-aeternum","area":"elrhair-forest","name":"Bosque de Elrhair","generated":"2026-10-30",
 "areas":[
 {"id":"elrhair-forest/rooms","name":"Bosque de Elrhair","parent":""}
 ],
@@ -96,5 +96,5 @@
 {"from":"rooms/a17","dir":"north","area":"elfereth/rooms","kind":"area","label":"Elfereth","to":"P05"},
 {"from":"rooms/b33","dir":"north","area":"elfereth/rooms","kind":"area","label":"Elfereth","to":"P12"},
 {"from":"rooms/c27","dir":"north","area":"elfereth/rooms","kind":"area","label":"Elfereth","to":"P18"},
-{"from":"rooms/loma-mallorn","dir":"north","area":"anduin/tributary/rooms","kind":"area","label":"Anduin","to":"tributary-03"}
+{"from":"rooms/loma-mallorn","dir":"north","area":"anduin/tributary/rooms","kind":"area","label":"Río Anduin","to":"tributary-03"}
 ]}

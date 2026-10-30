@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"zulk/grimoszk","name":"grimoszk","generated":"2026-10-29",
+{"format":"mapper/1","game":"rl-aeternum","area":"zulk/grimoszk","name":"Grimoszk","generated":"2026-10-30",
 "areas":[
 {"id":"zulk/grimoszk/arena/rooms","name":"arena","parent":"zulk/grimoszk/rooms"},
 {"id":"zulk/grimoszk/cavernas/nivel-1/rooms","name":"nivel-1","parent":""},
@@ -366,7 +366,6 @@
 {"id":"rooms/plot_-16_-107_0","name":"Casa","area":"zulk/grimoszk/rooms","x":-16,"y":-107,"z":0,"zone":"","exits":[{"dir":"west","to":"rooms/calle-escamas-08"}]},
 {"id":"rooms/plot_-16_-98_0","name":"Casa","area":"zulk/grimoszk/rooms","x":-16,"y":-98,"z":0,"zone":"","exits":[{"dir":"west","to":"rooms/calle-dolor-05"}]},
 {"id":"rooms/plot_-17_-101_0","name":"Casa","area":"zulk/grimoszk/rooms","x":-17,"y":-101,"z":0,"zone":"","exits":[{"dir":"north","to":"rooms/calle-colmillo-09"}]},
-{"id":"rooms/plot_-17_-105_0","name":"","area":"zulk/grimoszk/rooms","x":-17,"y":-101,"z":0,"zone":"","exits":[]},
 {"id":"rooms/plot_-17_-95_0","name":"Casa","area":"zulk/grimoszk/rooms","x":-17,"y":-95,"z":0,"zone":"","exits":[{"dir":"west","to":"rooms/calle-dolor-02"}]},
 {"id":"rooms/plot_-17_-96_0","name":"Casa","area":"zulk/grimoszk/rooms","x":-17,"y":-96,"z":0,"zone":"","exits":[{"dir":"west","to":"rooms/calle-dolor-03"}]},
 {"id":"rooms/plot_-17_-97_0","name":"Casa","area":"zulk/grimoszk/rooms","x":-17,"y":-97,"z":0,"zone":"","exits":[{"dir":"west","to":"rooms/calle-dolor-04"}]},
@@ -437,7 +436,7 @@
 {"id":"torre/rooms/trono","name":"Torre del Ángel: Salón del Trono","area":"zulk/grimoszk/torre/rooms","x":-22,"y":-110,"z":3,"zone":"32daa8c2","exits":[{"dir":"east","to":"torre/rooms/pasillo-11"}]}
 ],
 "external":[
-{"from":"erk/rooms/linde-08","dir":"northeast","area":"zulk/pantano/rooms","kind":"area","label":"Zulk","to":"pantano-189"},
-{"from":"rooms/puerta-norte","dir":"north","area":"zulk/camino-belezsk/rooms","kind":"area","label":"Zulk","to":"camino-belezsk-01"},
-{"from":"rooms/puerta-oeste","dir":"west","area":"zulk/pantano/rooms","kind":"area","label":"Zulk","to":"pantano-grimoszk-001"}
+{"from":"erk/rooms/linde-08","dir":"northeast","area":"zulk/pantano/rooms","kind":"area","label":"Pantanos de Zulk","to":"pantano-189"},
+{"from":"rooms/puerta-norte","dir":"north","area":"zulk/camino-belezsk/rooms","kind":"area","label":"Pantanos de Zulk","to":"camino-belezsk-01"},
+{"from":"rooms/puerta-oeste","dir":"west","area":"zulk/pantano/rooms","kind":"area","label":"Pantanos de Zulk","to":"pantano-grimoszk-001"}
 ]}

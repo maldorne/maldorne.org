@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"tzerneelledol/ciudad","name":"ciudad","generated":"2026-10-29",
+{"format":"mapper/1","game":"rl-aeternum","area":"tzerneelledol/ciudad","name":"Tzerneelle'Dol","generated":"2026-10-30",
 "areas":[
 {"id":"tzerneelledol/ciudad/casas/agrach-dyrr/rooms","name":"agrach-dyrr","parent":"tzerneelledol/ciudad/rooms"},
 {"id":"tzerneelledol/ciudad/casas/bregan/rooms","name":"bregan","parent":"tzerneelledol/ciudad/rooms"},
@@ -223,5 +223,5 @@
 {"id":"rooms/calle-66","name":"Tzerneelle'Dol: Calle de la Vergüenza","area":"tzerneelledol/ciudad/rooms","x":46,"y":22,"z":-5,"zone":"8db2dc11","exits":[{"dir":"south","to":"rooms/calle-64"},{"dir":"southwest","to":"edificios/rooms/panaderia"}]}
 ],
 "external":[
-{"from":"puertas/rooms/puerta-02","dir":"north","area":"tzerneelledol/cavernas/suboscuridad/rooms","kind":"area","label":"Tzerneelledol","to":"acceso-1"}
+{"from":"puertas/rooms/puerta-02","dir":"north","area":"tzerneelledol/cavernas/suboscuridad/rooms","kind":"area","label":"Cavernas de Tzerneelle'Dol","to":"acceso-1"}
 ]}

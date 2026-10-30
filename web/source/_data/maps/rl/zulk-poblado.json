@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"zulk/poblado","name":"poblado","generated":"2026-10-29",
+{"format":"mapper/1","game":"rl-aeternum","area":"zulk/poblado","name":"poblado","generated":"2026-10-30",
 "areas":[
 {"id":"zulk/poblado/jungla/rooms","name":"jungla","parent":"zulk/poblado/manglar/rooms"},
 {"id":"zulk/poblado/manglar/rooms","name":"Poblado del pantano","parent":""},
@@ -114,5 +114,5 @@
 {"id":"templo/rooms/templo-20","name":"Camino al Poblado","area":"zulk/poblado/templo/rooms","x":77,"y":-109,"z":1,"zone":"5c62ce2a","exits":[{"dir":"northwest","to":"templo/rooms/templo-19"}]}
 ],
 "external":[
-{"from":"manglar/rooms/manglar-00","dir":"north","area":"zulk/pantano/rooms","kind":"area","label":"Zulk","to":"pantano-pp-144"}
+{"from":"manglar/rooms/manglar-00","dir":"north","area":"zulk/pantano/rooms","kind":"area","label":"Pantanos de Zulk","to":"pantano-pp-144"}
 ]}

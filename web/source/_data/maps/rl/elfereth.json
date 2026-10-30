@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"elfereth","name":"elfereth","generated":"2026-10-19",
+{"format":"mapper/1","game":"rl-aeternum","area":"elfereth","name":"Elfereth","generated":"2026-10-30",
 "areas":[
 {"id":"elfereth/rooms","name":"Elfereth","parent":""},
 {"id":"elfereth/rooms/grove","name":"grove","parent":"elfereth/rooms"}
@@ -75,7 +75,7 @@
 ],
 "external":[
 {"from":"rooms/P01","dir":"east","area":"naduk/rooms/road","kind":"area","label":"Naduk","to":"7"},
-{"from":"rooms/P05","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"a17"},
-{"from":"rooms/P12","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"b33"},
-{"from":"rooms/P18","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Elrhair forest","to":"c27"}
+{"from":"rooms/P05","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"a17"},
+{"from":"rooms/P12","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"b33"},
+{"from":"rooms/P18","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"c27"}
 ]}

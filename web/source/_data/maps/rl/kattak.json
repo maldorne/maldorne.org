@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"kattak","name":"kattak","generated":"2026-10-29",
+{"format":"mapper/1","game":"rl-aeternum","area":"kattak","name":"kattak","generated":"2026-10-30",
 "areas":[
 {"id":"kattak/ciudad/exterior","name":"exterior","parent":"kattak/ciudad/rooms"},
 {"id":"kattak/ciudad/milicia","name":"milicia","parent":"kattak/ciudad/rooms"},

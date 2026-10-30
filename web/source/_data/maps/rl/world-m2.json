@@ -1,0 +1,28 @@
+{"format":"worldmap/1","game":"rl-aeternum","map":"default","z":-2,"generated":"2026-10-30",
+"sector_size":10,"sectors":{"min_x":2,"max_x":3,"min_y":-2,"max_y":0},
+"columns":26,"rows_count":3,"map_left":12,
+"palette":{"BLACK":"#555555","BLUE":"#4a8fe8","CYAN":"#11a8cd","GREEN":"#0dbc79","MAGENTA":"#bc3fbc","ORANGE":"#b5892a","RED":"#cd3131","WHITE":"#e5e5e5","YELLOW":"#e5e510"},
+"rows":[
+{"text":"            ..            ","runs":[]},
+{"text":"            ▓.            ","runs":[]},
+{"text":"            ▓.            ","runs":[]}
+],
+"labels":[
+{"col":6,"row":1,"style":0,"text":"Salem"}
+],
+"legend":[
+{"glyph":"│","kind":"beach","style":1},
+{"glyph":"▓","kind":"city","style":0},
+{"glyph":"│","kind":"coast","style":2},
+{"glyph":"≡","kind":"farm","style":1},
+{"glyph":"♣","kind":"forest","style":3},
+{"glyph":"♣","kind":"forest-city","style":4},
+{"glyph":"▲","kind":"mountain","style":5},
+{"glyph":"⋰","kind":"plains","style":0},
+{"glyph":"║","kind":"river","style":6},
+{"glyph":"∴","kind":"ruins","style":0},
+{"glyph":"≈","kind":"swamp","style":3},
+{"glyph":"♧","kind":"taiga","style":3},
+{"glyph":".","kind":"underground","style":0}
+],
+"styles":[{"bold":0,"colour":""},{"bold":0,"colour":"YELLOW"},{"bold":0,"colour":"CYAN"},{"bold":0,"colour":"GREEN"},{"bold":1,"colour":"GREEN"},{"bold":0,"colour":"ORANGE"},{"bold":0,"colour":"BLUE"}]}

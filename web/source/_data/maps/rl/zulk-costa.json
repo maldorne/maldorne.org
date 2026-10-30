@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"zulk/costa","name":"costa","generated":"2026-10-29",
+{"format":"mapper/1","game":"rl-aeternum","area":"zulk/costa","name":"Costa de Zulk","generated":"2026-10-30",
 "areas":[
 {"id":"zulk/costa/rooms","name":"Costa de Zulk","parent":""}
 ],
@@ -372,6 +372,6 @@
 ],
 "external":[
 {"from":"rooms/acantilado-takome-61","dir":"southeast","area":"takome/embarcadero","kind":"area","label":"Takome","to":"embarcadero-4"},
-{"from":"rooms/playa-zulk-001","dir":"west","area":"zulk/pantano/rooms","kind":"area","label":"Zulk","to":"pantano-pp-101"},
+{"from":"rooms/playa-zulk-001","dir":"west","area":"zulk/pantano/rooms","kind":"area","label":"Pantanos de Zulk","to":"pantano-pp-101"},
 {"from":"rooms/senda-takome-01","dir":"north","area":"takome/via","kind":"area","label":"Takome","to":"via-cre-148"}
 ]}

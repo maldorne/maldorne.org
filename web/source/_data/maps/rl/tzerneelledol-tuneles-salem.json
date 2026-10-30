@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"tzerneelledol/tuneles/salem","name":"salem","generated":"2026-10-29",
+{"format":"mapper/1","game":"rl-aeternum","area":"tzerneelledol/tuneles/salem","name":"Salem","generated":"2026-10-30",
 "areas":[
 {"id":"tzerneelledol/tuneles/salem/rooms","name":"Salem","parent":""}
 ],
@@ -89,6 +89,6 @@
 {"id":"rooms/tienda","name":"Salem: Herrería","area":"tzerneelledol/tuneles/salem/rooms","x":29,"y":-14,"z":-11,"zone":"13b5cea5","exits":[{"dir":"west","to":"rooms/calle-43"}]}
 ],
 "external":[
-{"from":"rooms/calle-01","dir":"northwest","area":"tzerneelledol/tuneles/nivel-9/rooms","kind":"area","label":"Tzerneelledol","to":"alfa-01"},
-{"from":"rooms/calle-04","dir":"southeast","area":"tzerneelledol/tuneles/nivel-9/rooms","kind":"area","label":"Tzerneelledol","to":"alfa-02"}
+{"from":"rooms/calle-01","dir":"northwest","area":"tzerneelledol/tuneles/nivel-9/rooms","kind":"area","label":"Túneles de Tzerneelledol","to":"alfa-01"},
+{"from":"rooms/calle-04","dir":"southeast","area":"tzerneelledol/tuneles/nivel-9/rooms","kind":"area","label":"Túneles de Tzerneelledol","to":"alfa-02"}
 ]}

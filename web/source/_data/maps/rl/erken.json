@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"erken","name":"erken","generated":"2026-10-19",
+{"format":"mapper/1","game":"rl-aeternum","area":"erken","name":"Erken","generated":"2026-10-30",
 "areas":[
 {"id":"erken/rooms","name":"Erken","parent":""},
 {"id":"erken/rooms/farms","name":"farms","parent":"erken/rooms"}

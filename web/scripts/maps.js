@@ -1,14 +1,17 @@
 // Generates the public map viewer from the map files in source/_data/maps/<slug>/*.json
-// (format mapper/1, copied there by `npm run maps:sync`):
+// (formats mapper/1 and worldmap/1, copied there by `npm run maps:sync`):
 //   /maps/                        games that have maps
 //   /maps/<slug>/                 maps of one game
 //   /maps/<slug>/<map>/           the viewer
 //   /maps/<slug>/<map>/map.json   the map, fetched by the viewer
+//   /maps/<slug>/world/           the world map viewer
+//   /maps/<slug>/world/<z>.json   one level of the world map, fetched by the viewer
 const { readFileSync } = require('node:fs');
 const { join } = require('node:path');
 const { createHash } = require('node:crypto');
 
 const FORMAT = 'mapper/1';
+const WORLD_FORMAT = 'worldmap/1';
 
 const readConfig = () => {
   try {
@@ -18,13 +21,20 @@ const readConfig = () => {
   }
 };
 
-// { slug: { file: mapData } } from hexo's data box (keys look like maps/<slug>/<file>)
+// { games: { slug: { file: mapData } }, worlds: { slug: [level] } } from hexo's data box
+// (keys look like maps/<slug>/<file>)
 const collect = (data) => {
   const games = {};
+  const worlds = {};
   Object.keys(data).forEach((key) => {
     const parts = key.split('/');
     if (parts.length !== 3 || parts[0] !== 'maps') return;
     const map = data[key];
+    if (map && map.format === WORLD_FORMAT) {
+      worlds[parts[1]] = worlds[parts[1]] || [];
+      worlds[parts[1]].push(map);
+      return;
+    }
     if (!map || map.format !== FORMAT) {
       hexo.log.warn(`maps: ${key} is not a ${FORMAT} file, skipped`);
       return;
@@ -32,7 +42,7 @@ const collect = (data) => {
     games[parts[1]] = games[parts[1]] || {};
     games[parts[1]][parts[2]] = map;
   });
-  return games;
+  return { games, worlds };
 };
 
 // area path -> file of the map that holds locations of that area
@@ -63,9 +73,54 @@ const resolveExternal = (file, maps, byArea) => {
   return { ...map, external };
 };
 
+const plain = (s) =>
+  String(s)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+
+// the routes of a game's world map; every name that matches a map links to it
+const worldRoutes = (slug, title, levels, maps) => {
+  const base = `maps/${slug}/world/`;
+  const byName = {};
+  Object.keys(maps).forEach((file) => {
+    byName[plain(maps[file].name || file)] = file;
+  });
+  const routes = [];
+  const meta = [...levels]
+    .sort((a, b) => b.z - a.z)
+    .map((level) => {
+      const labels = level.labels.map((l) => {
+        const file = byName[plain(l.text)];
+        return file ? { ...l, url: `/maps/${slug}/${file}/` } : l;
+      });
+      const json = JSON.stringify({ ...level, labels });
+      const version = createHash('sha1').update(json).digest('hex').slice(0, 10);
+      routes.push({ path: `${base}${level.z}.json`, data: json });
+      return { z: level.z, url: `/${base}${level.z}.json?v=${version}` };
+    });
+  routes.push({
+    path: base,
+    layout: 'worldmap',
+    data: {
+      title: `World map of ${title}`,
+      map_name: 'World map',
+      game_title: title,
+      game_url: `/maps/${slug}/`,
+      levels: meta,
+      generated:
+        levels
+          .map((l) => l.generated)
+          .sort()
+          .pop() || '',
+    },
+  });
+  return routes;
+};
+
 hexo.extend.generator.register('maps', function (locals) {
   const config = readConfig();
-  const games = collect(locals.data);
+  const { games, worlds } = collect(locals.data);
   const routes = [];
   const gameList = [];
 
@@ -116,6 +171,15 @@ hexo.extend.generator.register('maps', function (locals) {
         });
 
       gameList.push({ name: title, url: `/maps/${slug}/`, maps: entries.length });
+      if (worlds[slug]) {
+        routes.push(...worldRoutes(slug, title, worlds[slug], maps));
+        entries.unshift({
+          name: 'World map',
+          url: `/maps/${slug}/world/`,
+          levels: worlds[slug].length,
+          world: true,
+        });
+      }
       routes.push({
         path: `maps/${slug}/`,
         layout: 'maps-index',

@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"anduar","name":"anduar","generated":"2026-10-29",
+{"format":"mapper/1","game":"rl-aeternum","area":"anduar","name":"anduar","generated":"2026-10-30",
 "areas":[
 {"id":"anduar/ciudad/biblioteca","name":"biblioteca","parent":"anduar/ciudad/rooms"},
 {"id":"anduar/ciudad/biblioteca/sotano","name":"sotano","parent":"anduar/ciudad/biblioteca"},
@@ -618,6 +618,6 @@
 {"from":"ciudad/rooms/este-07","dir":"west","area":"guilds/gestur-clerics/anduar/rooms","kind":"guild","label":"Clérigo de Gestur","to":"entrada"},
 {"from":"ciudad/rooms/plaza-constelaciones","dir":"northwest","area":"guilds/mages/anduar/rooms","kind":"guild","label":"Mago","to":"entrada-escuela"},
 {"from":"ciudad/rooms/sur-04","dir":"north","area":"guilds/warriors/anduar/rooms","kind":"guild","label":"Guerrero","to":"entrada"},
-{"from":"llanuras-kattak/rooms/real-94","dir":"west","area":"kattak/sendero","kind":"area","label":"Kattak","to":"sendero-01"},
-{"from":"llanuras-orgoth/rooms/real-96","dir":"east","area":"orgoth/bosque/rooms","kind":"area","label":"Orgoth","to":"58"}
+{"from":"llanuras-kattak/rooms/real-94","dir":"west","area":"kattak/sendero","kind":"area","label":"Anduar","to":"sendero-01"},
+{"from":"llanuras-orgoth/rooms/real-96","dir":"east","area":"orgoth/bosque/rooms","kind":"area","label":"Bosque de Orgoth","to":"58"}
 ]}

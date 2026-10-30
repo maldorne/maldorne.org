@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"zulk/quath-shui","name":"quath-shui","generated":"2026-10-29",
+{"format":"mapper/1","game":"rl-aeternum","area":"zulk/quath-shui","name":"Quath-Shui","generated":"2026-10-30",
 "areas":[
 {"id":"zulk/quath-shui/cueva/rooms","name":"cueva","parent":""},
 {"id":"zulk/quath-shui/galeria/rooms","name":"galeria","parent":""},
@@ -161,5 +161,5 @@
 ],
 "external":[
 {"from":"rooms/calle-saurios","dir":"down","area":"guilds/saurian-warriors/quath-shui/rooms","kind":"guild","label":"Guerrero del Pantano","to":"entrada"},
-{"from":"rooms/pasarela","dir":"north","area":"zulk/pantano/rooms","kind":"area","label":"Zulk","to":"pantano-pp-187"}
+{"from":"rooms/pasarela","dir":"north","area":"zulk/pantano/rooms","kind":"area","label":"Pantanos de Zulk","to":"pantano-pp-187"}
 ]}
