@@ -45,7 +45,7 @@
     "eslint-plugin-prettier": "^5.5.6",
     "globals": "^17.12.0",
     "jsonc-eslint-parser": "^3.3.0",
-    "prettier": "^3.9.9"
+    "prettier": "^3.9.10"
   },
   "overrides": {
     "strip-ansi": "^6.0.1",
