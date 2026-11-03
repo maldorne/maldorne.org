@@ -12,6 +12,8 @@ const { createHash } = require('node:crypto');
 
 const FORMAT = 'mapper/1';
 const WORLD_FORMAT = 'worldmap/1';
+const PREVIEW_ROWS = 24;
+const PREVIEW_COLUMNS = 64;
 
 const readConfig = () => {
   try {
@@ -79,6 +81,28 @@ const plain = (s) =>
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase();
 
+// a level as rows of coloured runs, cut around its middle, for the list of maps to show
+const worldPreview = (level) => {
+  const height = Math.min(level.rows_count, PREVIEW_ROWS);
+  const width = Math.min(level.columns, PREVIEW_COLUMNS);
+  const top = Math.floor((level.rows_count - height) / 2);
+  const left = Math.floor((level.columns - width) / 2);
+  return level.rows.slice(top, top + height).map((row) => {
+    const glyphs = Array.from(row.text);
+    const styles = new Array(glyphs.length).fill(0);
+    row.runs.forEach(([first, length, style]) => styles.fill(style, first, first + length));
+    const runs = [];
+    for (let c = left; c < left + width; c++) {
+      const { colour, bold } = level.styles[styles[c]];
+      const color = level.palette[colour] || '';
+      const last = runs[runs.length - 1];
+      if (last && last.color === color && last.bold === !!bold) last.text += glyphs[c];
+      else runs.push({ text: glyphs[c], color, bold: !!bold });
+    }
+    return runs;
+  });
+};
+
 // the routes of a game's world map; every name that matches a map links to it
 const worldRoutes = (slug, title, levels, maps) => {
   const base = `maps/${slug}/world/`;
@@ -131,6 +155,7 @@ hexo.extend.generator.register('maps', function (locals) {
       const byArea = indexAreas(maps);
       const title = (config[slug] && config[slug].title) || slug;
       const entries = [];
+      let world = null;
 
       Object.keys(maps)
         .sort()
@@ -173,17 +198,21 @@ hexo.extend.generator.register('maps', function (locals) {
       gameList.push({ name: title, url: `/maps/${slug}/`, maps: entries.length });
       if (worlds[slug]) {
         routes.push(...worldRoutes(slug, title, worlds[slug], maps));
-        entries.unshift({
-          name: 'World map',
+        world = {
           url: `/maps/${slug}/world/`,
           levels: worlds[slug].length,
-          world: true,
-        });
+          preview: worldPreview(worlds[slug].find((l) => l.z === 0) || worlds[slug][0]),
+        };
       }
       routes.push({
         path: `maps/${slug}/`,
         layout: 'maps-index',
-        data: { title: `Maps of ${title}`, parent: { name: 'Maps', url: '/maps/' }, entries },
+        data: {
+          title: `Maps of ${title}`,
+          parent: { name: 'Maps', url: '/maps/' },
+          entries,
+          world,
+        },
       });
     });
 
