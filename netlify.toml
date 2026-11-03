@@ -4,6 +4,12 @@
   publish = "public"
   command = "cd source/docs/dgd && ./generate.sh && cd ../../.. && npm run build"
 
+# Dependabot opens pull requests, and Netlify builds a deploy preview for each
+# one. Those previews are not looked at, so they are skipped: the ignore command
+# cancels the build when it exits 0 and lets it run when it exits 1.
+[context.deploy-preview]
+  ignore = 'case "$HEAD" in dependabot/*) exit 0;; esac; exit 1'
+
 # redirects from old multilang blog
 [[redirects]]
   from = "https://es.maldorne.org/*"
