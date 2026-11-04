@@ -1,10 +1,17 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"elfereth","name":"Elfereth","generated":"2026-10-30",
+{"format":"mapper/1","game":"rl-aeternum","area":"elfereth","name":"Elfereth","generated":"2026-11-03",
 "areas":[
-{"id":"elfereth/rooms","name":"Elfereth","parent":""},
-{"id":"elfereth/rooms/grove","name":"grove","parent":"elfereth/rooms"}
+{"id":"elfereth/grove/rooms","name":"grove","parent":"elfereth/rooms"},
+{"id":"elfereth/rooms","name":"Elfereth","parent":""}
 ],
 "levels":[0,1],
 "locations":[
+{"id":"grove/rooms/c1","name":"Zarzal de bayas","area":"elfereth/grove/rooms","x":-29,"y":5,"z":0,"zone":"894b160a","exits":[{"dir":"east","to":"grove/rooms/c5"},{"dir":"west","to":"grove/rooms/s1"}]},
+{"id":"grove/rooms/c2","name":"Claro de setas","area":"elfereth/grove/rooms","x":-29,"y":6,"z":0,"zone":"894b160a","exits":[{"dir":"west","to":"grove/rooms/s2"}]},
+{"id":"grove/rooms/c3","name":"Lecho de raíces","area":"elfereth/grove/rooms","x":-31,"y":6,"z":0,"zone":"894b160a","exits":[{"dir":"east","to":"grove/rooms/s2"}]},
+{"id":"grove/rooms/c4","name":"Bosquecillo de avellanos","area":"elfereth/grove/rooms","x":-30,"y":7,"z":0,"zone":"894b160a","exits":[{"dir":"south","to":"grove/rooms/s2"}]},
+{"id":"grove/rooms/c5","name":"Colmenas silvestres","area":"elfereth/grove/rooms","x":-28,"y":5,"z":0,"zone":"894b160a","exits":[{"dir":"west","to":"grove/rooms/c1"}]},
+{"id":"grove/rooms/s1","name":"Senda bajo las copas","area":"elfereth/grove/rooms","x":-30,"y":5,"z":0,"zone":"894b160a","exits":[{"dir":"east","to":"grove/rooms/c1"},{"dir":"north","to":"grove/rooms/s2"},{"dir":"south","to":"rooms/z5"}]},
+{"id":"grove/rooms/s2","name":"Senda bajo las copas","area":"elfereth/grove/rooms","x":-30,"y":6,"z":0,"zone":"894b160a","exits":[{"dir":"east","to":"grove/rooms/c2"},{"dir":"north","to":"grove/rooms/c4"},{"dir":"south","to":"grove/rooms/s1"},{"dir":"west","to":"grove/rooms/c3"}]},
 {"id":"rooms/F01","name":"Camino de tierra","area":"elfereth/rooms","x":-10,"y":-1,"z":0,"zone":"b9507719","exits":[{"dir":"east","to":"rooms/P08"},{"dir":"north","to":"rooms/P09"}]},
 {"id":"rooms/F02","name":"Camino de tierra","area":"elfereth/rooms","x":-10,"y":1,"z":0,"zone":"b9507719","exits":[{"dir":"south","to":"rooms/P09"},{"dir":"west","to":"rooms/F03"}]},
 {"id":"rooms/F03","name":"Camino de tierra","area":"elfereth/rooms","x":-11,"y":1,"z":0,"zone":"b9507719","exits":[{"dir":"east","to":"rooms/F02"},{"dir":"southwest","to":"rooms/F04"}]},
@@ -35,13 +42,6 @@
 {"id":"rooms/P23","name":"Camino de tierra","area":"elfereth/rooms","x":-24,"y":2,"z":0,"zone":"b9507719","exits":[{"dir":"southeast","to":"rooms/P22"},{"dir":"west","to":"rooms/P24"}]},
 {"id":"rooms/P24","name":"Camino de tierra","area":"elfereth/rooms","x":-25,"y":2,"z":0,"zone":"b9507719","exits":[{"dir":"east","to":"rooms/P23"},{"dir":"northwest","to":"rooms/P25"}]},
 {"id":"rooms/P25","name":"Camino de tierra","area":"elfereth/rooms","x":-26,"y":3,"z":0,"zone":"b9507719","exits":[{"dir":"southeast","to":"rooms/P24"},{"dir":"west","to":"rooms/z1"}]},
-{"id":"rooms/grove/c1","name":"Zarzal de bayas","area":"elfereth/rooms/grove","x":-29,"y":5,"z":0,"zone":"894b160a","exits":[{"dir":"east","to":"rooms/grove/c5"},{"dir":"west","to":"rooms/grove/s1"}]},
-{"id":"rooms/grove/c2","name":"Claro de setas","area":"elfereth/rooms/grove","x":-29,"y":6,"z":0,"zone":"894b160a","exits":[{"dir":"west","to":"rooms/grove/s2"}]},
-{"id":"rooms/grove/c3","name":"Lecho de raíces","area":"elfereth/rooms/grove","x":-31,"y":6,"z":0,"zone":"894b160a","exits":[{"dir":"east","to":"rooms/grove/s2"}]},
-{"id":"rooms/grove/c4","name":"Bosquecillo de avellanos","area":"elfereth/rooms/grove","x":-30,"y":7,"z":0,"zone":"894b160a","exits":[{"dir":"south","to":"rooms/grove/s2"}]},
-{"id":"rooms/grove/c5","name":"Colmenas silvestres","area":"elfereth/rooms/grove","x":-28,"y":5,"z":0,"zone":"894b160a","exits":[{"dir":"west","to":"rooms/grove/c1"}]},
-{"id":"rooms/grove/s1","name":"Senda bajo las copas","area":"elfereth/rooms/grove","x":-30,"y":5,"z":0,"zone":"894b160a","exits":[{"dir":"east","to":"rooms/grove/c1"},{"dir":"north","to":"rooms/grove/s2"},{"dir":"south","to":"rooms/z5"}]},
-{"id":"rooms/grove/s2","name":"Senda bajo las copas","area":"elfereth/rooms/grove","x":-30,"y":6,"z":0,"zone":"894b160a","exits":[{"dir":"east","to":"rooms/grove/c2"},{"dir":"north","to":"rooms/grove/c4"},{"dir":"south","to":"rooms/grove/s1"},{"dir":"west","to":"rooms/grove/c3"}]},
 {"id":"rooms/plot_-27_5_1","name":"Casa en un tronco","area":"elfereth/rooms","x":-27,"y":5,"z":1,"zone":"","exits":[{"dir":"west","to":"rooms/z19"}]},
 {"id":"rooms/plot_-29_4_1","name":"Casa en un tronco","area":"elfereth/rooms","x":-29,"y":4,"z":1,"zone":"","exits":[{"dir":"north","to":"rooms/z18"}]},
 {"id":"rooms/plot_-29_6_1","name":"Solar vacío","area":"elfereth/rooms","x":-29,"y":6,"z":1,"zone":"","exits":[{"dir":"south","to":"rooms/z18"}]},
@@ -67,14 +67,14 @@
 {"id":"rooms/z21","name":"Tienda de Elfereth","area":"elfereth/rooms","x":-30,"y":7,"z":1,"zone":"","exits":[{"dir":"south","to":"rooms/z20"},{"dir":"west","to":"rooms/plot_-31_7_1"}]},
 {"id":"rooms/z3","name":"Camino a Elfereth","area":"elfereth/rooms","x":-29,"y":3,"z":0,"zone":"","exits":[{"dir":"east","to":"rooms/z2"},{"dir":"north","to":"rooms/z4"}]},
 {"id":"rooms/z4","name":"Camino a Elfereth","area":"elfereth/rooms","x":-29,"y":4,"z":0,"zone":"","exits":[{"dir":"south","to":"rooms/z3"},{"dir":"southeast","to":"rooms/z2"},{"dir":"southwest","to":"rooms/z6"},{"dir":"west","to":"rooms/z5"}]},
-{"id":"rooms/z5","name":"Camino a Elfereth","area":"elfereth/rooms","x":-30,"y":4,"z":0,"zone":"","exits":[{"dir":"east","to":"rooms/z4"},{"dir":"north","to":"rooms/grove/s1"},{"dir":"south","to":"rooms/z6"},{"dir":"southwest","to":"rooms/z9"},{"dir":"up","to":"rooms/z14"},{"dir":"west","to":"rooms/z10"}]},
+{"id":"rooms/z5","name":"Camino a Elfereth","area":"elfereth/rooms","x":-30,"y":4,"z":0,"zone":"","exits":[{"dir":"east","to":"rooms/z4"},{"dir":"north","to":"grove/rooms/s1"},{"dir":"south","to":"rooms/z6"},{"dir":"southwest","to":"rooms/z9"},{"dir":"up","to":"rooms/z14"},{"dir":"west","to":"rooms/z10"}]},
 {"id":"rooms/z6","name":"Bosque élfico de Elrhair","area":"elfereth/rooms","x":-30,"y":3,"z":0,"zone":"a85d53b4","exits":[{"dir":"north","to":"rooms/z5"},{"dir":"northeast","to":"rooms/z4"},{"dir":"south","to":"rooms/z7"},{"dir":"west","to":"rooms/z9"}]},
 {"id":"rooms/z7","name":"Bosque élfico de Elrhair","area":"elfereth/rooms","x":-30,"y":2,"z":0,"zone":"a85d53b4","exits":[{"dir":"north","to":"rooms/z6"},{"dir":"west","to":"rooms/z8"}]},
 {"id":"rooms/z8","name":"Bosque élfico de Elrhair","area":"elfereth/rooms","x":-31,"y":2,"z":0,"zone":"a85d53b4","exits":[{"dir":"east","to":"rooms/z7"},{"dir":"north","to":"rooms/z9"},{"dir":"northwest","to":"rooms/z13"}]},
 {"id":"rooms/z9","name":"Bosque élfico de Elrhair","area":"elfereth/rooms","x":-31,"y":3,"z":0,"zone":"a85d53b4","exits":[{"dir":"east","to":"rooms/z6"},{"dir":"northeast","to":"rooms/z5"},{"dir":"south","to":"rooms/z8"},{"dir":"west","to":"rooms/z13"}]}
 ],
 "external":[
-{"from":"rooms/P01","dir":"east","area":"naduk/rooms/road","kind":"area","label":"Naduk","to":"7"},
+{"from":"rooms/P01","dir":"east","area":"naduk/road/rooms","kind":"area","label":"Naduk","to":"7"},
 {"from":"rooms/P05","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"a17"},
 {"from":"rooms/P12","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"b33"},
 {"from":"rooms/P18","dir":"south","area":"elrhair-forest/rooms","kind":"area","label":"Bosque de Elrhair","to":"c27"}

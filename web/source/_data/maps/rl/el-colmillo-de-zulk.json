@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"el-colmillo-de-zulk","name":"El Colmillo de Zulk","generated":"2026-10-30",
+{"format":"mapper/1","game":"rl-aeternum","area":"el-colmillo-de-zulk","name":"El Colmillo de Zulk","generated":"2026-11-03",
 "areas":[
 {"id":"zulk/montana/rooms","name":"montana","parent":""},
 {"id":"zulk/senda-montana/rooms","name":"senda-montana","parent":""}
@@ -8,8 +8,10 @@
 {"id":"zulk/montana/rooms/agujero-1","name":"Agujero","area":"zulk/montana/rooms","x":76,"y":-52,"z":5,"zone":"140105f6","exits":[{"dir":"down","to":"zulk/montana/rooms/agujero-2"},{"dir":"up","to":"zulk/montana/rooms/montana-46"}]},
 {"id":"zulk/montana/rooms/agujero-2","name":"Agujero","area":"zulk/montana/rooms","x":76,"y":-52,"z":4,"zone":"140105f6","exits":[{"dir":"down","to":"zulk/montana/rooms/agujero-3"},{"dir":"up","to":"zulk/montana/rooms/agujero-1"}]},
 {"id":"zulk/montana/rooms/agujero-3","name":"Agujero","area":"zulk/montana/rooms","x":76,"y":-52,"z":3,"zone":"140105f6","exits":[{"dir":"down","to":"zulk/montana/rooms/agujero-4"},{"dir":"up","to":"zulk/montana/rooms/agujero-2"}]},
-{"id":"zulk/montana/rooms/agujero-4","name":"Agujero","area":"zulk/montana/rooms","x":76,"y":-52,"z":2,"zone":"140105f6","exits":[{"dir":"down","to":"zulk/montana/rooms/caverna"},{"dir":"up","to":"zulk/montana/rooms/agujero-3"}]},
-{"id":"zulk/montana/rooms/caverna","name":"Caverna","area":"zulk/montana/rooms","x":76,"y":-52,"z":-1,"zone":"140105f6","exits":[{"dir":"up","to":"zulk/montana/rooms/agujero-4"}]},
+{"id":"zulk/montana/rooms/agujero-4","name":"Agujero","area":"zulk/montana/rooms","x":76,"y":-52,"z":2,"zone":"140105f6","exits":[{"dir":"down","to":"zulk/montana/rooms/agujero-5"},{"dir":"up","to":"zulk/montana/rooms/agujero-3"}]},
+{"id":"zulk/montana/rooms/agujero-5","name":"Agujero","area":"zulk/montana/rooms","x":76,"y":-52,"z":1,"zone":"140105f6","exits":[{"dir":"down","to":"zulk/montana/rooms/agujero-6"},{"dir":"up","to":"zulk/montana/rooms/agujero-4"}]},
+{"id":"zulk/montana/rooms/agujero-6","name":"Agujero","area":"zulk/montana/rooms","x":76,"y":-52,"z":0,"zone":"140105f6","exits":[{"dir":"down","to":"zulk/montana/rooms/caverna"},{"dir":"up","to":"zulk/montana/rooms/agujero-5"}]},
+{"id":"zulk/montana/rooms/caverna","name":"Caverna","area":"zulk/montana/rooms","x":76,"y":-52,"z":-1,"zone":"140105f6","exits":[{"dir":"up","to":"zulk/montana/rooms/agujero-6"}]},
 {"id":"zulk/montana/rooms/montana-00","name":"Montaña","area":"zulk/montana/rooms","x":76,"y":-45,"z":0,"zone":"140105f6","exits":[{"dir":"east","to":"zulk/montana/rooms/montana-01"},{"dir":"southwest","to":"zulk/montana/rooms/montana-02"}]},
 {"id":"zulk/montana/rooms/montana-01","name":"Montaña","area":"zulk/montana/rooms","x":77,"y":-45,"z":0,"zone":"140105f6","exits":[{"dir":"southeast","to":"zulk/montana/rooms/montana-03"},{"dir":"west","to":"zulk/montana/rooms/montana-00"}]},
 {"id":"zulk/montana/rooms/montana-02","name":"Montaña","area":"zulk/montana/rooms","x":75,"y":-46,"z":0,"zone":"140105f6","exits":[{"dir":"northeast","to":"zulk/montana/rooms/montana-00"},{"dir":"southwest","to":"zulk/montana/rooms/montana-07"}]},

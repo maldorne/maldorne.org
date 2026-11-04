@@ -1,0 +1,27 @@
+{"format":"mapper/1","game":"rl-aeternum","area":"eloras","name":"Eloras","generated":"2026-11-03",
+"areas":[
+{"id":"anduar/eloras/rooms","name":"Eloras","parent":"anduar/ciudad/rooms"}
+],
+"levels":[0],
+"locations":[
+{"id":"anduar/eloras/rooms/cabana-01","name":"Cabaña abandonada","area":"anduar/eloras/rooms","x":-97,"y":88,"z":0,"zone":"34e3840d","exits":[{"dir":"south","to":"anduar/eloras/rooms/eloras-05"}]},
+{"id":"anduar/eloras/rooms/cabana-02","name":"Cabaña abandonada","area":"anduar/eloras/rooms","x":-94,"y":88,"z":0,"zone":"34e3840d","exits":[{"dir":"south","to":"anduar/eloras/rooms/eloras-02"}]},
+{"id":"anduar/eloras/rooms/cabana-03","name":"Cabaña abandonada","area":"anduar/eloras/rooms","x":-94,"y":86,"z":0,"zone":"34e3840d","exits":[{"dir":"north","to":"anduar/eloras/rooms/eloras-02"}]},
+{"id":"anduar/eloras/rooms/cabana-04","name":"Cabaña abandonada","area":"anduar/eloras/rooms","x":-98,"y":86,"z":0,"zone":"34e3840d","exits":[{"dir":"north","to":"anduar/eloras/rooms/eloras-06"}]},
+{"id":"anduar/eloras/rooms/casa-granjero","name":"Cabaña del granjero","area":"anduar/eloras/rooms","x":-98,"y":89,"z":0,"zone":"34e3840d","exits":[{"dir":"south","to":"anduar/eloras/rooms/granja"}]},
+{"id":"anduar/eloras/rooms/eloras-01","name":"Poblado de Eloras, al pie de las colinas de Ostigurth","area":"anduar/eloras/rooms","x":-93,"y":87,"z":0,"zone":"34e3840d","exits":[{"dir":"south","to":"anduar/eloras/rooms/tienda"},{"dir":"west","to":"anduar/eloras/rooms/eloras-02"}]},
+{"id":"anduar/eloras/rooms/eloras-02","name":"Poblado de Eloras, al pie de las colinas de Ostigurth","area":"anduar/eloras/rooms","x":-94,"y":87,"z":0,"zone":"34e3840d","exits":[{"dir":"east","to":"anduar/eloras/rooms/eloras-01"},{"dir":"north","to":"anduar/eloras/rooms/cabana-02"},{"dir":"south","to":"anduar/eloras/rooms/cabana-03"},{"dir":"west","to":"anduar/eloras/rooms/eloras-03"}]},
+{"id":"anduar/eloras/rooms/eloras-03","name":"Poblado de Eloras, al pie de las colinas de Ostigurth","area":"anduar/eloras/rooms","x":-95,"y":87,"z":0,"zone":"34e3840d","exits":[{"dir":"east","to":"anduar/eloras/rooms/eloras-02"},{"dir":"south","to":"anduar/eloras/rooms/hostal"},{"dir":"west","to":"anduar/eloras/rooms/eloras-04"}]},
+{"id":"anduar/eloras/rooms/eloras-04","name":"Poblado de Eloras, al pie de las colinas de Ostigurth","area":"anduar/eloras/rooms","x":-96,"y":87,"z":0,"zone":"34e3840d","exits":[{"dir":"east","to":"anduar/eloras/rooms/eloras-03"},{"dir":"west","to":"anduar/eloras/rooms/eloras-05"}]},
+{"id":"anduar/eloras/rooms/eloras-05","name":"Poblado de Eloras, al pie de las colinas de Ostigurth","area":"anduar/eloras/rooms","x":-97,"y":87,"z":0,"zone":"34e3840d","exits":[{"dir":"east","to":"anduar/eloras/rooms/eloras-04"},{"dir":"north","to":"anduar/eloras/rooms/cabana-01"},{"dir":"west","to":"anduar/eloras/rooms/eloras-06"}]},
+{"id":"anduar/eloras/rooms/eloras-06","name":"Poblado de Eloras, al pie de las colinas de Ostigurth","area":"anduar/eloras/rooms","x":-98,"y":87,"z":0,"zone":"34e3840d","exits":[{"dir":"east","to":"anduar/eloras/rooms/eloras-05"},{"dir":"north","to":"anduar/eloras/rooms/granja"},{"dir":"south","to":"anduar/eloras/rooms/cabana-04"},{"dir":"west","to":"anduar/eloras/rooms/eloras-07"}]},
+{"id":"anduar/eloras/rooms/eloras-07","name":"Poblado de Eloras, al pie de las colinas de Ostigurth","area":"anduar/eloras/rooms","x":-99,"y":87,"z":0,"zone":"34e3840d","exits":[{"dir":"east","to":"anduar/eloras/rooms/eloras-06"}]},
+{"id":"anduar/eloras/rooms/granja","name":"Granja de Eloras","area":"anduar/eloras/rooms","x":-98,"y":88,"z":0,"zone":"34e3840d","exits":[{"dir":"north","to":"anduar/eloras/rooms/casa-granjero"},{"dir":"south","to":"anduar/eloras/rooms/eloras-06"}]},
+{"id":"anduar/eloras/rooms/hostal","name":"Hostal del Montañero","area":"anduar/eloras/rooms","x":-95,"y":86,"z":0,"zone":"34e3840d","exits":[{"dir":"north","to":"anduar/eloras/rooms/eloras-03"}]},
+{"id":"anduar/eloras/rooms/tienda","name":"Tienda de Eloras","area":"anduar/eloras/rooms","x":-93,"y":86,"z":0,"zone":"34e3840d","exits":[{"dir":"north","to":"anduar/eloras/rooms/eloras-01"}]}
+],
+"external":[
+{"from":"anduar/eloras/rooms/eloras-01","dir":"east","area":"anduar/senda/rooms","kind":"area","label":"Anduar","to":"senda-42"},
+{"from":"anduar/eloras/rooms/eloras-03","dir":"north","area":"anduar/camino-real/rooms","kind":"area","label":"Anduar","to":"real-51"},
+{"from":"anduar/eloras/rooms/eloras-03","dir":"southwest","area":"anduar/camino-real/rooms","kind":"area","label":"Anduar","to":"real-50"}
+]}

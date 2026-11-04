@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"zulk/quath-shui","name":"Quath-Shui","generated":"2026-10-30",
+{"format":"mapper/1","game":"rl-aeternum","area":"zulk/quath-shui","name":"Quath-Shui","generated":"2026-11-03",
 "areas":[
 {"id":"zulk/quath-shui/cueva/rooms","name":"cueva","parent":""},
 {"id":"zulk/quath-shui/galeria/rooms","name":"galeria","parent":""},

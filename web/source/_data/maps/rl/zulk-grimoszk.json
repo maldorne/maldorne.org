@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"zulk/grimoszk","name":"Grimoszk","generated":"2026-10-30",
+{"format":"mapper/1","game":"rl-aeternum","area":"zulk/grimoszk","name":"Grimoszk","generated":"2026-11-03",
 "areas":[
 {"id":"zulk/grimoszk/arena/rooms","name":"arena","parent":"zulk/grimoszk/rooms"},
 {"id":"zulk/grimoszk/cavernas/nivel-1/rooms","name":"nivel-1","parent":""},
@@ -342,7 +342,7 @@
 {"id":"rooms/escuela-guerreros-02","name":"Grimoszk: Escuela de los Guerreros","area":"zulk/grimoszk/rooms","x":-14,"y":-108,"z":0,"zone":"b0e04257","exits":[{"dir":"east","to":"rooms/escuela-guerreros-04"},{"dir":"north","to":"rooms/escuela-guerreros-01"},{"dir":"west","to":"rooms/escuela-guerreros-03"}]},
 {"id":"rooms/escuela-guerreros-03","name":"Grimoszk: Escuela de los Guerreros","area":"zulk/grimoszk/rooms","x":-15,"y":-108,"z":0,"zone":"b0e04257","exits":[{"dir":"east","to":"rooms/escuela-guerreros-02"}]},
 {"id":"rooms/escuela-guerreros-04","name":"Grimoszk: Escuela de los Guerreros","area":"zulk/grimoszk/rooms","x":-13,"y":-108,"z":0,"zone":"b0e04257","exits":[{"dir":"west","to":"rooms/escuela-guerreros-02"}]},
-{"id":"rooms/herbalists-entrance","name":"Grimoszk: Escuela de Herboristas","area":"zulk/grimoszk/rooms","x":-23,"y":-109,"z":0,"zone":"b0e04257","exits":[{"dir":"north","to":"rooms/calle-guerra-06"}]},
+{"id":"rooms/herbalists-entrance","name":"Grimoszk: Escuela de Herboristas","area":"zulk/grimoszk/rooms","x":-23,"y":-109,"z":0,"zone":"b0e04257","exits":[{"dir":"east","to":"rooms/herbalists-hall"},{"dir":"north","to":"rooms/calle-guerra-06"}]},
 {"id":"rooms/herbalists-hall","name":"Grimoszk: Escuela de Herboristas, sala principal","area":"zulk/grimoszk/rooms","x":-22,"y":-109,"z":0,"zone":"b0e04257","exits":[{"dir":"south","to":"rooms/herbalists-library"},{"dir":"west","to":"rooms/herbalists-entrance"}]},
 {"id":"rooms/herbalists-library","name":"Grimoszk: Escuela de Herboristas, biblioteca","area":"zulk/grimoszk/rooms","x":-22,"y":-110,"z":0,"zone":"b0e04257","exits":[{"dir":"north","to":"rooms/herbalists-hall"},{"dir":"west","to":"rooms/herbalists-store"}]},
 {"id":"rooms/herbalists-store","name":"Grimoszk: Escuela de Herboristas, almacén","area":"zulk/grimoszk/rooms","x":-23,"y":-110,"z":0,"zone":"b0e04257","exits":[{"dir":"east","to":"rooms/herbalists-library"}]},
