@@ -33,19 +33,19 @@
     "hexo-renderer-markdown-it": "github:hexojs/hexo-renderer-markdown-it",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "markdown-it-attrs": "^5.0.0"
+    "markdown-it-attrs": "^5.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.11.0",
+    "eslint": "^10.14.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import-x": "^4.17.1",
     "eslint-plugin-jsonc": "^3.4.2",
     "eslint-plugin-markdownlint": "^1.0.0",
-    "eslint-plugin-prettier": "^5.5.6",
-    "globals": "^17.12.0",
+    "eslint-plugin-prettier": "^5.5.7",
+    "globals": "^17.14.0",
     "jsonc-eslint-parser": "^3.3.0",
-    "prettier": "^3.9.9"
+    "prettier": "^3.9.10"
   },
   "overrides": {
     "strip-ansi": "^6.0.1",
