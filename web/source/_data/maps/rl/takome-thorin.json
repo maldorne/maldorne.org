@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"takome/thorin","name":"thorin","generated":"2026-11-03",
+{"format":"mapper/1","game":"rl-aeternum","area":"takome/thorin","name":"thorin","generated":"2026-11-06",
 "areas":[
 {"id":"takome/thorin/bosque/rooms","name":"Bosque de Thorin","parent":"takome/ciudad/edificio/rooms"},
 {"id":"takome/thorin/entrada/rooms","name":"entrada","parent":"takome/ciudad/edificio/rooms"}
@@ -1128,5 +1128,6 @@
 ],
 "external":[
 {"from":"bosque/rooms/bosque-000","dir":"north","area":"eskibel/thorin/rooms","kind":"area","label":"Eskibel","to":"camino-thorin-10"},
-{"from":"entrada/rooms/entrada-01","dir":"southwest","area":"takome/pastos/rooms","kind":"area","label":"Takome","to":"pastos-dendara-07"}
+{"from":"entrada/rooms/entrada-01","dir":"southwest","area":"takome/pastos/rooms","kind":"area","label":"Takome","to":"pastos-dendara-07"},
+{"from":"entrada/rooms/entrada-02","dir":"west","area":"dendara/camino-oeste-thorin/rooms","kind":"area","label":"Dendara","to":"camino-139"}
 ]}

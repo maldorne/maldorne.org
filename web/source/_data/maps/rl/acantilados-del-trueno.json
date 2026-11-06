@@ -1,0 +1,36 @@
+{"format":"mapper/1","game":"rl-aeternum","area":"acantilados-del-trueno","name":"Acantilados del Trueno","generated":"2026-11-06",
+"areas":[
+{"id":"naggrung/acantilados/rooms","name":"Costa de los Truenos","parent":""}
+],
+"levels":[0],
+"locations":[
+{"id":"naggrung/acantilados/rooms/ac-0","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":278,"y":-133,"z":0,"zone":"c247f49b","exits":[{"dir":"northeast","to":"naggrung/acantilados/rooms/ac-21"},{"dir":"southeast","to":"naggrung/acantilados/rooms/ac-5"},{"dir":"southwest","to":"naggrung/acantilados/rooms/ac-4"}]},
+{"id":"naggrung/acantilados/rooms/ac-1","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":271,"y":-134,"z":0,"zone":"c247f49b","exits":[{"dir":"east","to":"naggrung/acantilados/rooms/ac-2"},{"dir":"southwest","to":"naggrung/acantilados/rooms/ac-6"}]},
+{"id":"naggrung/acantilados/rooms/ac-10","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":275,"y":-135,"z":0,"zone":"c247f49b","exits":[{"dir":"northeast","to":"naggrung/acantilados/rooms/ac-3"},{"dir":"west","to":"naggrung/acantilados/rooms/ac-9"}]},
+{"id":"naggrung/acantilados/rooms/ac-11","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":280,"y":-135,"z":0,"zone":"c247f49b","exits":[{"dir":"northwest","to":"naggrung/acantilados/rooms/ac-5"},{"dir":"southeast","to":"naggrung/acantilados/rooms/ac-14"}]},
+{"id":"naggrung/acantilados/rooms/ac-12","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":268,"y":-136,"z":0,"zone":"c247f49b","exits":[{"dir":"east","to":"naggrung/acantilados/rooms/ac-13"}]},
+{"id":"naggrung/acantilados/rooms/ac-13","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":269,"y":-136,"z":0,"zone":"c247f49b","exits":[{"dir":"northeast","to":"naggrung/acantilados/rooms/ac-6"},{"dir":"west","to":"naggrung/acantilados/rooms/ac-12"}]},
+{"id":"naggrung/acantilados/rooms/ac-14","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":281,"y":-136,"z":0,"zone":"c247f49b","exits":[{"dir":"northwest","to":"naggrung/acantilados/rooms/ac-11"},{"dir":"south","to":"naggrung/acantilados/rooms/ac-15"}]},
+{"id":"naggrung/acantilados/rooms/ac-15","name":"Acantilados del Trueno: Sendero de ascenso","area":"naggrung/acantilados/rooms","x":281,"y":-137,"z":0,"zone":"c247f49b","exits":[{"dir":"east","to":"naggrung/acantilados/rooms/ac-16"},{"dir":"north","to":"naggrung/acantilados/rooms/ac-14"}]},
+{"id":"naggrung/acantilados/rooms/ac-16","name":"Acantilados del Trueno: Sendero de ascenso","area":"naggrung/acantilados/rooms","x":282,"y":-137,"z":0,"zone":"c247f49b","exits":[{"dir":"southeast","to":"naggrung/acantilados/rooms/ac-17"},{"dir":"west","to":"naggrung/acantilados/rooms/ac-15"}]},
+{"id":"naggrung/acantilados/rooms/ac-17","name":"Acantilados del Trueno: Sendero de ascenso","area":"naggrung/acantilados/rooms","x":283,"y":-138,"z":0,"zone":"c247f49b","exits":[{"dir":"northwest","to":"naggrung/acantilados/rooms/ac-16"},{"dir":"south","to":"naggrung/acantilados/rooms/ac-18"}]},
+{"id":"naggrung/acantilados/rooms/ac-18","name":"Acantilados del Trueno: Sendero de ascenso","area":"naggrung/acantilados/rooms","x":283,"y":-139,"z":0,"zone":"c247f49b","exits":[{"dir":"north","to":"naggrung/acantilados/rooms/ac-17"},{"dir":"south","to":"naggrung/acantilados/rooms/ac-19"}]},
+{"id":"naggrung/acantilados/rooms/ac-19","name":"Acantilados del Trueno: Sendero de ascenso","area":"naggrung/acantilados/rooms","x":283,"y":-140,"z":0,"zone":"c247f49b","exits":[{"dir":"north","to":"naggrung/acantilados/rooms/ac-18"},{"dir":"south","to":"naggrung/acantilados/rooms/ac-20"}]},
+{"id":"naggrung/acantilados/rooms/ac-2","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":272,"y":-134,"z":0,"zone":"c247f49b","exits":[{"dir":"south","to":"naggrung/acantilados/rooms/ac-7"},{"dir":"west","to":"naggrung/acantilados/rooms/ac-1"}]},
+{"id":"naggrung/acantilados/rooms/ac-20","name":"Acantilados del Trueno: Sendero de ascenso","area":"naggrung/acantilados/rooms","x":283,"y":-141,"z":0,"zone":"c247f49b","exits":[{"dir":"north","to":"naggrung/acantilados/rooms/ac-19"}]},
+{"id":"naggrung/acantilados/rooms/ac-21","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":279,"y":-132,"z":0,"zone":"c247f49b","exits":[{"dir":"north","to":"naggrung/acantilados/rooms/ac-22"},{"dir":"southwest","to":"naggrung/acantilados/rooms/ac-0"}]},
+{"id":"naggrung/acantilados/rooms/ac-22","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":279,"y":-131,"z":0,"zone":"c247f49b","exits":[{"dir":"south","to":"naggrung/acantilados/rooms/ac-21"}]},
+{"id":"naggrung/acantilados/rooms/ac-3","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":276,"y":-134,"z":0,"zone":"c247f49b","exits":[{"dir":"east","to":"naggrung/acantilados/rooms/ac-4"},{"dir":"southwest","to":"naggrung/acantilados/rooms/ac-10"}]},
+{"id":"naggrung/acantilados/rooms/ac-4","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":277,"y":-134,"z":0,"zone":"c247f49b","exits":[{"dir":"northeast","to":"naggrung/acantilados/rooms/ac-0"},{"dir":"west","to":"naggrung/acantilados/rooms/ac-3"}]},
+{"id":"naggrung/acantilados/rooms/ac-5","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":279,"y":-134,"z":0,"zone":"c247f49b","exits":[{"dir":"northwest","to":"naggrung/acantilados/rooms/ac-0"},{"dir":"southeast","to":"naggrung/acantilados/rooms/ac-11"}]},
+{"id":"naggrung/acantilados/rooms/ac-6","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":270,"y":-135,"z":0,"zone":"c247f49b","exits":[{"dir":"northeast","to":"naggrung/acantilados/rooms/ac-1"},{"dir":"southwest","to":"naggrung/acantilados/rooms/ac-13"}]},
+{"id":"naggrung/acantilados/rooms/ac-7","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":272,"y":-135,"z":0,"zone":"c247f49b","exits":[{"dir":"east","to":"naggrung/acantilados/rooms/ac-8"},{"dir":"north","to":"naggrung/acantilados/rooms/ac-2"}]},
+{"id":"naggrung/acantilados/rooms/ac-8","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":273,"y":-135,"z":0,"zone":"c247f49b","exits":[{"dir":"east","to":"naggrung/acantilados/rooms/ac-9"},{"dir":"west","to":"naggrung/acantilados/rooms/ac-7"}]},
+{"id":"naggrung/acantilados/rooms/ac-9","name":"Acantilados del Trueno","area":"naggrung/acantilados/rooms","x":274,"y":-135,"z":0,"zone":"c247f49b","exits":[{"dir":"east","to":"naggrung/acantilados/rooms/ac-10"},{"dir":"west","to":"naggrung/acantilados/rooms/ac-8"}]}
+],
+"external":[
+{"from":"naggrung/acantilados/rooms/ac-12","dir":"southwest","area":"naggrung/cristal/rooms","kind":"area","label":"Bosque de Cristal","to":"cristal-1"},
+{"from":"naggrung/acantilados/rooms/ac-15","dir":"northeast","area":"naggrung/yowyn/rooms","kind":"area","label":"Yowyn","to":"camino-1"},
+{"from":"naggrung/acantilados/rooms/ac-20","dir":"southwest","area":"naggrung/cordillera-norte/rooms","kind":"area","label":"Cordillera Nórdica","to":"cn-7"},
+{"from":"naggrung/acantilados/rooms/ac-22","dir":"north","area":"naggrung/yowyn/rooms","kind":"area","label":"Yowyn","to":"bac-9"}
+]}

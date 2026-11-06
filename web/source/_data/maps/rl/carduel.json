@@ -1,0 +1,22 @@
+{"format":"mapper/1","game":"rl-aeternum","area":"carduel","name":"Carduel","generated":"2026-11-06",
+"areas":[
+{"id":"angor/carduel/rooms","name":"Carduel","parent":"angor/ciudad/rooms"}
+],
+"levels":[-1,0],
+"locations":[
+{"id":"angor/carduel/rooms/carduel-00","name":"Carduel, poblado mediano","area":"angor/carduel/rooms","x":-226,"y":-97,"z":0,"zone":"b843fb8b","exits":[{"dir":"south","to":"angor/carduel/rooms/carduel-01"}]},
+{"id":"angor/carduel/rooms/carduel-01","name":"Plaza central de Carduel","area":"angor/carduel/rooms","x":-226,"y":-98,"z":0,"zone":"b843fb8b","exits":[{"dir":"north","to":"angor/carduel/rooms/carduel-00"},{"dir":"south","to":"angor/carduel/rooms/carduel-02"},{"dir":"southwest","to":"angor/carduel/rooms/carduel-03"},{"dir":"west","to":"angor/carduel/rooms/carduel-04"}]},
+{"id":"angor/carduel/rooms/carduel-02","name":"Plaza central de Carduel","area":"angor/carduel/rooms","x":-226,"y":-99,"z":0,"zone":"b843fb8b","exits":[{"dir":"east","to":"angor/carduel/rooms/carduel-06"},{"dir":"north","to":"angor/carduel/rooms/carduel-01"},{"dir":"northwest","to":"angor/carduel/rooms/carduel-04"},{"dir":"west","to":"angor/carduel/rooms/carduel-03"}]},
+{"id":"angor/carduel/rooms/carduel-03","name":"Plaza central de Carduel","area":"angor/carduel/rooms","x":-227,"y":-99,"z":0,"zone":"b843fb8b","exits":[{"dir":"east","to":"angor/carduel/rooms/carduel-02"},{"dir":"north","to":"angor/carduel/rooms/carduel-04"},{"dir":"northeast","to":"angor/carduel/rooms/carduel-01"},{"dir":"south","to":"angor/carduel/rooms/carduel-07"}]},
+{"id":"angor/carduel/rooms/carduel-04","name":"Plaza central de Carduel","area":"angor/carduel/rooms","x":-227,"y":-98,"z":0,"zone":"b843fb8b","exits":[{"dir":"east","to":"angor/carduel/rooms/carduel-01"},{"dir":"south","to":"angor/carduel/rooms/carduel-03"},{"dir":"southeast","to":"angor/carduel/rooms/carduel-02"},{"dir":"west","to":"angor/carduel/rooms/carduel-05"}]},
+{"id":"angor/carduel/rooms/carduel-05","name":"Carduel, poblado mediano","area":"angor/carduel/rooms","x":-228,"y":-98,"z":0,"zone":"b843fb8b","exits":[{"dir":"down","to":"angor/carduel/rooms/carduel-burrow"},{"dir":"east","to":"angor/carduel/rooms/carduel-04"}]},
+{"id":"angor/carduel/rooms/carduel-06","name":"Carduel, poblado mediano","area":"angor/carduel/rooms","x":-225,"y":-99,"z":0,"zone":"b843fb8b","exits":[{"dir":"down","to":"angor/carduel/rooms/carduel-shop"},{"dir":"west","to":"angor/carduel/rooms/carduel-02"}]},
+{"id":"angor/carduel/rooms/carduel-07","name":"Carduel, poblado mediano","area":"angor/carduel/rooms","x":-227,"y":-100,"z":0,"zone":"b843fb8b","exits":[{"dir":"down","to":"angor/carduel/rooms/carduel-smithy"},{"dir":"north","to":"angor/carduel/rooms/carduel-03"}]},
+{"id":"angor/carduel/rooms/carduel-burrow","name":"Madriguera","area":"angor/carduel/rooms","x":-228,"y":-98,"z":-1,"zone":"b843fb8b","exits":[{"dir":"up","to":"angor/carduel/rooms/carduel-05"}]},
+{"id":"angor/carduel/rooms/carduel-shop","name":"Tienda","area":"angor/carduel/rooms","x":-225,"y":-99,"z":-1,"zone":"b843fb8b","exits":[{"dir":"up","to":"angor/carduel/rooms/carduel-06"}]},
+{"id":"angor/carduel/rooms/carduel-smithy","name":"La herrería de Bartok","area":"angor/carduel/rooms","x":-227,"y":-100,"z":-1,"zone":"b843fb8b","exits":[{"dir":"up","to":"angor/carduel/rooms/carduel-07"}]}
+],
+"external":[
+{"from":"angor/carduel/rooms/carduel-00","dir":"up","area":"angor/atalayas/rooms","kind":"area","label":"Angor","to":"atalaya-este-00"},
+{"from":"angor/carduel/rooms/carduel-07","dir":"south","area":"angor/colina/rooms","kind":"area","label":"Angor","to":"colina-26"}
+]}

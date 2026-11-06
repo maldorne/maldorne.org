@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"tzerneelledol/ciudad","name":"Tzerneelle'Dol","generated":"2026-11-03",
+{"format":"mapper/1","game":"rl-aeternum","area":"tzerneelledol/ciudad","name":"Tzerneelle'Dol","generated":"2026-11-06",
 "areas":[
 {"id":"tzerneelledol/ciudad/casas/agrach-dyrr/rooms","name":"agrach-dyrr","parent":"tzerneelledol/ciudad/rooms"},
 {"id":"tzerneelledol/ciudad/casas/bregan/rooms","name":"bregan","parent":"tzerneelledol/ciudad/rooms"},

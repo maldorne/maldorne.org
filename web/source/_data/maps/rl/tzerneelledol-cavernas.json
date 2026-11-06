@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"tzerneelledol/cavernas","name":"cavernas","generated":"2026-11-03",
+{"format":"mapper/1","game":"rl-aeternum","area":"tzerneelledol/cavernas","name":"cavernas","generated":"2026-11-06",
 "areas":[
 {"id":"tzerneelledol/cavernas/camino/rooms","name":"camino","parent":"tzerneelledol/cavernas/entrada/rooms"},
 {"id":"tzerneelledol/cavernas/campamento/rooms","name":"campamento","parent":"tzerneelledol/cavernas/entrada/rooms"},

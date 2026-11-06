@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"anduar/camino-real","name":"camino-real","generated":"2026-11-04",
+{"format":"mapper/1","game":"rl-aeternum","area":"anduar/camino-real","name":"camino-real","generated":"2026-11-06",
 "areas":[
 {"id":"anduar/camino-real/rooms","name":"camino-real","parent":"anduar/ciudad/rooms"}
 ],
@@ -174,10 +174,10 @@
 {"from":"rooms/real-134","dir":"south","area":"anduar/camino-real/torres/rooms","kind":"area","label":"Anduar","to":"torre-oeste-07"},
 {"from":"rooms/real-141","dir":"north","area":"anduin/alto/rooms","kind":"area","label":"Río Anduin","to":"rio-alto-060"},
 {"from":"rooms/real-141","dir":"south","area":"anduin/alto/rooms","kind":"area","label":"Río Anduin","to":"rio-alto-061"},
-{"from":"rooms/real-25","dir":"west","area":"anduar/eldenar/rooms","kind":"area","label":"Eldenar","to":"senda-eldenar-04"},
+{"from":"rooms/real-25","dir":"west","area":"anduar/eldenar/rooms","kind":"area","label":"Anduar","to":"senda-eldenar-04"},
 {"from":"rooms/real-28","dir":"east","area":"anduar/senda/rooms","kind":"area","label":"Anduar","to":"senda-21"},
-{"from":"rooms/real-50","dir":"northeast","area":"anduar/eloras/rooms","kind":"area","label":"Eloras","to":"eloras-03"},
-{"from":"rooms/real-51","dir":"south","area":"anduar/eloras/rooms","kind":"area","label":"Eloras","to":"eloras-03"},
+{"from":"rooms/real-50","dir":"northeast","area":"anduar/eloras/rooms","kind":"area","label":"Anduar","to":"eloras-03"},
+{"from":"rooms/real-51","dir":"south","area":"anduar/eloras/rooms","kind":"area","label":"Anduar","to":"eloras-03"},
 {"from":"rooms/real-58","dir":"south","area":"anduar/senda/rooms","kind":"area","label":"Anduar","to":"senda-61"},
 {"from":"rooms/real-59","dir":"northwest","area":"anduar/senda/rooms","kind":"area","label":"Anduar","to":"senda-62"},
 {"from":"rooms/real-70","dir":"east","area":"anduin/alto/rooms","kind":"area","label":"Río Anduin","to":"rio-alto-143"},

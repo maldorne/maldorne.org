@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"issa-khali","name":"Issa'khali","generated":"2026-11-04",
+{"format":"mapper/1","game":"rl-aeternum","area":"issa-khali","name":"Issa'khali","generated":"2026-11-06",
 "areas":[
 {"id":"issakhali/ciudad/rooms","name":"Issa'khali","parent":""},
 {"id":"issakhali/costa/rooms","name":"costa","parent":"issakhali/ciudad/rooms"},

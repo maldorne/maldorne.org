@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"el-colmillo-de-zulk","name":"El Colmillo de Zulk","generated":"2026-11-03",
+{"format":"mapper/1","game":"rl-aeternum","area":"el-colmillo-de-zulk","name":"El Colmillo de Zulk","generated":"2026-11-06",
 "areas":[
 {"id":"zulk/montana/rooms","name":"montana","parent":""},
 {"id":"zulk/senda-montana/rooms","name":"senda-montana","parent":""}

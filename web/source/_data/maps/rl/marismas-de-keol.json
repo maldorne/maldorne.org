@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"marismas-de-keol","name":"Marismas de Keol","generated":"2026-11-04",
+{"format":"mapper/1","game":"rl-aeternum","area":"marismas-de-keol","name":"Marismas de Keol","generated":"2026-11-06",
 "areas":[
 {"id":"keol/delta/rooms","name":"delta","parent":""},
 {"id":"keol/marisma-este/rooms","name":"marisma-este","parent":""},

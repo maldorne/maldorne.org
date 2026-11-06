@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"antenora","name":"Antenora","generated":"2026-11-04",
+{"format":"mapper/1","game":"rl-aeternum","area":"antenora","name":"Antenora","generated":"2026-11-06",
 "areas":[
 {"id":"antenora/caverna/rooms","name":"caverna","parent":"antenora/ciudad/rooms"},
 {"id":"antenora/ciudad/rooms","name":"Antenora","parent":""},
@@ -426,7 +426,7 @@
 {"id":"antenora/templo/rooms/templo-38","name":"Ajarafe del Templo de Sacrificios","area":"antenora/templo/rooms","x":65,"y":-199,"z":2,"zone":"a74513a0","exits":[{"dir":"down","to":"antenora/templo/rooms/templo-25"},{"dir":"north","to":"antenora/templo/rooms/templo-51"},{"dir":"west","to":"antenora/templo/rooms/templo-39"}]},
 {"id":"antenora/templo/rooms/templo-39","name":"Ajarafe del Templo de Sacrificios","area":"antenora/templo/rooms","x":64,"y":-199,"z":2,"zone":"a74513a0","exits":[{"dir":"east","to":"antenora/templo/rooms/templo-38"},{"dir":"north","to":"antenora/templo/rooms/templo-41"},{"dir":"west","to":"antenora/templo/rooms/templo-52"}]},
 {"id":"antenora/templo/rooms/templo-40","name":"Ajarafe del Templo de Sacrificios","area":"antenora/templo/rooms","x":61,"y":-199,"z":2,"zone":"a74513a0","exits":[{"dir":"down","to":"antenora/templo/rooms/templo-21"},{"dir":"east","to":"antenora/templo/rooms/templo-53"},{"dir":"north","to":"antenora/templo/rooms/templo-54"}]},
-{"id":"antenora/templo/rooms/templo-41","name":"Templo de Dafra: Sala de Sacrificios","area":"antenora/templo/rooms","x":64,"y":-198,"z":2,"zone":"a74513a0","exits":[{"dir":"south","to":"antenora/templo/rooms/templo-39"}]},
+{"id":"antenora/templo/rooms/templo-41","name":"Templo de Haderach: Sala de Sacrificios","area":"antenora/templo/rooms","x":64,"y":-198,"z":2,"zone":"a74513a0","exits":[{"dir":"south","to":"antenora/templo/rooms/templo-39"}]},
 {"id":"antenora/templo/rooms/templo-42","name":"Templo de Sacrificios","area":"antenora/templo/rooms","x":65,"y":-196,"z":1,"zone":"a74513a0","exits":[{"dir":"north","to":"antenora/templo/rooms/templo-43"},{"dir":"south","to":"antenora/templo/rooms/templo-27"}]},
 {"id":"antenora/templo/rooms/templo-43","name":"Templo de Sacrificios","area":"antenora/templo/rooms","x":65,"y":-195,"z":1,"zone":"a74513a0","exits":[{"dir":"north","to":"antenora/templo/rooms/templo-28"},{"dir":"south","to":"antenora/templo/rooms/templo-42"}]},
 {"id":"antenora/templo/rooms/templo-44","name":"Templo de Sacrificios","area":"antenora/templo/rooms","x":61,"y":-196,"z":1,"zone":"a74513a0","exits":[{"dir":"north","to":"antenora/templo/rooms/templo-45"},{"dir":"south","to":"antenora/templo/rooms/templo-33"}]},

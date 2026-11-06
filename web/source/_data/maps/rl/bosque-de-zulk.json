@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"bosque-de-zulk","name":"Bosque de Zulk","generated":"2026-11-03",
+{"format":"mapper/1","game":"rl-aeternum","area":"bosque-de-zulk","name":"Bosque de Zulk","generated":"2026-11-06",
 "areas":[
 {"id":"zulk/bosque/rooms","name":"Bosque de Zulk","parent":""},
 {"id":"zulk/camino/rooms","name":"camino","parent":""},

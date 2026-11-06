@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"orgoth","name":"orgoth","generated":"2026-11-03",
+{"format":"mapper/1","game":"rl-aeternum","area":"orgoth","name":"orgoth","generated":"2026-11-06",
 "areas":[
 {"id":"orgoth/bosque/road/rooms","name":"road","parent":""},
 {"id":"orgoth/bosque/rooms","name":"Bosque de Orgoth","parent":""},
@@ -277,6 +277,7 @@
 {"from":"bosque/rooms/58","dir":"west","area":"anduar/llanuras-orgoth/rooms","kind":"area","label":"Anduar","to":"real-96"},
 {"from":"bosque/rooms/69","dir":"down","area":"tzerneelledol/tuneles/nivel-1/rooms","kind":"area","label":"Túneles de Tzerneelledol","to":"pozo-entrada"},
 {"from":"bosque/rooms/83","dir":"south","area":"naduk/road/rooms","kind":"area","label":"Naduk","to":"n30"},
+{"from":"bosque/rooms/river-01","dir":"north","area":"anduin/alto/rooms","kind":"area","label":"Río Anduin","to":"rio-alto-307"},
 {"from":"bosque/rooms/river-12","dir":"south","area":"anduin/rooms","kind":"area","label":"Río Anduin","to":"river-13"},
 {"from":"tsarzladen/tunnels/rooms/tunnel35","dir":"south","area":"guilds/warrior-mages/orgoth/rooms","kind":"guild","label":"Mago Guerrero","to":"ent"}
 ]}

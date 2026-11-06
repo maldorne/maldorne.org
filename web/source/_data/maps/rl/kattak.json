@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"kattak","name":"kattak","generated":"2026-11-03",
+{"format":"mapper/1","game":"rl-aeternum","area":"kattak","name":"kattak","generated":"2026-11-06",
 "areas":[
 {"id":"kattak/ciudad/exterior/rooms","name":"exterior","parent":"kattak/ciudad/rooms"},
 {"id":"kattak/ciudad/milicia/rooms","name":"milicia","parent":"kattak/ciudad/rooms"},
@@ -168,5 +168,7 @@
 {"id":"sendero/rooms/sendero-25","name":"Cerca de Kattak: Camino Olvidado","area":"kattak/sendero/rooms","x":-226,"y":16,"z":0,"zone":"ffb1c503","exits":[{"dir":"east","to":"sendero/rooms/sendero-24"},{"dir":"southwest","to":"ciudad/exterior/rooms/fuera-puerta-este"}]}
 ],
 "external":[
-{"from":"sendero/rooms/sendero-01","dir":"east","area":"anduar/llanuras-kattak/rooms","kind":"area","label":"Anduar","to":"real-94"}
+{"from":"ciudad/exterior/rooms/fuera-puerta-oeste","dir":"west","area":"kheleb-dum/camino/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-01"},
+{"from":"sendero/rooms/sendero-01","dir":"east","area":"anduar/llanuras-kattak/rooms","kind":"area","label":"Anduar","to":"real-94"},
+{"from":"sendero/rooms/sendero-11","dir":"south","area":"urlom/senda/rooms","kind":"area","label":"Bosque de Urlom","to":"senda-kattak-22"}
 ]}

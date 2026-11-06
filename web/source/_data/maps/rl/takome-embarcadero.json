@@ -1,0 +1,18 @@
+{"format":"mapper/1","game":"rl-aeternum","area":"takome/embarcadero","name":"embarcadero","generated":"2026-11-06",
+"areas":[
+{"id":"takome/embarcadero/rooms","name":"embarcadero","parent":"takome/ciudad/edificio/rooms"}
+],
+"levels":[0],
+"locations":[
+{"id":"rooms/embarcadero","name":"Embarcadero de Takome","area":"takome/embarcadero/rooms","x":139,"y":118,"z":0,"zone":"24d26639","exits":[{"dir":"south","to":"rooms/embarcadero-1"}]},
+{"id":"rooms/embarcadero-1","name":"Senda hacia el embarcadero","area":"takome/embarcadero/rooms","x":139,"y":117,"z":0,"zone":"24d26639","exits":[{"dir":"north","to":"rooms/embarcadero"},{"dir":"south","to":"rooms/embarcadero-2"}]},
+{"id":"rooms/embarcadero-2","name":"Senda hacia el embarcadero","area":"takome/embarcadero/rooms","x":139,"y":116,"z":0,"zone":"24d26639","exits":[{"dir":"north","to":"rooms/embarcadero-1"},{"dir":"south","to":"rooms/embarcadero-3"},{"dir":"west","to":"rooms/posada"}]},
+{"id":"rooms/embarcadero-3","name":"Senda hacia el embarcadero","area":"takome/embarcadero/rooms","x":139,"y":115,"z":0,"zone":"24d26639","exits":[{"dir":"north","to":"rooms/embarcadero-2"},{"dir":"south","to":"rooms/iglesia"},{"dir":"west","to":"rooms/embarcadero-4"}]},
+{"id":"rooms/embarcadero-4","name":"Senda hacia el embarcadero","area":"takome/embarcadero/rooms","x":138,"y":115,"z":0,"zone":"24d26639","exits":[{"dir":"east","to":"rooms/embarcadero-3"}]},
+{"id":"rooms/iglesia","name":"Iglesia: Bodas","area":"takome/embarcadero/rooms","x":139,"y":114,"z":0,"zone":"24d26639","exits":[{"dir":"north","to":"rooms/embarcadero-3"}]},
+{"id":"rooms/posada","name":"Posada del puerto","area":"takome/embarcadero/rooms","x":138,"y":116,"z":0,"zone":"24d26639","exits":[{"dir":"east","to":"rooms/embarcadero-2"}]}
+],
+"external":[
+{"from":"rooms/embarcadero-4","dir":"northwest","area":"zulk/costa/rooms","kind":"area","label":"Costa de Zulk","to":"acantilado-takome-61"},
+{"from":"rooms/embarcadero-4","dir":"southwest","area":"takome/via/rooms","kind":"area","label":"Takome","to":"via-cre-13"}
+]}

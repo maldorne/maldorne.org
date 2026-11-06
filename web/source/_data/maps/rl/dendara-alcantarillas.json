@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"dendara/alcantarillas","name":"Alcantarillas de Dendara","generated":"2026-11-04",
+{"format":"mapper/1","game":"rl-aeternum","area":"dendara/alcantarillas","name":"Alcantarillas de Dendara","generated":"2026-11-06",
 "areas":[
 {"id":"dendara/alcantarillas/rooms","name":"Alcantarillas de Dendara","parent":"dendara/calles/rooms"}
 ],

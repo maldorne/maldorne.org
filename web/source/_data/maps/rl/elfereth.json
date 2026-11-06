@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"elfereth","name":"Elfereth","generated":"2026-11-03",
+{"format":"mapper/1","game":"rl-aeternum","area":"elfereth","name":"Elfereth","generated":"2026-11-06",
 "areas":[
 {"id":"elfereth/grove/rooms","name":"grove","parent":"elfereth/rooms"},
 {"id":"elfereth/rooms","name":"Elfereth","parent":""}

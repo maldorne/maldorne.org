@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"zulk/grimoszk","name":"Grimoszk","generated":"2026-11-03",
+{"format":"mapper/1","game":"rl-aeternum","area":"zulk/grimoszk","name":"Grimoszk","generated":"2026-11-06",
 "areas":[
 {"id":"zulk/grimoszk/arena/rooms","name":"arena","parent":"zulk/grimoszk/rooms"},
 {"id":"zulk/grimoszk/cavernas/nivel-1/rooms","name":"nivel-1","parent":""},
