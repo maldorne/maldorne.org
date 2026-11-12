@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"oath","name":"Oath","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"oath","name":"Oath","generated":"2026-11-12",
 "areas":[
 {"id":"angor/oath/rooms","name":"Oath","parent":"angor/ciudad/rooms"}
 ],

@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"takome","name":"takome","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"takome","name":"takome","generated":"2026-11-12",
 "areas":[
 {"id":"takome/camino-dendara/rooms","name":"camino-dendara","parent":"takome/ciudad/edificio/rooms"},
 {"id":"takome/cementerio/rooms","name":"cementerio","parent":"takome/ciudad/edificio/rooms"},

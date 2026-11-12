@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"eskibel","name":"Eskibel","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"eskibel","name":"Eskibel","generated":"2026-11-12",
 "areas":[
 {"id":"eskibel/camino-dendara/rooms","name":"camino-dendara","parent":"eskibel/pueblo/rooms"},
 {"id":"eskibel/pueblo/rooms","name":"Eskibel","parent":"takome/ciudad/edificio/rooms"},

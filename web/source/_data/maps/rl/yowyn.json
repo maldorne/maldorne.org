@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"yowyn","name":"Yowyn","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"yowyn","name":"Yowyn","generated":"2026-11-12",
 "areas":[
 {"id":"naggrung/yowyn/rooms","name":"Yowyn","parent":""}
 ],
@@ -8,9 +8,9 @@
 {"id":"naggrung/yowyn/rooms/bac-1","name":"Poblado Élfico Colgante: Base del Acantilado","area":"naggrung/yowyn/rooms","x":286,"y":-132,"z":0,"zone":"54ec62c3","exits":[{"dir":"northwest","to":"naggrung/yowyn/rooms/bac-3"},{"dir":"up","to":"naggrung/yowyn/rooms/pc-3"}]},
 {"id":"naggrung/yowyn/rooms/bac-2","name":"Poblado Élfico Colgante: Base del Acantilado","area":"naggrung/yowyn/rooms","x":288,"y":-132,"z":0,"zone":"54ec62c3","exits":[{"dir":"up","to":"naggrung/yowyn/rooms/pc-4"}]},
 {"id":"naggrung/yowyn/rooms/bac-3","name":"Poblado Élfico Colgante: Embarcadero","area":"naggrung/yowyn/rooms","x":285,"y":-131,"z":0,"zone":"54ec62c3","exits":[{"dir":"northwest","to":"naggrung/yowyn/rooms/bac-4"},{"dir":"southeast","to":"naggrung/yowyn/rooms/bac-1"}]},
-{"id":"naggrung/yowyn/rooms/bac-4","name":"Poblado Élfico Colgante: Embarcadero","area":"naggrung/yowyn/rooms","x":284,"y":-130,"z":0,"zone":"54ec62c3","exits":[{"dir":"southeast","to":"naggrung/yowyn/rooms/bac-3"}]},
+{"id":"naggrung/yowyn/rooms/bac-4","name":"Poblado Élfico Colgante: Embarcadero","area":"naggrung/yowyn/rooms","x":284,"y":-130,"z":0,"zone":"54ec62c3","exits":[{"dir":"southeast","to":"naggrung/yowyn/rooms/bac-3"},{"dir":"west","to":"naggrung/yowyn/rooms/bac-5"}]},
 {"id":"naggrung/yowyn/rooms/bac-5","name":"Poblado Élfico Colgante: Embarcadero","area":"naggrung/yowyn/rooms","x":283,"y":-130,"z":0,"zone":"54ec62c3","exits":[{"dir":"east","to":"naggrung/yowyn/rooms/bac-4"},{"dir":"west","to":"naggrung/yowyn/rooms/bac-6"}]},
-{"id":"naggrung/yowyn/rooms/bac-6","name":"Poblado Élfico Colgante: Embarcadero","area":"naggrung/yowyn/rooms","x":282,"y":-130,"z":0,"zone":"54ec62c3","exits":[{"dir":"east","to":"naggrung/yowyn/rooms/bac-5"}]},
+{"id":"naggrung/yowyn/rooms/bac-6","name":"Poblado Élfico Colgante: Embarcadero","area":"naggrung/yowyn/rooms","x":282,"y":-130,"z":0,"zone":"54ec62c3","exits":[{"dir":"east","to":"naggrung/yowyn/rooms/bac-5"},{"dir":"west","to":"naggrung/yowyn/rooms/bac-7"}]},
 {"id":"naggrung/yowyn/rooms/bac-7","name":"Poblado Élfico Colgante: Embarcadero","area":"naggrung/yowyn/rooms","x":281,"y":-130,"z":0,"zone":"54ec62c3","exits":[{"dir":"east","to":"naggrung/yowyn/rooms/bac-6"},{"dir":"west","to":"naggrung/yowyn/rooms/bac-8"}]},
 {"id":"naggrung/yowyn/rooms/bac-8","name":"Poblado Élfico Colgante: Embarcadero","area":"naggrung/yowyn/rooms","x":280,"y":-130,"z":0,"zone":"54ec62c3","exits":[{"dir":"east","to":"naggrung/yowyn/rooms/bac-7"},{"dir":"west","to":"naggrung/yowyn/rooms/bac-9"}]},
 {"id":"naggrung/yowyn/rooms/bac-9","name":"Poblado Élfico Colgante: Embarcadero","area":"naggrung/yowyn/rooms","x":279,"y":-130,"z":0,"zone":"54ec62c3","exits":[{"dir":"east","to":"naggrung/yowyn/rooms/bac-8"}]},

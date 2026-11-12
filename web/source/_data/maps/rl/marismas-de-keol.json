@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"marismas-de-keol","name":"Marismas de Keol","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"marismas-de-keol","name":"Marismas de Keol","generated":"2026-11-12",
 "areas":[
 {"id":"keol/delta/rooms","name":"delta","parent":""},
 {"id":"keol/marisma-este/rooms","name":"marisma-este","parent":""},
@@ -205,9 +205,9 @@
 {"id":"keol/rio/rooms/rio-07","name":"Aguas del río Ostiriel","area":"keol/rio/rooms","x":-47,"y":-101,"z":0,"zone":"f85240ff","exits":[{"dir":"east","to":"keol/marisma-este/rooms/marisma-este-10"},{"dir":"northwest","to":"keol/rio/rooms/rio-08"},{"dir":"south","to":"keol/rio/rooms/rio-06"}]},
 {"id":"keol/rio/rooms/rio-08","name":"Aguas del río Ostiriel","area":"keol/rio/rooms","x":-48,"y":-100,"z":0,"zone":"f85240ff","exits":[{"dir":"southeast","to":"keol/rio/rooms/rio-07"},{"dir":"west","to":"keol/marisma-oeste/rooms/marisma-oeste-23"}]},
 {"id":"keol/rio/rooms/rio-09","name":"Aguas del río Ostiriel: Delta","area":"keol/rio/rooms","x":-45,"y":-109,"z":0,"zone":"f85240ff","exits":[{"dir":"east","to":"keol/marisma-este/rooms/marisma-este-02"},{"dir":"northwest","to":"keol/rio/rooms/rio-00"},{"dir":"southeast","to":"keol/rio/rooms/rio-10"}]},
-{"id":"keol/rio/rooms/rio-10","name":"Aguas del río Ostiriel: Delta","area":"keol/rio/rooms","x":-44,"y":-110,"z":0,"zone":"f85240ff","exits":[{"dir":"northwest","to":"keol/rio/rooms/rio-09"},{"dir":"southeast","to":"keol/rio/rooms/rio-20"}]},
+{"id":"keol/rio/rooms/rio-10","name":"Aguas del río Ostiriel: Delta","area":"keol/rio/rooms","x":-44,"y":-110,"z":0,"zone":"f85240ff","exits":[{"dir":"northwest","to":"keol/rio/rooms/rio-09"},{"dir":"southeast","to":"keol/rio/rooms/rio-20"},{"dir":"west","to":"keol/rio/rooms/rio-12"}]},
 {"id":"keol/rio/rooms/rio-11","name":"Aguas del río Ostiriel: Delta","area":"keol/rio/rooms","x":-46,"y":-109,"z":0,"zone":"f85240ff","exits":[{"dir":"north","to":"keol/rio/rooms/rio-00"},{"dir":"southeast","to":"keol/rio/rooms/rio-12"}]},
-{"id":"keol/rio/rooms/rio-12","name":"Aguas del río Ostiriel: Delta","area":"keol/rio/rooms","x":-45,"y":-110,"z":0,"zone":"f85240ff","exits":[{"dir":"northwest","to":"keol/rio/rooms/rio-11"}]},
+{"id":"keol/rio/rooms/rio-12","name":"Aguas del río Ostiriel: Delta","area":"keol/rio/rooms","x":-45,"y":-110,"z":0,"zone":"f85240ff","exits":[{"dir":"east","to":"keol/rio/rooms/rio-10"},{"dir":"northwest","to":"keol/rio/rooms/rio-11"}]},
 {"id":"keol/rio/rooms/rio-13","name":"Aguas del río Ostiriel: Delta","area":"keol/rio/rooms","x":-47,"y":-109,"z":0,"zone":"f85240ff","exits":[{"dir":"northeast","to":"keol/rio/rooms/rio-00"},{"dir":"south","to":"keol/rio/rooms/rio-14"},{"dir":"west","to":"keol/marisma-oeste/rooms/marisma-oeste-14"}]},
 {"id":"keol/rio/rooms/rio-14","name":"Aguas del río Ostiriel: Delta","area":"keol/rio/rooms","x":-47,"y":-110,"z":0,"zone":"f85240ff","exits":[{"dir":"north","to":"keol/rio/rooms/rio-13"},{"dir":"south","to":"keol/rio/rooms/rio-15"}]},
 {"id":"keol/rio/rooms/rio-15","name":"Aguas del río Ostiriel: Delta","area":"keol/rio/rooms","x":-47,"y":-111,"z":0,"zone":"f85240ff","exits":[{"dir":"north","to":"keol/rio/rooms/rio-14"},{"dir":"south","to":"keol/rio/rooms/rio-16"}]},

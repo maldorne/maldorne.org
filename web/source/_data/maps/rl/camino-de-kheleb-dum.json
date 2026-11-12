@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"camino-de-kheleb-dum","name":"Camino de Kheleb-Dum","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"camino-de-kheleb-dum","name":"Camino de Kheleb-Dum","generated":"2026-11-12",
 "areas":[
 {"id":"kheleb-dum/camino/rooms","name":"Camino de Kheleb-Dum","parent":"kheleb-dum/nivel-a/rooms"}
 ],

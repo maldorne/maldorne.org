@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"azholia","name":"Azholia","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"azholia","name":"Azholia","generated":"2026-11-12",
 "areas":[
 {"id":"azholia/caverna/rooms","name":"Cueva de los piratas de Azholia","parent":"azholia/perimetro/rooms"},
 {"id":"azholia/perimetro/rooms","name":"Isla de Azholia","parent":""},

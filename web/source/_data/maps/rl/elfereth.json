@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"elfereth","name":"Elfereth","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"elfereth","name":"Elfereth","generated":"2026-11-12",
 "areas":[
 {"id":"elfereth/grove/rooms","name":"grove","parent":"elfereth/rooms"},
 {"id":"elfereth/rooms","name":"Elfereth","parent":""}
@@ -67,7 +67,7 @@
 {"id":"rooms/z21","name":"Tienda de Elfereth","area":"elfereth/rooms","x":-30,"y":7,"z":1,"zone":"","exits":[{"dir":"south","to":"rooms/z20"},{"dir":"west","to":"rooms/plot_-31_7_1"}]},
 {"id":"rooms/z3","name":"Camino a Elfereth","area":"elfereth/rooms","x":-29,"y":3,"z":0,"zone":"","exits":[{"dir":"east","to":"rooms/z2"},{"dir":"north","to":"rooms/z4"}]},
 {"id":"rooms/z4","name":"Camino a Elfereth","area":"elfereth/rooms","x":-29,"y":4,"z":0,"zone":"","exits":[{"dir":"south","to":"rooms/z3"},{"dir":"southeast","to":"rooms/z2"},{"dir":"southwest","to":"rooms/z6"},{"dir":"west","to":"rooms/z5"}]},
-{"id":"rooms/z5","name":"Camino a Elfereth","area":"elfereth/rooms","x":-30,"y":4,"z":0,"zone":"","exits":[{"dir":"east","to":"rooms/z4"},{"dir":"north","to":"grove/rooms/s1"},{"dir":"south","to":"rooms/z6"},{"dir":"southwest","to":"rooms/z9"},{"dir":"up","to":"rooms/z14"},{"dir":"west","to":"rooms/z10"}]},
+{"id":"rooms/z5","name":"Camino a Elfereth","area":"elfereth/rooms","x":-30,"y":4,"z":0,"zone":"","exits":[{"dir":"east","to":"rooms/z4"},{"dir":"south","to":"rooms/z6"},{"dir":"southwest","to":"rooms/z9"},{"dir":"up","to":"rooms/z14"},{"dir":"west","to":"rooms/z10"}]},
 {"id":"rooms/z6","name":"Bosque élfico de Elrhair","area":"elfereth/rooms","x":-30,"y":3,"z":0,"zone":"a85d53b4","exits":[{"dir":"north","to":"rooms/z5"},{"dir":"northeast","to":"rooms/z4"},{"dir":"south","to":"rooms/z7"},{"dir":"west","to":"rooms/z9"}]},
 {"id":"rooms/z7","name":"Bosque élfico de Elrhair","area":"elfereth/rooms","x":-30,"y":2,"z":0,"zone":"a85d53b4","exits":[{"dir":"north","to":"rooms/z6"},{"dir":"west","to":"rooms/z8"}]},
 {"id":"rooms/z8","name":"Bosque élfico de Elrhair","area":"elfereth/rooms","x":-31,"y":2,"z":0,"zone":"a85d53b4","exits":[{"dir":"east","to":"rooms/z7"},{"dir":"north","to":"rooms/z9"},{"dir":"northwest","to":"rooms/z13"}]},

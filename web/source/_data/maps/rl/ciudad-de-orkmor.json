@@ -1,0 +1,36 @@
+{"format":"mapper/1","game":"rl-aeternum","area":"ciudad-de-orkmor","name":"Ciudad de Orkmor","generated":"2026-11-12",
+"areas":[
+{"id":"cove/orkmor/rooms","name":"Ciudad de Orkmor","parent":""}
+],
+"levels":[0],
+"locations":[
+{"id":"cove/orkmor/rooms/y49-x61","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-154,"y":40,"z":0,"zone":"bd7313dd","exits":[{"dir":"south","to":"cove/orkmor/rooms/y51-x61"}]},
+{"id":"cove/orkmor/rooms/y51-x61","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-154,"y":39,"z":0,"zone":"bd7313dd","exits":[{"dir":"east","to":"cove/orkmor/rooms/y51-x63"},{"dir":"north","to":"cove/orkmor/rooms/y49-x61"},{"dir":"southwest","to":"cove/orkmor/rooms/y53-x59"}]},
+{"id":"cove/orkmor/rooms/y51-x63","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-153,"y":39,"z":0,"zone":"bd7313dd","exits":[{"dir":"southeast","to":"cove/orkmor/rooms/y53-x65"},{"dir":"west","to":"cove/orkmor/rooms/y51-x61"}]},
+{"id":"cove/orkmor/rooms/y53-x59","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-155,"y":38,"z":0,"zone":"bd7313dd","exits":[{"dir":"northeast","to":"cove/orkmor/rooms/y51-x61"},{"dir":"south","to":"cove/orkmor/rooms/y55-x59"}]},
+{"id":"cove/orkmor/rooms/y53-x65","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-152,"y":38,"z":0,"zone":"bd7313dd","exits":[{"dir":"northwest","to":"cove/orkmor/rooms/y51-x63"},{"dir":"south","to":"cove/orkmor/rooms/y55-x65"},{"dir":"southwest","to":"cove/orkmor/rooms/y55-x63"}]},
+{"id":"cove/orkmor/rooms/y55-x59","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-155,"y":37,"z":0,"zone":"bd7313dd","exits":[{"dir":"north","to":"cove/orkmor/rooms/y53-x59"},{"dir":"south","to":"cove/orkmor/rooms/y57-x59"}]},
+{"id":"cove/orkmor/rooms/y55-x63","name":"Chabola de Mumot","area":"cove/orkmor/rooms","x":-153,"y":37,"z":0,"zone":"bd7313dd","exits":[{"dir":"northeast","to":"cove/orkmor/rooms/y53-x65"}]},
+{"id":"cove/orkmor/rooms/y55-x65","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-152,"y":37,"z":0,"zone":"bd7313dd","exits":[{"dir":"north","to":"cove/orkmor/rooms/y53-x65"},{"dir":"south","to":"cove/orkmor/rooms/y57-x65"}]},
+{"id":"cove/orkmor/rooms/y57-x59","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-155,"y":36,"z":0,"zone":"bd7313dd","exits":[{"dir":"north","to":"cove/orkmor/rooms/y55-x59"},{"dir":"south","to":"cove/orkmor/rooms/y59-x59"}]},
+{"id":"cove/orkmor/rooms/y57-x63","name":"Cuartelillo de Gruntarg","area":"cove/orkmor/rooms","x":-153,"y":36,"z":0,"zone":"bd7313dd","exits":[{"dir":"southeast","to":"cove/orkmor/rooms/y59-x65"}]},
+{"id":"cove/orkmor/rooms/y57-x65","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-152,"y":36,"z":0,"zone":"bd7313dd","exits":[{"dir":"north","to":"cove/orkmor/rooms/y55-x65"},{"dir":"south","to":"cove/orkmor/rooms/y59-x65"}]},
+{"id":"cove/orkmor/rooms/y59-x59","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-155,"y":35,"z":0,"zone":"bd7313dd","exits":[{"dir":"north","to":"cove/orkmor/rooms/y57-x59"},{"dir":"southeast","to":"cove/orkmor/rooms/y61-x61"}]},
+{"id":"cove/orkmor/rooms/y59-x65","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-152,"y":35,"z":0,"zone":"bd7313dd","exits":[{"dir":"north","to":"cove/orkmor/rooms/y57-x65"},{"dir":"northwest","to":"cove/orkmor/rooms/y57-x63"},{"dir":"southwest","to":"cove/orkmor/rooms/y61-x63"}]},
+{"id":"cove/orkmor/rooms/y61-x61","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-154,"y":34,"z":0,"zone":"bd7313dd","exits":[{"dir":"east","to":"cove/orkmor/rooms/y61-x63"},{"dir":"northwest","to":"cove/orkmor/rooms/y59-x59"},{"dir":"south","to":"cove/orkmor/rooms/y63-x61"}]},
+{"id":"cove/orkmor/rooms/y61-x63","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-153,"y":34,"z":0,"zone":"bd7313dd","exits":[{"dir":"northeast","to":"cove/orkmor/rooms/y59-x65"},{"dir":"west","to":"cove/orkmor/rooms/y61-x61"}]},
+{"id":"cove/orkmor/rooms/y63-x61","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-154,"y":33,"z":0,"zone":"bd7313dd","exits":[{"dir":"north","to":"cove/orkmor/rooms/y61-x61"},{"dir":"south","to":"cove/orkmor/rooms/y65-x61"}]},
+{"id":"cove/orkmor/rooms/y65-x61","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-154,"y":32,"z":0,"zone":"bd7313dd","exits":[{"dir":"north","to":"cove/orkmor/rooms/y63-x61"},{"dir":"south","to":"cove/orkmor/rooms/y67-x61"}]},
+{"id":"cove/orkmor/rooms/y65-x67","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-151,"y":32,"z":0,"zone":"bd7313dd","exits":[{"dir":"southeast","to":"cove/orkmor/rooms/y67-x69"},{"dir":"southwest","to":"cove/orkmor/rooms/y67-x65"}]},
+{"id":"cove/orkmor/rooms/y67-x57","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-156,"y":31,"z":0,"zone":"bd7313dd","exits":[{"dir":"east","to":"cove/orkmor/rooms/y67-x59"}]},
+{"id":"cove/orkmor/rooms/y67-x59","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-155,"y":31,"z":0,"zone":"bd7313dd","exits":[{"dir":"east","to":"cove/orkmor/rooms/y67-x61"},{"dir":"west","to":"cove/orkmor/rooms/y67-x57"}]},
+{"id":"cove/orkmor/rooms/y67-x61","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-154,"y":31,"z":0,"zone":"bd7313dd","exits":[{"dir":"east","to":"cove/orkmor/rooms/y67-x63"},{"dir":"north","to":"cove/orkmor/rooms/y65-x61"},{"dir":"south","to":"cove/orkmor/rooms/y69-x61"},{"dir":"west","to":"cove/orkmor/rooms/y67-x59"}]},
+{"id":"cove/orkmor/rooms/y67-x63","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-153,"y":31,"z":0,"zone":"bd7313dd","exits":[{"dir":"east","to":"cove/orkmor/rooms/y67-x65"},{"dir":"west","to":"cove/orkmor/rooms/y67-x61"}]},
+{"id":"cove/orkmor/rooms/y67-x65","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-152,"y":31,"z":0,"zone":"bd7313dd","exits":[{"dir":"northeast","to":"cove/orkmor/rooms/y65-x67"},{"dir":"southeast","to":"cove/orkmor/rooms/y69-x67"},{"dir":"west","to":"cove/orkmor/rooms/y67-x63"}]},
+{"id":"cove/orkmor/rooms/y67-x69","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-150,"y":31,"z":0,"zone":"bd7313dd","exits":[{"dir":"northwest","to":"cove/orkmor/rooms/y65-x67"},{"dir":"southwest","to":"cove/orkmor/rooms/y69-x67"}]},
+{"id":"cove/orkmor/rooms/y69-x61","name":"La Taberna del Orco borracho","area":"cove/orkmor/rooms","x":-154,"y":30,"z":0,"zone":"bd7313dd","exits":[{"dir":"north","to":"cove/orkmor/rooms/y67-x61"}]},
+{"id":"cove/orkmor/rooms/y69-x67","name":"Ciudad de Orkmor","area":"cove/orkmor/rooms","x":-151,"y":30,"z":0,"zone":"bd7313dd","exits":[{"dir":"northeast","to":"cove/orkmor/rooms/y67-x69"},{"dir":"northwest","to":"cove/orkmor/rooms/y67-x65"}]}
+],
+"external":[
+{"from":"cove/orkmor/rooms/y67-x57","dir":"down","area":"cove/mina/rooms","kind":"area","label":"Bosque de Cove","to":"y23-x57"}
+]}

@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"minas-de-zulk","name":"Minas de Zulk","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"minas-de-zulk","name":"Minas de Zulk","generated":"2026-11-12",
 "areas":[
 {"id":"zulk/minas/amarillo/rooms","name":"amarillo","parent":""},
 {"id":"zulk/minas/azul/rooms","name":"azul","parent":""},

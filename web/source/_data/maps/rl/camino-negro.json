@@ -1,0 +1,15 @@
+{"format":"mapper/1","game":"rl-aeternum","area":"camino-negro","name":"Camino Negro","generated":"2026-11-12",
+"areas":[
+{"id":"cove/camino-negro/rooms","name":"camino-negro","parent":"cove/selva/rooms"}
+],
+"levels":[0],
+"locations":[
+{"id":"cove/camino-negro/rooms/camino-1","name":"Camino Negro","area":"cove/camino-negro/rooms","x":-154,"y":-10,"z":0,"zone":"3835704c","exits":[{"dir":"south","to":"cove/camino-negro/rooms/camino-2"}]},
+{"id":"cove/camino-negro/rooms/camino-2","name":"Camino Negro","area":"cove/camino-negro/rooms","x":-154,"y":-11,"z":0,"zone":"3835704c","exits":[{"dir":"north","to":"cove/camino-negro/rooms/camino-1"},{"dir":"south","to":"cove/camino-negro/rooms/camino-3"}]},
+{"id":"cove/camino-negro/rooms/camino-3","name":"Camino Negro","area":"cove/camino-negro/rooms","x":-154,"y":-12,"z":0,"zone":"3835704c","exits":[{"dir":"north","to":"cove/camino-negro/rooms/camino-2"},{"dir":"south","to":"cove/camino-negro/rooms/camino-4"}]},
+{"id":"cove/camino-negro/rooms/camino-4","name":"Camino Negro","area":"cove/camino-negro/rooms","x":-154,"y":-13,"z":0,"zone":"3835704c","exits":[{"dir":"north","to":"cove/camino-negro/rooms/camino-3"}]}
+],
+"external":[
+{"from":"cove/camino-negro/rooms/camino-1","dir":"north","area":"cove/selva/rooms","kind":"area","label":"Bosque de Cove","to":"y63-x61"},
+{"from":"cove/camino-negro/rooms/camino-4","dir":"up","area":"cove/bosque-sombrio/rooms","kind":"area","label":"Bosque Sombrío de Cove","to":"bosque-01"}
+]}

@@ -1,0 +1,15 @@
+{"format":"mapper/1","game":"rl-aeternum","area":"templo-perdido","name":"Templo Perdido","generated":"2026-11-12",
+"areas":[
+{"id":"golthur-orod/templo-perdido/rooms","name":"Templo Perdido","parent":""}
+],
+"levels":[0],
+"locations":[
+{"id":"golthur-orod/templo-perdido/rooms/altar","name":"Altar Perdido en el bosque","area":"golthur-orod/templo-perdido/rooms","x":53,"y":313,"z":0,"zone":"0209f714","exits":[{"dir":"east","to":"golthur-orod/templo-perdido/rooms/templo-01"}]},
+{"id":"golthur-orod/templo-perdido/rooms/templo","name":"Templo Perdido en el bosque","area":"golthur-orod/templo-perdido/rooms","x":55,"y":313,"z":0,"zone":"0209f714","exits":[{"dir":"northwest","to":"golthur-orod/templo-perdido/rooms/templo-02"},{"dir":"southwest","to":"golthur-orod/templo-perdido/rooms/templo-03"},{"dir":"west","to":"golthur-orod/templo-perdido/rooms/templo-01"}]},
+{"id":"golthur-orod/templo-perdido/rooms/templo-01","name":"Templo Perdido en el bosque","area":"golthur-orod/templo-perdido/rooms","x":54,"y":313,"z":0,"zone":"0209f714","exits":[{"dir":"east","to":"golthur-orod/templo-perdido/rooms/templo"},{"dir":"north","to":"golthur-orod/templo-perdido/rooms/templo-02"},{"dir":"south","to":"golthur-orod/templo-perdido/rooms/templo-03"},{"dir":"west","to":"golthur-orod/templo-perdido/rooms/altar"}]},
+{"id":"golthur-orod/templo-perdido/rooms/templo-02","name":"Templo Perdido en el bosque","area":"golthur-orod/templo-perdido/rooms","x":54,"y":314,"z":0,"zone":"0209f714","exits":[{"dir":"south","to":"golthur-orod/templo-perdido/rooms/templo-01"},{"dir":"southeast","to":"golthur-orod/templo-perdido/rooms/templo"}]},
+{"id":"golthur-orod/templo-perdido/rooms/templo-03","name":"Templo Perdido en el bosque","area":"golthur-orod/templo-perdido/rooms","x":54,"y":312,"z":0,"zone":"0209f714","exits":[{"dir":"north","to":"golthur-orod/templo-perdido/rooms/templo-01"},{"dir":"northeast","to":"golthur-orod/templo-perdido/rooms/templo"}]}
+],
+"external":[
+{"from":"golthur-orod/templo-perdido/rooms/templo","dir":"east","area":"golthur-orod/bosque/rooms","kind":"area","label":"Bosque de Golthur","to":"b-189"}
+]}

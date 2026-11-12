@@ -1,4 +1,4 @@
-{"format":"worldmap/1","game":"rl-aeternum","map":"default","z":-2,"generated":"2026-11-05",
+{"format":"worldmap/1","game":"rl-aeternum","map":"default","z":-2,"generated":"2026-11-12",
 "sector_size":10,"sectors":{"min_x":2,"max_x":3,"min_y":-2,"max_y":0},
 "columns":26,"rows_count":3,"map_left":12,
 "palette":{"BLACK":"#555555","BLUE":"#4a8fe8","CYAN":"#11a8cd","GREEN":"#0dbc79","MAGENTA":"#bc3fbc","ORANGE":"#b5892a","RED":"#cd3131","WHITE":"#e5e5e5","YELLOW":"#e5e510"},
@@ -18,6 +18,7 @@
 {"glyph":"♣","kind":"forest","style":3},
 {"glyph":"♣","kind":"forest-city","style":4},
 {"glyph":"◠","kind":"hills","style":5},
+{"glyph":"○","kind":"lake","style":6},
 {"glyph":"│","kind":"marsh","style":3},
 {"glyph":"▲","kind":"mountain","style":5},
 {"glyph":"⋰","kind":"plains","style":0},
@@ -26,6 +27,7 @@
 {"glyph":"≈","kind":"swamp","style":3},
 {"glyph":"♧","kind":"taiga","style":3},
 {"glyph":"⋰","kind":"tundra","style":7},
-{"glyph":".","kind":"underground","style":0}
+{"glyph":".","kind":"underground","style":0},
+{"glyph":"▲","kind":"volcano","style":8}
 ],
-"styles":[{"bold":0,"colour":""},{"bold":0,"colour":"YELLOW"},{"bold":0,"colour":"CYAN"},{"bold":0,"colour":"GREEN"},{"bold":1,"colour":"GREEN"},{"bold":0,"colour":"ORANGE"},{"bold":0,"colour":"BLUE"},{"bold":1,"colour":""}]}
+"styles":[{"bold":0,"colour":""},{"bold":0,"colour":"YELLOW"},{"bold":0,"colour":"CYAN"},{"bold":0,"colour":"GREEN"},{"bold":1,"colour":"GREEN"},{"bold":0,"colour":"ORANGE"},{"bold":0,"colour":"BLUE"},{"bold":1,"colour":""},{"bold":0,"colour":"RED"}]}

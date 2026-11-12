@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"naduk","name":"Naduk","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"naduk","name":"Naduk","generated":"2026-11-12",
 "areas":[
 {"id":"naduk/farms/rooms","name":"farms","parent":"naduk/rooms"},
 {"id":"naduk/road/rooms","name":"road","parent":"naduk/rooms"},

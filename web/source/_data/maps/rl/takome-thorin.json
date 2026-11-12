@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"takome/thorin","name":"thorin","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"takome/thorin","name":"thorin","generated":"2026-11-12",
 "areas":[
 {"id":"takome/thorin/bosque/rooms","name":"Bosque de Thorin","parent":"takome/ciudad/edificio/rooms"},
 {"id":"takome/thorin/entrada/rooms","name":"entrada","parent":"takome/ciudad/edificio/rooms"}

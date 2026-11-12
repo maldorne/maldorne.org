@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"zumelzu","name":"Zumelzu","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"zumelzu","name":"Zumelzu","generated":"2026-11-12",
 "areas":[
 {"id":"zumelzu/ciudad/rooms","name":"Zumelzu","parent":""},
 {"id":"zumelzu/puerto/rooms","name":"puerto","parent":"zumelzu/ciudad/rooms"}
@@ -163,9 +163,9 @@
 ],
 "external":[
 {"from":"zumelzu/ciudad/rooms/calle-este-21","dir":"east","area":"keol/playa/rooms","kind":"area","label":"Marismas de Keol","to":"playa-01"},
-{"from":"zumelzu/ciudad/rooms/calle-oeste-16","dir":"south","area":"urlom/playas-zumelzu/rooms","kind":"area","label":"Playas de Zumelzu","to":"playa-zumelzu-001"},
-{"from":"zumelzu/ciudad/rooms/calle-oeste-16","dir":"west","area":"urlom/playas-zumelzu/rooms","kind":"area","label":"Playas de Zumelzu","to":"playa-zumelzu-003"},
-{"from":"zumelzu/ciudad/rooms/calle-oeste-17","dir":"west","area":"urlom/playas-zumelzu/rooms","kind":"area","label":"Playas de Zumelzu","to":"playa-zumelzu-001"},
+{"from":"zumelzu/ciudad/rooms/calle-oeste-16","dir":"south","area":"zumelzu/playas/rooms","kind":"area","label":"Playas de Zumelzu","to":"playa-zumelzu-001"},
+{"from":"zumelzu/ciudad/rooms/calle-oeste-16","dir":"west","area":"zumelzu/playas/rooms","kind":"area","label":"Playas de Zumelzu","to":"playa-zumelzu-003"},
+{"from":"zumelzu/ciudad/rooms/calle-oeste-17","dir":"west","area":"zumelzu/playas/rooms","kind":"area","label":"Playas de Zumelzu","to":"playa-zumelzu-001"},
 {"from":"zumelzu/ciudad/rooms/puerta-norte","dir":"north","area":"anduar/camino-real/sur/rooms","kind":"area","label":"Anduar","to":"sur-155"},
 {"from":"zumelzu/puerto/rooms/puerto-12","dir":"east","area":"keol/playa/rooms","kind":"area","label":"Marismas de Keol","to":"playa-00"}
 ]}

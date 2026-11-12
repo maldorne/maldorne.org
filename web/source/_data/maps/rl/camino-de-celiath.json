@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"camino-de-celiath","name":"Camino de Celiath","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"camino-de-celiath","name":"Camino de Celiath","generated":"2026-11-12",
 "areas":[
 {"id":"celiath/camino/rooms","name":"camino","parent":"dendara/calles/rooms"}
 ],

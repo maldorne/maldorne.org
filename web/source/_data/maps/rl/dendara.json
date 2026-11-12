@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"dendara","name":"Dendara","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"dendara","name":"Dendara","generated":"2026-11-12",
 "areas":[
 {"id":"dendara/angaloth-este/rooms","name":"angaloth-este","parent":"dendara/calles/rooms"},
 {"id":"dendara/angaloth-norte/rooms","name":"angaloth-norte","parent":"dendara/calles/rooms"},

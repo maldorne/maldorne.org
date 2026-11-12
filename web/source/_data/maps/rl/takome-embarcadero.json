@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"takome/embarcadero","name":"embarcadero","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"takome/embarcadero","name":"embarcadero","generated":"2026-11-12",
 "areas":[
 {"id":"takome/embarcadero/rooms","name":"embarcadero","parent":"takome/ciudad/edificio/rooms"}
 ],

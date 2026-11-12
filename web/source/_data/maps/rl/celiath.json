@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"celiath","name":"Celiath","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"celiath","name":"Celiath","generated":"2026-11-12",
 "areas":[
 {"id":"celiath/carcel/rooms","name":"carcel","parent":"celiath/ciudad/baja/rooms"},
 {"id":"celiath/cercanias/rooms","name":"cercanias","parent":"celiath/ciudad/baja/rooms"},

@@ -1,0 +1,27 @@
+{"format":"mapper/1","game":"rl-aeternum","area":"torre-olvidada","name":"Torre Olvidada","generated":"2026-11-12",
+"areas":[
+{"id":"cove/torre-olvidada/rooms","name":"Torre Olvidada","parent":"cove/selva/rooms"}
+],
+"levels":[1,2,3,4],
+"locations":[
+{"id":"cove/torre-olvidada/rooms/torre-01","name":"Torre Olvidada: Entrada","area":"cove/torre-olvidada/rooms","x":-153,"y":-20,"z":1,"zone":"4ab0e70a","exits":[{"dir":"up","to":"cove/torre-olvidada/rooms/torre-02"}]},
+{"id":"cove/torre-olvidada/rooms/torre-02","name":"Torre Olvidada: Pasillos","area":"cove/torre-olvidada/rooms","x":-153,"y":-20,"z":2,"zone":"4ab0e70a","exits":[{"dir":"down","to":"cove/torre-olvidada/rooms/torre-01"},{"dir":"up","to":"cove/torre-olvidada/rooms/torre-03"}]},
+{"id":"cove/torre-olvidada/rooms/torre-03","name":"Torre Olvidada: Pasillos","area":"cove/torre-olvidada/rooms","x":-153,"y":-20,"z":3,"zone":"4ab0e70a","exits":[{"dir":"down","to":"cove/torre-olvidada/rooms/torre-02"},{"dir":"up","to":"cove/torre-olvidada/rooms/torre-04"}]},
+{"id":"cove/torre-olvidada/rooms/torre-04","name":"Torre Olvidada: Salón Central","area":"cove/torre-olvidada/rooms","x":-153,"y":-20,"z":4,"zone":"4ab0e70a","exits":[{"dir":"down","to":"cove/torre-olvidada/rooms/torre-03"},{"dir":"east","to":"cove/torre-olvidada/rooms/torre-14"},{"dir":"north","to":"cove/torre-olvidada/rooms/torre-05"},{"dir":"south","to":"cove/torre-olvidada/rooms/torre-11"},{"dir":"west","to":"cove/torre-olvidada/rooms/torre-08"}]},
+{"id":"cove/torre-olvidada/rooms/torre-05","name":"Torre Olvidada: Pasillos","area":"cove/torre-olvidada/rooms","x":-153,"y":-19,"z":4,"zone":"4ab0e70a","exits":[{"dir":"north","to":"cove/torre-olvidada/rooms/torre-06"},{"dir":"south","to":"cove/torre-olvidada/rooms/torre-04"}]},
+{"id":"cove/torre-olvidada/rooms/torre-06","name":"Torre Olvidada: Pasillos","area":"cove/torre-olvidada/rooms","x":-153,"y":-18,"z":4,"zone":"4ab0e70a","exits":[{"dir":"down","to":"cove/torre-olvidada/rooms/torre-07"},{"dir":"south","to":"cove/torre-olvidada/rooms/torre-05"}]},
+{"id":"cove/torre-olvidada/rooms/torre-07","name":"Torre Olvidada: Salón del Cofre","area":"cove/torre-olvidada/rooms","x":-153,"y":-18,"z":3,"zone":"4ab0e70a","exits":[{"dir":"up","to":"cove/torre-olvidada/rooms/torre-06"}]},
+{"id":"cove/torre-olvidada/rooms/torre-08","name":"Torre Olvidada: Pasillos","area":"cove/torre-olvidada/rooms","x":-154,"y":-20,"z":4,"zone":"4ab0e70a","exits":[{"dir":"east","to":"cove/torre-olvidada/rooms/torre-04"},{"dir":"west","to":"cove/torre-olvidada/rooms/torre-09"}]},
+{"id":"cove/torre-olvidada/rooms/torre-09","name":"Torre Olvidada: Pasillos","area":"cove/torre-olvidada/rooms","x":-155,"y":-20,"z":4,"zone":"4ab0e70a","exits":[{"dir":"down","to":"cove/torre-olvidada/rooms/torre-10"},{"dir":"east","to":"cove/torre-olvidada/rooms/torre-08"}]},
+{"id":"cove/torre-olvidada/rooms/torre-10","name":"Torre Olvidada: Salón del Cofre","area":"cove/torre-olvidada/rooms","x":-155,"y":-20,"z":3,"zone":"4ab0e70a","exits":[{"dir":"up","to":"cove/torre-olvidada/rooms/torre-09"}]},
+{"id":"cove/torre-olvidada/rooms/torre-11","name":"Torre Olvidada: Pasillos","area":"cove/torre-olvidada/rooms","x":-153,"y":-21,"z":4,"zone":"4ab0e70a","exits":[{"dir":"north","to":"cove/torre-olvidada/rooms/torre-04"},{"dir":"south","to":"cove/torre-olvidada/rooms/torre-12"}]},
+{"id":"cove/torre-olvidada/rooms/torre-12","name":"Torre Olvidada: Pasillos","area":"cove/torre-olvidada/rooms","x":-153,"y":-22,"z":4,"zone":"4ab0e70a","exits":[{"dir":"down","to":"cove/torre-olvidada/rooms/torre-13"},{"dir":"north","to":"cove/torre-olvidada/rooms/torre-11"}]},
+{"id":"cove/torre-olvidada/rooms/torre-13","name":"Torre Olvidada: Salón del Cofre","area":"cove/torre-olvidada/rooms","x":-153,"y":-22,"z":3,"zone":"4ab0e70a","exits":[{"dir":"up","to":"cove/torre-olvidada/rooms/torre-12"}]},
+{"id":"cove/torre-olvidada/rooms/torre-14","name":"Torre Olvidada: Pasillos","area":"cove/torre-olvidada/rooms","x":-152,"y":-20,"z":4,"zone":"4ab0e70a","exits":[{"dir":"east","to":"cove/torre-olvidada/rooms/torre-15"},{"dir":"west","to":"cove/torre-olvidada/rooms/torre-04"}]},
+{"id":"cove/torre-olvidada/rooms/torre-15","name":"Torre Olvidada: Pasillos","area":"cove/torre-olvidada/rooms","x":-151,"y":-20,"z":4,"zone":"4ab0e70a","exits":[{"dir":"down","to":"cove/torre-olvidada/rooms/torre-16"},{"dir":"west","to":"cove/torre-olvidada/rooms/torre-14"}]},
+{"id":"cove/torre-olvidada/rooms/torre-16","name":"Torre Olvidada: Salón del Cofre","area":"cove/torre-olvidada/rooms","x":-151,"y":-20,"z":3,"zone":"4ab0e70a","exits":[{"dir":"up","to":"cove/torre-olvidada/rooms/torre-15"}]}
+],
+"external":[
+{"from":"cove/torre-olvidada/rooms/torre-01","dir":"down","area":"cove/catacumbas/rooms","kind":"area","label":"Catacumbas de la Torre Olvidada","to":"catacumbas-01"},
+{"from":"cove/torre-olvidada/rooms/torre-01","dir":"southeast","area":"cove/bosque-sombrio/rooms","kind":"area","label":"Bosque Sombrío de Cove","to":"bosque-63"}
+]}

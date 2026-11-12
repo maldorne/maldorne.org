@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"kheleb-dum","name":"Kheleb-Dum","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"kheleb-dum","name":"Kheleb-Dum","generated":"2026-11-12",
 "areas":[
 {"id":"kheleb-dum/acceso/rooms","name":"acceso","parent":"kheleb-dum/nivel-a/rooms"},
 {"id":"kheleb-dum/cripta/rooms","name":"cripta","parent":"kheleb-dum/nivel-a/rooms"},
@@ -12,6 +12,7 @@
 {"id":"kheleb-dum/nivel-e/rooms","name":"nivel-e","parent":"kheleb-dum/nivel-a/rooms"},
 {"id":"kheleb-dum/nivel-f/rooms","name":"nivel-f","parent":"kheleb-dum/nivel-a/rooms"},
 {"id":"kheleb-dum/nivel-g/rooms","name":"nivel-g","parent":"kheleb-dum/nivel-a/rooms"},
+{"id":"kheleb-dum/oeste/rooms","name":"oeste","parent":"kheleb-dum/nivel-a/rooms"},
 {"id":"kheleb-dum/prision/rooms","name":"prision","parent":"kheleb-dum/nivel-a/rooms"},
 {"id":"kheleb-dum/trono/rooms","name":"trono","parent":"kheleb-dum/nivel-a/rooms"}
 ],
@@ -882,7 +883,7 @@
 {"id":"kheleb-dum/nivel-g/rooms/nivel-g-095","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-296,"y":-16,"z":-1,"zone":"7e297263","exits":[{"dir":"east","to":"kheleb-dum/nivel-g/rooms/nivel-g-096"},{"dir":"south","to":"kheleb-dum/nivel-g/rooms/nivel-g-109"},{"dir":"southeast","to":"kheleb-dum/nivel-g/rooms/nivel-g-110"},{"dir":"southwest","to":"kheleb-dum/nivel-g/rooms/nivel-g-108"},{"dir":"west","to":"kheleb-dum/nivel-g/rooms/nivel-g-094"}]},
 {"id":"kheleb-dum/nivel-g/rooms/nivel-g-096","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-295,"y":-16,"z":-1,"zone":"7e297263","exits":[{"dir":"east","to":"kheleb-dum/nivel-g/rooms/nivel-g-097"},{"dir":"west","to":"kheleb-dum/nivel-g/rooms/nivel-g-095"}]},
 {"id":"kheleb-dum/nivel-g/rooms/nivel-g-097","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-294,"y":-16,"z":-1,"zone":"7e297263","exits":[{"dir":"southeast","to":"kheleb-dum/nivel-g/rooms/nivel-g-111"},{"dir":"west","to":"kheleb-dum/nivel-g/rooms/nivel-g-096"}]},
-{"id":"kheleb-dum/nivel-g/rooms/nivel-g-098","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-324,"y":-17,"z":-1,"zone":"7e297263","exits":[{"dir":"north","to":"kheleb-dum/nivel-g/rooms/nivel-g-083"},{"dir":"south","to":"kheleb-dum/nivel-g/rooms/nivel-g-112"}]},
+{"id":"kheleb-dum/nivel-g/rooms/nivel-g-098","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-324,"y":-17,"z":-1,"zone":"7e297263","exits":[{"dir":"north","to":"kheleb-dum/nivel-g/rooms/nivel-g-083"},{"dir":"south","to":"kheleb-dum/nivel-g/rooms/nivel-g-112"},{"dir":"west","to":"kheleb-dum/oeste/rooms/salida-01"}]},
 {"id":"kheleb-dum/nivel-g/rooms/nivel-g-099","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-322,"y":-17,"z":-1,"zone":"7e297263","exits":[{"dir":"north","to":"kheleb-dum/nivel-g/rooms/nivel-g-084"},{"dir":"south","to":"kheleb-dum/nivel-g/rooms/nivel-g-113"}]},
 {"id":"kheleb-dum/nivel-g/rooms/nivel-g-100","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-320,"y":-17,"z":-1,"zone":"7e297263","exits":[{"dir":"north","to":"kheleb-dum/nivel-g/rooms/nivel-g-085"},{"dir":"south","to":"kheleb-dum/nivel-g/rooms/nivel-g-114"}]},
 {"id":"kheleb-dum/nivel-g/rooms/nivel-g-101","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-318,"y":-17,"z":-1,"zone":"7e297263","exits":[{"dir":"north","to":"kheleb-dum/nivel-g/rooms/nivel-g-086"}]},
@@ -969,6 +970,11 @@
 {"id":"kheleb-dum/nivel-g/rooms/nivel-g-182","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-308,"y":-28,"z":-1,"zone":"7e297263","exits":[{"dir":"northeast","to":"kheleb-dum/nivel-g/rooms/nivel-g-181"},{"dir":"southwest","to":"kheleb-dum/nivel-g/rooms/nivel-g-184"}]},
 {"id":"kheleb-dum/nivel-g/rooms/nivel-g-183","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-306,"y":-28,"z":-1,"zone":"7e297263","exits":[{"dir":"northwest","to":"kheleb-dum/nivel-g/rooms/nivel-g-181"}]},
 {"id":"kheleb-dum/nivel-g/rooms/nivel-g-184","name":"Kheleb-Dum : Minas de Mithril","area":"kheleb-dum/nivel-g/rooms","x":-309,"y":-29,"z":-1,"zone":"7e297263","exits":[{"dir":"northeast","to":"kheleb-dum/nivel-g/rooms/nivel-g-182"},{"dir":"west","to":"kheleb-dum/nivel-g/rooms/asentamiento-duergar-19"}]},
+{"id":"kheleb-dum/oeste/rooms/paso-oeste","name":"Paso Occidental de Kheleb-Dum","area":"kheleb-dum/oeste/rooms","x":-328,"y":-17,"z":0,"zone":"3e2d028e","exits":[{"dir":"down","to":"kheleb-dum/oeste/rooms/salida-04"}]},
+{"id":"kheleb-dum/oeste/rooms/salida-01","name":"Túnel de la Cordillera","area":"kheleb-dum/oeste/rooms","x":-325,"y":-17,"z":-1,"zone":"3e2d028e","exits":[{"dir":"east","to":"kheleb-dum/nivel-g/rooms/nivel-g-098"},{"dir":"west","to":"kheleb-dum/oeste/rooms/salida-02"}]},
+{"id":"kheleb-dum/oeste/rooms/salida-02","name":"Túnel de la Cordillera","area":"kheleb-dum/oeste/rooms","x":-326,"y":-17,"z":-1,"zone":"3e2d028e","exits":[{"dir":"east","to":"kheleb-dum/oeste/rooms/salida-01"},{"dir":"west","to":"kheleb-dum/oeste/rooms/salida-03"}]},
+{"id":"kheleb-dum/oeste/rooms/salida-03","name":"Túnel de la Cordillera","area":"kheleb-dum/oeste/rooms","x":-327,"y":-17,"z":-1,"zone":"3e2d028e","exits":[{"dir":"east","to":"kheleb-dum/oeste/rooms/salida-02"},{"dir":"west","to":"kheleb-dum/oeste/rooms/salida-04"}]},
+{"id":"kheleb-dum/oeste/rooms/salida-04","name":"Túnel de la Cordillera","area":"kheleb-dum/oeste/rooms","x":-328,"y":-17,"z":-1,"zone":"3e2d028e","exits":[{"dir":"east","to":"kheleb-dum/oeste/rooms/salida-03"},{"dir":"up","to":"kheleb-dum/oeste/rooms/paso-oeste"}]},
 {"id":"kheleb-dum/prision/rooms/celda-01","name":"Celda de la prisión","area":"kheleb-dum/prision/rooms","x":-297,"y":27,"z":-2,"zone":"","exits":[{"dir":"south","to":"kheleb-dum/prision/rooms/prision-01"}]},
 {"id":"kheleb-dum/prision/rooms/celda-02","name":"Celda de la prisión","area":"kheleb-dum/prision/rooms","x":-295,"y":27,"z":-2,"zone":"","exits":[{"dir":"south","to":"kheleb-dum/prision/rooms/prision-03"}]},
 {"id":"kheleb-dum/prision/rooms/celda-03","name":"Celda de la prisión","area":"kheleb-dum/prision/rooms","x":-293,"y":27,"z":-2,"zone":"","exits":[{"dir":"south","to":"kheleb-dum/prision/rooms/prision-05"}]},
@@ -1088,6 +1094,5 @@
 {"from":"kheleb-dum/cripta/rooms/cripta-87","dir":"northwest","area":"kheleb-dum/cripta/rooms","kind":"area","label":"Kheleb-Dum","to":"cripta-84"},
 {"from":"kheleb-dum/entrada/rooms/entrada-04","dir":"north","area":"kheleb-dum/camino/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-46"},
 {"from":"kheleb-dum/escape/rooms/escape-00","dir":"up","area":"kheleb-dum/camino/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-35"},
-{"from":"kheleb-dum/nivel-a/rooms/tunel-04","dir":"up","area":"kheleb-dum/camino/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-46"},
-{"from":"kheleb-dum/nivel-g/rooms/nivel-g-098","dir":"west","area":"kheleb-dum/oeste/rooms","kind":"area","label":"Kheleb dum","to":"salida-01"}
+{"from":"kheleb-dum/nivel-a/rooms/tunel-04","dir":"up","area":"kheleb-dum/camino/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-46"}
 ]}

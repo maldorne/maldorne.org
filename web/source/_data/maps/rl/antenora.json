@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"antenora","name":"Antenora","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"antenora","name":"Antenora","generated":"2026-11-12",
 "areas":[
 {"id":"antenora/caverna/rooms","name":"caverna","parent":"antenora/ciudad/rooms"},
 {"id":"antenora/ciudad/rooms","name":"Antenora","parent":""},

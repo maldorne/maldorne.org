@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"dendara/wareth/sur","name":"Bosque de Wareth","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"dendara/wareth/sur","name":"Bosque de Wareth","generated":"2026-11-12",
 "areas":[
 {"id":"dendara/wareth/sur/rooms","name":"Bosque de Wareth","parent":"dendara/calles/rooms"}
 ],

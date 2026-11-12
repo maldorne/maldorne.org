@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"pantanos-de-zulk","name":"Pantanos de Zulk","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"pantanos-de-zulk","name":"Pantanos de Zulk","generated":"2026-11-12",
 "areas":[
 {"id":"zulk/camino-belezsk/rooms","name":"camino-belezsk","parent":""},
 {"id":"zulk/campamento/bosque/rooms","name":"bosque","parent":"zulk/campamento/rooms"},
