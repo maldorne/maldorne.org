@@ -79,7 +79,8 @@ const plain = (s) =>
   String(s)
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase();
+    .toLowerCase()
+    .trim();
 
 // a level as rows of coloured runs, cut around its middle, for the list of maps to show
 const worldPreview = (level) => {
