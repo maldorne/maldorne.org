@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"pantanos-de-zulk","name":"Pantanos de Zulk","generated":"2026-11-12",
+{"format":"mapper/1","game":"rl-aeternum","area":"pantanos-de-zulk","name":"Pantanos de Zulk","generated":"2026-11-21",
 "areas":[
 {"id":"zulk/camino-belezsk/rooms","name":"camino-belezsk","parent":""},
 {"id":"zulk/campamento/bosque/rooms","name":"bosque","parent":"zulk/campamento/rooms"},
@@ -848,7 +848,7 @@
 {"from":"zulk/camino-belezsk/rooms/camino-belezsk-01","dir":"south","area":"zulk/grimoszk/rooms","kind":"area","label":"Grimoszk","to":"puerta-norte"},
 {"from":"zulk/camino-belezsk/rooms/camino-belezsk-24","dir":"north","area":"zulk/belezsk/rooms","kind":"area","label":"Belezsk","to":"camino-01"},
 {"from":"zulk/pantano/rooms/pantano-000","dir":"north","area":"zulk/sendas/rooms","kind":"area","label":"Bosque de Zulk","to":"senda-61"},
-{"from":"zulk/pantano/rooms/pantano-003","dir":"north","area":"anduin/rooms","kind":"area","label":"Río Anduin","to":"river-133"},
+{"from":"zulk/pantano/rooms/pantano-003","dir":"north","area":"anduin/zulk/rooms","kind":"area","label":"Bosque de Zulk","to":"river-133"},
 {"from":"zulk/pantano/rooms/pantano-009","dir":"east","area":"zulk/sendas/rooms","kind":"area","label":"Bosque de Zulk","to":"senda-69"},
 {"from":"zulk/pantano/rooms/pantano-189","dir":"southwest","area":"zulk/grimoszk/erk/rooms","kind":"area","label":"Grimoszk","to":"linde-08"},
 {"from":"zulk/pantano/rooms/pantano-grimoszk-001","dir":"east","area":"zulk/grimoszk/rooms","kind":"area","label":"Grimoszk","to":"puerta-oeste"},

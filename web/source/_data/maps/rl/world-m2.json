@@ -1,14 +1,33 @@
-{"format":"worldmap/1","game":"rl-aeternum","map":"default","z":-2,"generated":"2026-11-12",
-"sector_size":10,"sectors":{"min_x":2,"max_x":3,"min_y":-2,"max_y":0},
-"columns":26,"rows_count":3,"map_left":12,
+{"format":"worldmap/1","game":"rl-aeternum","map":"default","z":-2,"generated":"2026-11-21",
+"sector_size":10,"sectors":{"min_x":-31,"max_x":3,"min_y":-2,"max_y":19},
+"columns":59,"rows_count":22,"map_left":12,
 "palette":{"BLACK":"#555555","BLUE":"#4a8fe8","CYAN":"#11a8cd","GREEN":"#0dbc79","MAGENTA":"#bc3fbc","ORANGE":"#b5892a","RED":"#cd3131","WHITE":"#e5e5e5","YELLOW":"#e5e510"},
 "rows":[
-{"text":"            ..            ","runs":[]},
-{"text":"            ▓.            ","runs":[]},
-{"text":"            ▓.            ","runs":[]}
+{"text":"                        .                                  ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"                                                           ","runs":[]},
+{"text":"            .                                              ","runs":[]},
+{"text":"            .                                              ","runs":[]},
+{"text":"            .                                ..            ","runs":[]},
+{"text":"                                             ▓.            ","runs":[]},
+{"text":"                                             ▓.            ","runs":[]}
 ],
 "labels":[
-{"col":6,"row":1,"style":0,"text":"Salem"}
+{"col":39,"row":20,"style":0,"text":"Salem"}
 ],
 "legend":[
 {"glyph":"│","kind":"beach","style":1},

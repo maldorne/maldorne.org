@@ -1089,10 +1089,10 @@
 {"id":"kheleb-dum/trono/rooms/tunel-emergencia-16","name":"Túnel de emergencia","area":"kheleb-dum/trono/rooms","x":-271,"y":4,"z":-3,"zone":"3e2d028e","exits":[{"dir":"southwest","to":"kheleb-dum/trono/rooms/tunel-emergencia-15"}]}
 ],
 "external":[
-{"from":"kheleb-dum/acceso/rooms/acceso-00","dir":"up","area":"kheleb-dum/camino/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-30"},
+{"from":"kheleb-dum/acceso/rooms/acceso-00","dir":"up","area":"kattak/camino-kheleb-dum/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-30"},
 {"from":"kheleb-dum/cripta/rooms/cripta-87","dir":"northeast","area":"kheleb-dum/cripta/rooms","kind":"area","label":"Kheleb-Dum","to":"cripta-85"},
 {"from":"kheleb-dum/cripta/rooms/cripta-87","dir":"northwest","area":"kheleb-dum/cripta/rooms","kind":"area","label":"Kheleb-Dum","to":"cripta-84"},
-{"from":"kheleb-dum/entrada/rooms/entrada-04","dir":"north","area":"kheleb-dum/camino/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-46"},
-{"from":"kheleb-dum/escape/rooms/escape-00","dir":"up","area":"kheleb-dum/camino/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-35"},
-{"from":"kheleb-dum/nivel-a/rooms/tunel-04","dir":"up","area":"kheleb-dum/camino/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-46"}
+{"from":"kheleb-dum/entrada/rooms/entrada-04","dir":"north","area":"kattak/camino-kheleb-dum/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-46"},
+{"from":"kheleb-dum/escape/rooms/escape-00","dir":"up","area":"kattak/camino-kheleb-dum/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-35"},
+{"from":"kheleb-dum/nivel-a/rooms/tunel-04","dir":"up","area":"kattak/camino-kheleb-dum/rooms","kind":"area","label":"Camino de Kheleb-Dum","to":"camino-kheleb-dum-46"}
 ]}

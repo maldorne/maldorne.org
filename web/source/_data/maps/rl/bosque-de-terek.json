@@ -1,4 +1,4 @@
-{"format":"mapper/1","game":"rl-aeternum","area":"bosque-de-terek","name":"Bosque de Terek","generated":"2026-11-06",
+{"format":"mapper/1","game":"rl-aeternum","area":"bosque-de-terek","name":"Bosque de Terek","generated":"2026-11-12",
 "areas":[
 {"id":"ephel-arnas/bosque-terek/norte/rooms","name":"Bosque de Terek","parent":""},
 {"id":"ephel-arnas/bosque-terek/rooms","name":"Bosque de Terek","parent":""}
