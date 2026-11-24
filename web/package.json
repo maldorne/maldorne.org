@@ -49,6 +49,7 @@
   },
   "overrides": {
     "strip-ansi": "^6.0.1",
-    "fast-xml-parser": "^5.10.1"
+    "fast-xml-parser": "^5.10.1",
+    "katex": "^0.18.2"
   }
 }
